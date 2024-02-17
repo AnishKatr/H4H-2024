@@ -1,4 +1,6 @@
 import React from 'react';
+import Logo from './logo192.png';
+
 
 function Banner({ message, backgroundColor, color }) {
     const bannerStyle = {
@@ -7,12 +9,20 @@ function Banner({ message, backgroundColor, color }) {
       padding: '10px',
       textAlign: 'center',
       fontWeight: 'bold',
-      fontSize: '18px',
-      marginBottom: '20px',
+      fontSize: '50px',
+      marginBottom: '100px',
+    };
+
+    const logostyle = {
+        width: '50px',
+        height: '50px',
+        marginRight: '10px',
+        verticalalign: 'middle',
     };
   
     return (
       <div style={bannerStyle}>
+        <h1>Microscope</h1>
         {message}
       </div>
     );
