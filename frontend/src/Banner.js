@@ -21,11 +21,11 @@ function Banner({ message, backgroundColor, color }) {
     };
   
     return (
-      <div style={bannerStyle}>
-        <h1>Microscope</h1>
-        {message}
-      </div>
-    );
+        <div style={bannerStyle}>
+          <img src={logo} alt="Logo" style={logoStyle} />
+          <h1 style={{ display: 'inline-block' }}>Microscope</h1>
+        </div>
+      );
   }
   
   export default Banner;
