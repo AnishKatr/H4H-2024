@@ -16,7 +16,7 @@ function Banner({ message, backgroundColor, color }) {
         width: '50px',
         height: '50px',
         marginRight: '10px',
-        verticalalign: 'middle',
+        verticalAlign: 'middle',
     };
   
     return (
