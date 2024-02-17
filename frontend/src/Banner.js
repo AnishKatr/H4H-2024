@@ -1,6 +1,5 @@
 import React from 'react';
-import Logo from './logo192.png';
-
+import logo from "./logo.svg";
 
 function Banner({ message, backgroundColor, color }) {
     const bannerStyle = {
@@ -22,7 +21,7 @@ function Banner({ message, backgroundColor, color }) {
   
     return (
         <div style={bannerStyle}>
-          <img src={logo} alt="Logo" style={logoStyle} />
+          <img src={logo} alt="logo" style={logoStyle} />
           <h1 style={{ display: 'inline-block' }}>Microscope</h1>
         </div>
       );
