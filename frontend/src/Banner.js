@@ -12,7 +12,7 @@ function Banner({ message, backgroundColor, color }) {
       marginBottom: '100px',
     };
 
-    const logostyle = {
+    const logoStyle = {
         width: '50px',
         height: '50px',
         marginRight: '10px',
