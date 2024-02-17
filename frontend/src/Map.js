@@ -1,4 +1,4 @@
-import { React, useState, useEffect } from "react";
+import { React, useState, useRef, useEffect } from "react";
 import { DeckGL } from "deck.gl";
 import { Map } from "react-map-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
@@ -14,6 +14,7 @@ const DATA_URL =
 
 const MicroscopeMap = () => {
     const [data, setData] = useState([]);
+    const [tooltipInfo, setTooltipInfo] = useState(null);
 
     useEffect(() => {
         csv(DATA_URL, (error, response) => {
@@ -76,17 +77,39 @@ const MicroscopeMap = () => {
         [209, 55, 78],
     ];
 
-    function toolTip({ object }) {
-        if (!object) {
+    function Tooltip({ info }) {
+        const tooltipRef = useRef(null);
+        const [tooltipStyle, setTooltipStyle] = useState({});
+
+        useEffect(() => {
+            if (info && info.object && tooltipRef.current) {
+                const { x, y } = info;
+                const { width, height } =
+                    tooltipRef.current.getBoundingClientRect();
+                const { innerWidth, innerHeight } = window;
+
+                const left = x + width > innerWidth ? x - width : x;
+                const top = y + height > innerHeight ? y - height : y;
+
+                setTooltipStyle({ left, top });
+            }
+        }, [info]);
+
+        if (!info || !info.object) {
             return null;
         }
-        const lat = object.position[1];
-        const lng = object.position[0];
-        const count = object.points.length;
-        return `\
-            latitude: ${Number.isFinite(lat) ? lat.toFixed(6) : ""}
-            longitude: ${Number.isFinite(lng) ? lng.toFixed(6) : ""}
-            ${count} Accidents`;
+
+        return (
+            <div
+                ref={tooltipRef}
+                className="absolute bg-white text-black p-2 rounded shadow overflow-hidden"
+                style={tooltipStyle}
+            >
+                <div>Latitude: {info.object.position[1].toFixed(6)}</div>
+                <div>Longitude: {info.object.position[0].toFixed(6)}</div>
+                <div>{info.object.points.length} Accidents</div>
+            </div>
+        );
     }
 
     const layers = [
@@ -113,9 +136,9 @@ const MicroscopeMap = () => {
     return (
         <div>
             <DeckGL
+                onHover={(info) => setTooltipInfo(info)}
                 initialViewState={INITIAL_VIEW_STATE}
                 controller={true}
-                getTooltip={toolTip}
                 layers={layers}
                 effects={[lightingEffect]}
             >
@@ -124,6 +147,7 @@ const MicroscopeMap = () => {
                     mapStyle={MAP_STYLE}
                 />
             </DeckGL>
+            <Tooltip info={tooltipInfo} />
         </div>
     );
 };
