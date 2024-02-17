@@ -4,29 +4,14 @@ import { Map } from "react-map-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 import { HexagonLayer } from "@deck.gl/aggregation-layers";
 import { AmbientLight, PointLight, LightingEffect } from "@deck.gl/core";
-import { csv } from "d3-request";
 
 const MAPBOX_ACCESS_TOKEN = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN;
 const MAP_STYLE =
     "https://basemaps.cartocdn.com/gl/dark-matter-nolabels-gl-style/style.json";
-const DATA_URL =
-    "https://raw.githubusercontent.com/visgl/deck.gl-data/master/examples/3d-heatmap/heatmap-data.csv";
 
 const MicroscopeMap = () => {
     const [data, setData] = useState([]);
     const [tooltipInfo, setTooltipInfo] = useState(null);
-
-    useEffect(() => {
-        csv(DATA_URL, (error, response) => {
-            if (!error) {
-                const data = response.map((d) => [
-                    Number(d.lng),
-                    Number(d.lat),
-                ]);
-                setData(data);
-            }
-        });
-    }, []);
 
     const ambientLight = new AmbientLight({
         color: [255, 255, 255],
