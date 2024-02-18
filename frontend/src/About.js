@@ -40,8 +40,13 @@ function About() {
                     also a drag-bar beside those two dropdown boxes to adjust
                     the radius of each of the hexagon bars.
                 </p>
+            <p className="text-center p-4">
+                Besides the "About" option that was clicked to get to this page, lie the "News" and "Live Map" buttons. The News button will 
+                navigate you to our constantly updating news bulletin with reliable and relevant articles popping up on the page. The Live Map 
+                button will bring you back to the page with the 3-D Interactive Map and the information provided.
+            </p>
                 <h3 className="mt-11 text-xl font-bold">About Our Mission</h3>
-                <p className="text-center p-4">
+                <p className="text-center p-5">
                     Our Team, composed of 6 members, Jake Esperson, Grant
                     Goldman, Anish Katragadda, Ian Kennar, Jonathan Kimyai, and
                     Austin Nguyen, set out on the mission to improve the general
