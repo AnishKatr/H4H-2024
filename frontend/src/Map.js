@@ -27,7 +27,9 @@ const MicroscopeMap = () => {
     const searchParams = new URLSearchParams(location.search);
     const start = searchParams.get("start");
 
-    let [latitude, longitude] = start.split(",");
+    let [latitude, longitude] = start
+        ? start.split(",")
+        : [52.232395, -1.415727];
 
     const [viewState, setViewState] = useState({
         longitude: parseFloat(longitude),
@@ -93,16 +95,6 @@ const MicroscopeMap = () => {
         diffuse: 0.6,
         shininess: 32,
         specularColor: [51, 51, 51],
-    };
-
-    const INITIAL_VIEW_STATE = {
-        longitude: 1.415727,
-        latitude: 52.232395,
-        zoom: 6.6,
-        minZoom: 5,
-        maxZoom: 15,
-        pitch: 40.5,
-        bearing: -27,
     };
 
     const colorRange = [
@@ -207,9 +199,6 @@ const MicroscopeMap = () => {
                   radius: radius,
                   upperPercentile: 100,
                   material,
-                  transitions: {
-                      elevationScale: height ? 500000 : 100,
-                  },
               }),
           ]
         : [];

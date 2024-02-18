@@ -227,7 +227,7 @@ function Options({ setDisease, cases, pop }) {
                                 </div>
                             )}
                             {selectedOption === "COVID-19" && (
-                                <div className="text-s text-left">
+                                <div className="text-xs text-left">
                                     <b>COVID-19 symptoms can include:</b>
                                     <br />
                                     - a high temperature or shivering (chills)
@@ -307,7 +307,7 @@ function Options({ setDisease, cases, pop }) {
                                 </div>
                             )}
                             {selectedOption === "Influenza" && (
-                                <div className="text-s text-left">
+                                <div className="text-xs text-left">
                                     <div>
                                         Flu symptoms come on very quickly and
                                         can include:
