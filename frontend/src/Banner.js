@@ -1,28 +1,20 @@
-import React from "react";
+import { useNavigate } from "react-router-dom";
 import logo from "./logo.svg";
 
-function Banner({ message, backgroundColor, color }) {
-    const bannerStyle = {
-        backgroundColor: backgroundColor || "#007bff", // Blue right now, but change later according to theme
-        color: color || "#ffffff", // change color to intended scheme
-        padding: "10px",
-        textAlign: "center",
-        fontWeight: "bold",
-        fontSize: "50px",
-        marginBottom: "100px",
-    };
-
-    const logoStyle = {
-        width: "50px",
-        height: "50px",
-        marginRight: "10px",
-        verticalAlign: "middle",
-    };
-
+function Banner() {
+    const navigate = useNavigate();
     return (
-        <div style={bannerStyle}>
-            <img src={logo} alt="logo" style={logoStyle} />
-            <h1 style={{ display: "inline-block" }}>Microscope</h1>
+        <div className=" flex flex-row bg-sky-900 text-sky-100 p-5 justify-between items-center">
+            <img src={logo} alt="logo" className=" w-20 mr-3" />
+            <h1 className=" text-4xl font-bold">Microscope</h1>
+            <button
+                className=" border-2 border-black p-2 m-2 rounded-lg bg-sky-500 hover:bg-sky-700 text-sky-100 font-bold py-2 px-4"
+                onClick={() => {
+                    navigate("/about");
+                }}
+            >
+                About
+            </button>
         </div>
     );
 }

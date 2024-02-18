@@ -1,7 +1,13 @@
+import MicroscopeMap from "./Map";
+import Banner from "./Banner";
+
 function Main() {
     return (
-        <div>
-            <h1>Hello, world!</h1>
+        <div className="flex flex-col h-screen">
+            <Banner />
+            <div className="flex-grow relative">
+                <MicroscopeMap />
+            </div>
         </div>
     );
 }
