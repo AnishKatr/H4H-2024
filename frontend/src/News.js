@@ -6,7 +6,7 @@ function News() {
     const [isLoading, setIsLoading] = useState(true);
 
     useEffect(() => {
-        fetch("http://localhost:5000/getNews")
+        fetch("http://127.0.0.1:5000/getNews")
             .then((response) => {
                 if (!response.ok) {
                     throw new Error("HTTP error, status = " + response.status);
