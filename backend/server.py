@@ -11,16 +11,16 @@ def index():
     return "Hello, World!"
 
 
-@app.route("/getCovid")
-def getFlu():
-    with open("./covidJsons/output.json") as f:
+@app.route("/getPop")
+def getPop():
+    with open("test.json") as f:
         data = json.load(f)
     return data
 
 
-@app.route("/getPop")
-def getPop():
-    with open("test.json") as f:
+@app.route("/getNews")
+def getNews():
+    with open("newsDump.json") as f:
         data = json.load(f)
     return data
 
