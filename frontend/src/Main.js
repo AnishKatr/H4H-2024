@@ -4,7 +4,7 @@ import Banner from "./Banner";
 function Main() {
     return (
         <div className="flex flex-col h-screen">
-            <Banner />
+            <Banner title="VirusVision" />
             <div className="flex-grow relative">
                 <MicroscopeMap />
             </div>
