@@ -1,76 +1,80 @@
 import React, { useState } from "react";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
-function Control({height,color}){
-    const [isOpenh, setIsOpenh] = useState(false);
-    const [isOpen, setIsOpen] = useState(false);
+function Control({ setHeight, setColor, setRadius }) {
+    const [isHeightOpen, setIsHeightOpen] = useState(false);
+    const [isHeatmapOpen, setIsHeatmapOpen] = useState(false);
 
-    const toggleDropdownh = () => {
-        setIsOpenh(!isOpenh);
+    const toggleHeightDropdown = () => {
+        setIsHeightOpen(!isHeightOpen);
     };
-    const toggleDropdown = () => {
-        setIsOpen(!isOpen);
+    const toggleHeatmapDropdown = () => {
+        setIsHeatmapOpen(!isHeatmapOpen);
     };
 
-    const handleItemClickh = (item) => {
-       height=item;
-        setIsOpenh(false);
+    const handleHeightItemClick = (item) => {
+        setHeight(item);
+        setIsHeightOpen(false);
     };
-    const handleItemClick = (item) => {
-        color=item;
-         setIsOpen(false);
-     };
-    return(
-        <div className="float">
-              <div
-                    onClick={toggleDropdownh}
-                    className="dropdown text-sky-100 relative bg-sky-700 justify-center cursor-pointer"
-                >
-                    <ArrowDropDownIcon className="float-left" />
-                    Choose Height Metric
-
-                    {isOpen && (
-                        <div className="absolute mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
-                            <div
-                                onClick={() => handleItemClickh(false)}
-                                className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:rounded-md"
-                            >
-                                Number of Cases
-                            </div>
-                            <div
-                                onClick={() => handleItemClickh(true)}
-                                className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:rounded-md"
-                            >
-                                Population
-                            </div>
-                           
+    const handleHeatmapItemClick = (item) => {
+        setColor(item);
+        setIsHeatmapOpen(false);
+    };
+    return (
+        <div className="flex flex-row">
+            <div
+                onClick={toggleHeightDropdown}
+                className="dropdown text-sky-100 relative p-2 bg-sky-700 justify-center cursor-pointer"
+            >
+                <ArrowDropDownIcon className="float-left" />
+                Choose Height Metric
+                {isHeightOpen && (
+                    <div className="absolute mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
+                        <div
+                            onClick={() => handleHeightItemClick(true)}
+                            className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:rounded-md"
+                        >
+                            Population
                         </div>
-                    )}
-                </div>
-                <div
-                    onClick={toggleDropdown}
-                    className="dropdown text-sky-100 relative bg-sky-700 justify-center cursor-pointer"
-                >
-                    <ArrowDropDownIcon className="float-left" />
-                    Choose Heatmap Metric
-
-                    {isOpen && (
-                        <div className="absolute mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
-                            <div
-                                onClick={() => handleItemClick(false)}
-                                className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:rounded-md"
-                            >
-                                Percent of Total Disease Numbers
-                            </div>
-                            <div
-                                onClick={() => handleItemClick(true)}
-                                className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:rounded-md"
-                            >
-                                Percent of Population Affected
-                            </div>
+                        <div
+                            onClick={() => handleHeightItemClick(false)}
+                            className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:rounded-md"
+                        >
+                            Total Disease Numbers
                         </div>
-                    )}
-                </div>
-
+                    </div>
+                )}
+            </div>
+            <div
+                onClick={toggleHeatmapDropdown}
+                className="dropdown text-sky-100 relative p-2 bg-sky-700 justify-center cursor-pointer"
+            >
+                <ArrowDropDownIcon className="float-left" />
+                Choose Heatmap Metric
+                {isHeatmapOpen && (
+                    <div className="absolute mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
+                        <div
+                            onClick={() => handleHeatmapItemClick(true)}
+                            className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:rounded-md"
+                        >
+                            Total Disease Numbers
+                        </div>
+                        <div
+                            onClick={() => handleHeatmapItemClick(false)}
+                            className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:rounded-md"
+                        >
+                            Population Affected
+                        </div>
+                    </div>
+                )}
+            </div>
+            <div className="relative overflow-y-scroll p-2 scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-100 bg-sky-700">
+                <input
+                    type="range"
+                    min="1000"
+                    max="10000"
+                    onChange={(e) => setRadius(e.target.value)}
+                />
+            </div>
         </div>
     );
 }
