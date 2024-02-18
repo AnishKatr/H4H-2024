@@ -5,6 +5,7 @@ import "mapbox-gl/dist/mapbox-gl.css";
 import { HexagonLayer } from "@deck.gl/aggregation-layers";
 import { AmbientLight, PointLight, LightingEffect } from "@deck.gl/core";
 import Options from "./Options";
+import Control from "./Control";
 
 const MAPBOX_ACCESS_TOKEN = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN;
 const MAP_STYLE =
@@ -178,6 +179,7 @@ const MicroscopeMap = () => {
                 />
             </DeckGL>
             <Tooltip info={tooltipInfo} />
+            <Control height={true} color={true}></Control>
             <div className=" absolute top-0 right-0">
                 <Options />
             </div>
