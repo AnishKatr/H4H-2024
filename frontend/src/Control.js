@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 function Control({ setHeight, setColor, setRadius }) {
     const [isHeightOpen, setIsHeightOpen] = useState(false);

@@ -30,7 +30,7 @@ function News() {
             <div className="news-container flex flex-row flex-wrap p-4">
                 {news.map((item, index) => (
                     <div
-                        className="news-item bg-sky-950 rounded-lg shadow-md p-4 m-4 w-1/4"
+                        className={`news-item bg-sky-950 rounded-lg shadow-md p-4 m-4 w-1/4 invisible appear-${index}`}
                         key={index}
                     >
                         <h1 className="news-source text-lg font-bold mb-2">

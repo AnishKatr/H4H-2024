@@ -4,7 +4,7 @@ import logo from "./VirusVisionLogo.png";
 function Banner({ title }) {
     const navigate = useNavigate();
     return (
-        <div className=" flex flex-row bg-sky-900 text-sky-100 p-5 justify-between items-center">
+        <div className=" flex flex-row bg-sky-900 text-sky-100 p-5 justify-between items-center slide-up">
             <img
                 src={logo}
                 alt="logo"

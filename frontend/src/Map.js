@@ -1,4 +1,5 @@
 import { React, useState, useRef, useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import { DeckGL } from "deck.gl";
 import { Map } from "react-map-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
@@ -21,6 +22,24 @@ const MicroscopeMap = () => {
     const [disease, setDisease] = useState("COVID-19");
     const [cases, setCases] = useState("");
     const [pop, setPop] = useState("");
+
+    const location = useLocation();
+    const searchParams = new URLSearchParams(location.search);
+    const start = searchParams.get("start");
+
+    let [latitude, longitude] = start
+        ? start.split(",")
+        : [52.232395, 1.415727];
+
+    const [viewState, setViewState] = useState({
+        longitude: parseFloat(longitude),
+        latitude: parseFloat(latitude),
+        zoom: 6,
+        minZoom: 5,
+        maxZoom: 15,
+        pitch: 40.5,
+        bearing: -27,
+    });
 
     useEffect(() => {
         fetch("http://127.0.0.1:5000/getPop")
@@ -79,7 +98,7 @@ const MicroscopeMap = () => {
     };
 
     const INITIAL_VIEW_STATE = {
-        longitude: -1.415727,
+        longitude: 1.415727,
         latitude: 52.232395,
         zoom: 6.6,
         minZoom: 5,
@@ -93,8 +112,8 @@ const MicroscopeMap = () => {
         [73, 227, 206],
         [216, 254, 181],
         [254, 237, 177],
-        [254, 173, 84],
         [209, 55, 78],
+        [183, 20, 242],
     ];
 
     function Tooltip({ info }) {
@@ -151,7 +170,8 @@ const MicroscopeMap = () => {
 
     const layers = isLoading
         ? []
-        : [
+        : data
+        ? [
               new HexagonLayer({
                   id: "heatmap",
                   colorRange,
@@ -193,14 +213,16 @@ const MicroscopeMap = () => {
                       elevationScale: height ? 500000 : 100,
                   },
               }),
-          ];
+          ]
+        : [];
 
     return (
         <div className="absolute top-0 bottom-0 left-0 right-0">
             <DeckGL
                 key={`${height}-${color}-${radius}-${disease}`}
                 onHover={(info) => setTooltipInfo(info)}
-                initialViewState={INITIAL_VIEW_STATE}
+                viewState={viewState}
+                onViewStateChange={({ viewState }) => setViewState(viewState)}
                 controller={true}
                 layers={layers}
                 effects={[lightingEffect]}

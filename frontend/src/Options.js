@@ -375,7 +375,7 @@ function Options({ setDisease, cases, pop }) {
                         </div>
                         <div
                             onClick={() => togglePopup()}
-                            className="relative inset-x-0 bottom-0 bg-sky-700"
+                            className="relative inset-x-0 bottom-0 bg-sky-700 cursor-pointer"
                         >
                             Close Popup
                         </div>
