@@ -167,7 +167,7 @@ const MicroscopeMap = () => {
                                   ? point.covid_count
                                   : point.flu_count
                           );
-                          const cap = Math.min(pop, height ? 500000 : 100);
+                          const cap = Math.min(pop, height ? 200000 : 100);
                           return Number.isFinite(cap) ? cap : 0;
                       }, 0),
                   getColorValue: (points) =>
@@ -179,7 +179,7 @@ const MicroscopeMap = () => {
                                       : point.flu_count
                                   : point.pop
                           );
-                          const cap = Math.min(count, color ? 500000 : 100);
+                          const cap = Math.min(count, color ? 100 : 100000);
                           return Number.isFinite(cap) ? cap : 0;
                       }, 0) / points.length,
                   extruded: true,
@@ -189,7 +189,7 @@ const MicroscopeMap = () => {
                   upperPercentile: 100,
                   material,
                   transitions: {
-                      elevationScale: 3000,
+                      elevationScale: height ? 500000 : 100,
                   },
               }),
           ];
