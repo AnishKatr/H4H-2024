@@ -96,8 +96,9 @@ with open("yorkshireHumber.json") as YH:
 
 
 NEdict = {
-    "region": "NorthEast",
-    "count": northEast
+    "region": "eastMidland",
+    "count": eastOfMidlands
+
 }
 
 jsonObject = json.dumps(NEdict, indent = 4)
@@ -112,3 +113,49 @@ print("\n southWest Region: ",southWest)
 print("\n westMidlands Region: ",westMidlands)
 print("\n yorkshireHumber Region: ",yorkshireHumber)
 print(jsonObject)
+
+import json
+
+region_counts = {
+    "eastMidland": 0,
+    "eastEngland": 0,
+    "London": 0,
+    "northEast": 0,
+    "northWest": 0,
+    "southEast": 0,
+    "southWest": 0,
+    "westMidlands": 0,
+    "yorkshireHumber": 0
+}
+
+file_paths = [
+    "eastMidlands.json",
+    "eastOfEngland.json",
+    "London.json",
+    "NorthEast.json",
+    "northWest.json",
+    "southEast.json",
+    "southWest.json",
+    "westMidlands.json",
+    "yorkshireHumber.json"
+]
+
+
+for file_paths, region in zip(file_paths, region_counts.keys()):
+    with open(file_paths) as f:
+        data = json.load(f)
+        for item in data:
+            if item["year"] == 2024:
+                region_counts[region] += float(item["metric_value"])
+
+result = [{"region": region, "count": count} for region, count in region_counts.items()]
+
+json_output = json.dumps(result, indent=4)
+
+print(json_output)
+
+output_file_path = "output.json"
+with open(output_file_path, "w") as output_file:
+    output_file.write(json_output)
+
+print("JSON data has been saved to:", output_file_path)
