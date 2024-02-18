@@ -1,31 +1,41 @@
-import { React, useState, useEffect } from "react";
+import { React, useState, useRef, useEffect } from "react";
 import { DeckGL } from "deck.gl";
 import { Map } from "react-map-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 import { HexagonLayer } from "@deck.gl/aggregation-layers";
 import { AmbientLight, PointLight, LightingEffect } from "@deck.gl/core";
-import { csv } from "d3-request";
 
 const MAPBOX_ACCESS_TOKEN = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN;
 const MAP_STYLE =
     "https://basemaps.cartocdn.com/gl/dark-matter-nolabels-gl-style/style.json";
-const DATA_URL =
-    "https://raw.githubusercontent.com/visgl/deck.gl-data/master/examples/3d-heatmap/heatmap-data.csv";
 
 const MicroscopeMap = () => {
-    const [data, setData] = useState([]);
+    const [data, setData] = useState(null);
+    const [tooltipInfo, setTooltipInfo] = useState(null);
+    const [isLoading, setIsLoading] = useState(true);
 
     useEffect(() => {
-        csv(DATA_URL, (error, response) => {
-            if (!error) {
-                const data = response.map((d) => [
-                    Number(d.lng),
-                    Number(d.lat),
-                ]);
-                setData(data);
-            }
-        });
+        fetch("http://localhost:5000/getPop")
+            .then((response) => response.json())
+            .then((data) => {
+                setIsLoading(false);
+                const transformData = data.map((item) => {
+                    return {
+                        name: item.city,
+                        COORDINATES: [
+                            parseFloat(item.lng),
+                            parseFloat(item.lat),
+                        ],
+                        pop: item.population,
+                    };
+                });
+                setData(transformData);
+            });
     }, []);
+
+    if (isLoading) {
+        return <div>Loading...</div>;
+    }
 
     const ambientLight = new AmbientLight({
         color: [255, 255, 255],
@@ -76,46 +86,88 @@ const MicroscopeMap = () => {
         [209, 55, 78],
     ];
 
-    function toolTip({ object }) {
-        if (!object) {
+    function Tooltip({ info }) {
+        const tooltipRef = useRef(null);
+        const [tooltipStyle, setTooltipStyle] = useState({});
+
+        useEffect(() => {
+            if (info && info.object && tooltipRef.current) {
+                const { x, y } = info;
+                const { width, height } =
+                    tooltipRef.current.getBoundingClientRect();
+                const { innerWidth, innerHeight } = window;
+
+                const left = x + width > innerWidth ? x - width : x;
+                const top = y + height > innerHeight ? y - height : y;
+
+                setTooltipStyle({ left, top });
+            }
+        }, [info]);
+
+        if (!info || !info.object) {
             return null;
         }
-        const lat = object.position[1];
-        const lng = object.position[0];
-        const count = object.points.length;
-        return `\
-            latitude: ${Number.isFinite(lat) ? lat.toFixed(6) : ""}
-            longitude: ${Number.isFinite(lng) ? lng.toFixed(6) : ""}
-            ${count} Accidents`;
+
+        const name = info.object.points.map((p) => p.source.name).join(" + ");
+        const pop = info.object.points.reduce(
+            (acc, p) => acc + Number(p.source.pop),
+            0
+        );
+
+        return (
+            <div
+                ref={tooltipRef}
+                className="absolute bg-white text-black p-2 rounded shadow overflow-hidden"
+                style={tooltipStyle}
+            >
+                <div>City: {name}</div>
+                <div>Population: {pop}</div>
+                <div>Latitude: {info.object.position[1].toFixed(6)}</div>
+                <div>Longitude: {info.object.position[0].toFixed(6)}</div>
+            </div>
+        );
     }
 
-    const layers = [
-        new HexagonLayer({
-            id: "heatmap",
-            colorRange,
-            coverage: 1,
-            data,
-            elevationRange: [0, 3000],
-            elevationScale: data && data.length ? 50 : 0,
-            extruded: true,
-            getPosition: (d) => d,
-            pickable: true,
-            radius: 1000,
-            upperPercentile: 100,
-            material,
-
-            transitions: {
-                elevationScale: 3000,
-            },
-        }),
-    ];
+    const layers = isLoading
+        ? []
+        : [
+              new HexagonLayer({
+                  id: "heatmap",
+                  colorRange,
+                  coverage: 1,
+                  data,
+                  elevationRange: [0, 200],
+                  elevationScale: data && data.length ? 500 : 0,
+                  getElevationValue: (points) =>
+                      points.reduce((total, point) => {
+                          const pop = Number(point.pop);
+                          const cap = Math.min(pop, 500000);
+                          return Number.isFinite(cap) ? cap : 0;
+                      }, 0),
+                  getColorValue: (points) =>
+                      points.reduce((total, point) => {
+                          const pop = Number(point.pop);
+                          const cappedPop = Math.min(pop, 500000);
+                          return total + cappedPop;
+                      }, 0) / points.length,
+                  extruded: true,
+                  getPosition: (d) => d.COORDINATES,
+                  pickable: true,
+                  radius: 1000,
+                  upperPercentile: 100,
+                  material,
+                  transitions: {
+                      elevationScale: 3000,
+                  },
+              }),
+          ];
 
     return (
         <div>
             <DeckGL
+                onHover={(info) => setTooltipInfo(info)}
                 initialViewState={INITIAL_VIEW_STATE}
                 controller={true}
-                getTooltip={toolTip}
                 layers={layers}
                 effects={[lightingEffect]}
             >
@@ -124,6 +176,7 @@ const MicroscopeMap = () => {
                     mapStyle={MAP_STYLE}
                 />
             </DeckGL>
+            <Tooltip info={tooltipInfo} />
         </div>
     );
 };
