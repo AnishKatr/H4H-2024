@@ -10,8 +10,32 @@ const MAP_STYLE =
     "https://basemaps.cartocdn.com/gl/dark-matter-nolabels-gl-style/style.json";
 
 const MicroscopeMap = () => {
-    const [data, setData] = useState([]);
+    const [data, setData] = useState(null);
     const [tooltipInfo, setTooltipInfo] = useState(null);
+    const [isLoading, setIsLoading] = useState(true);
+
+    useEffect(() => {
+        fetch("http://localhost:5000/getPop")
+            .then((response) => response.json())
+            .then((data) => {
+                setIsLoading(false);
+                const transformData = data.map((item) => {
+                    return {
+                        name: item.city,
+                        COORDINATES: [
+                            parseFloat(item.lng),
+                            parseFloat(item.lat),
+                        ],
+                        pop: item.population,
+                    };
+                });
+                setData(transformData);
+            });
+    }, []);
+
+    if (isLoading) {
+        return <div>Loading...</div>;
+    }
 
     const ambientLight = new AmbientLight({
         color: [255, 255, 255],
@@ -84,39 +108,59 @@ const MicroscopeMap = () => {
             return null;
         }
 
+        const name = info.object.points.map((p) => p.source.name).join(" + ");
+        const pop = info.object.points.reduce(
+            (acc, p) => acc + Number(p.source.pop),
+            0
+        );
+
         return (
             <div
                 ref={tooltipRef}
                 className="absolute bg-white text-black p-2 rounded shadow overflow-hidden"
                 style={tooltipStyle}
             >
+                <div>City: {name}</div>
+                <div>Population: {pop}</div>
                 <div>Latitude: {info.object.position[1].toFixed(6)}</div>
                 <div>Longitude: {info.object.position[0].toFixed(6)}</div>
-                <div>{info.object.points.length} Accidents</div>
             </div>
         );
     }
 
-    const layers = [
-        new HexagonLayer({
-            id: "heatmap",
-            colorRange,
-            coverage: 1,
-            data,
-            elevationRange: [0, 3000],
-            elevationScale: data && data.length ? 50 : 0,
-            extruded: true,
-            getPosition: (d) => d,
-            pickable: true,
-            radius: 1000,
-            upperPercentile: 100,
-            material,
-
-            transitions: {
-                elevationScale: 3000,
-            },
-        }),
-    ];
+    const layers = isLoading
+        ? []
+        : [
+              new HexagonLayer({
+                  id: "heatmap",
+                  colorRange,
+                  coverage: 1,
+                  data,
+                  elevationRange: [0, 200],
+                  elevationScale: data && data.length ? 500 : 0,
+                  getElevationValue: (points) =>
+                      points.reduce((total, point) => {
+                          const pop = Number(point.pop);
+                          const cap = Math.min(pop, 500000);
+                          return Number.isFinite(cap) ? cap : 0;
+                      }, 0),
+                  getColorValue: (points) =>
+                      points.reduce((total, point) => {
+                          const pop = Number(point.pop);
+                          const cappedPop = Math.min(pop, 500000);
+                          return total + cappedPop;
+                      }, 0) / points.length,
+                  extruded: true,
+                  getPosition: (d) => d.COORDINATES,
+                  pickable: true,
+                  radius: 1000,
+                  upperPercentile: 100,
+                  material,
+                  transitions: {
+                      elevationScale: 3000,
+                  },
+              }),
+          ];
 
     return (
         <div>
