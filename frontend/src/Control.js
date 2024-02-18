@@ -1,8 +1,10 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 function Control({ setHeight, setColor, setRadius }) {
     const [isHeightOpen, setIsHeightOpen] = useState(false);
     const [isHeatmapOpen, setIsHeatmapOpen] = useState(false);
+    const [localHeight, setLocalHeight] = useState("Population");
+    const [localColor, setLocalColor] = useState("Total Disease Numbers");
 
     const toggleHeightDropdown = () => {
         setIsHeightOpen(!isHeightOpen);
@@ -13,12 +15,15 @@ function Control({ setHeight, setColor, setRadius }) {
 
     const handleHeightItemClick = (item) => {
         setHeight(item);
+        setLocalHeight(item ? "Population" : "Total Disease Numbers");
         setIsHeightOpen(false);
     };
     const handleHeatmapItemClick = (item) => {
         setColor(item);
+        setLocalColor(item ? "Total Disease Numbers" : "Population Affected");
         setIsHeatmapOpen(false);
     };
+
     return (
         <div className="flex flex-row">
             <div
@@ -26,7 +31,7 @@ function Control({ setHeight, setColor, setRadius }) {
                 className="dropdown text-sky-100 relative p-2 bg-sky-700 justify-center cursor-pointer"
             >
                 <ArrowDropDownIcon className="float-left" />
-                Choose Height Metric
+                Height Metric: {localHeight}
                 {isHeightOpen && (
                     <div className="absolute mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
                         <div
@@ -49,7 +54,7 @@ function Control({ setHeight, setColor, setRadius }) {
                 className="dropdown text-sky-100 relative p-2 bg-sky-700 justify-center cursor-pointer"
             >
                 <ArrowDropDownIcon className="float-left" />
-                Choose Heatmap Metric
+                Heatmap Metric: {localColor}
                 {isHeatmapOpen && (
                     <div className="absolute mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
                         <div

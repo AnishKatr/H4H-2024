@@ -13,7 +13,6 @@ function Options({ setDisease, cases, pop }) {
     const handleItemClick = (item) => {
         setSelectedOption(item);
         setDisease(item);
-        console.log(item);
         setIsOpen(false);
     };
     const togglePopup = () => {
@@ -25,7 +24,7 @@ function Options({ setDisease, cases, pop }) {
                 <div className="text-sky-100 font-bold text-lg">Options</div>
                 <div className="border border-black p-0.5 bg-black"></div>
                 <div className="text-s">Cases: {cases}</div>
-                <div className="text-s">Population: {pop}</div>
+                <div className="text-s">Population: {pop.toLocaleString()}</div>
                 <div
                     onClick={toggleDropdown}
                     className="dropdown text-sky-100 relative bg-sky-700 justify-center cursor-pointer"
@@ -208,7 +207,7 @@ function Options({ setDisease, cases, pop }) {
                     </div>
                 </div>
                 <div
-                    className="bg-sky-700 text-sky-100 mb-4"
+                    className="bg-sky-700 text-sky-100 mb-4 cursor-pointer"
                     onClick={() => togglePopup()}
                 >
                     Symptoms
