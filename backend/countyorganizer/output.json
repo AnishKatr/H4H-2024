@@ -1,0 +1,65 @@
+[
+    {
+        "region": "East Midland",
+        "count": 3027.0,
+        "latitude": 53.209,
+        "longitude": -0.440666667,
+        "population": 4880094
+    },
+    {
+        "region": "East England",
+        "count": 3038.0,
+        "latitude": 52.003185,
+        "longitude": 0.003212,
+        "population": 6348096
+    },
+    {
+        "region": "London",
+        "count": 4114.0,
+        "latitude": 51.4319,
+        "longitude": -0.0936,
+        "population": 8796628
+    },
+    {
+        "region": "North East England",
+        "count": 1651.0,
+        "latitude": 54.9333,
+        "longitude": -1.9467,
+        "population": 2646772
+    },
+    {
+        "region": "North West England",
+        "count": 4114.0,
+        "latitude": 53.6210466667,
+        "longitude": -2.5945,
+        "population": 7422295
+    },
+    {
+        "region": "South East England",
+        "count": 4342.0,
+        "latitude": 51.451019,
+        "longitude": -0.99349,
+        "population": 9294023
+    },
+    {
+        "region": "South West England",
+        "count": 3799.0,
+        "latitude": 50.7773866667,
+        "longitude": -3.9995,
+        "population": 5712840
+    },
+    {
+        "region": "West Midlands",
+        "count": 3675.0,
+        "latitude": 52.4751,
+        "longitude": -1.8298,
+        "population": 5954240
+    },
+    {
+        "region": "Yorkshire and the Humber",
+        "count": 3675.0,
+        "latitude": 53.9591,
+        "longitude": -1.0792,
+        "population": 5481431
+    }
+]
