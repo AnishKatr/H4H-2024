@@ -101,14 +101,48 @@ NEdict = {
 }
 
 jsonObject = json.dumps(NEdict, indent = 4)
+latitudes = [53.209, 52.003185, 51.4319, 54.9333, 53.6210466667, 51.451019, 50.7773866667, 52.4751, 53.9591]
+longitudes = [-0.440666667, 0.003212, -0.0936, -1.9467, -2.5945, -0.993490, -3.9995, -1.8298, -1.0792]
 
-print("\n eastMidland Region: ",eastOfMidlands * 48)
-print("\n eastEngland Region: ",eastOfEngland * 62.35)
-print("\n London Region: ",london * 89.1)
-print("\n northEast Region: ",northEast * 26.57)
-print("\n northWest Region: ",northWest * 73)
-print("\n southEast Region: ",southEast * 91.75)
-print("\n southWest Region: ",southWest * 56.16)
-print("\n westMidlands Region: ",westMidlands * 29.28)
-print("\n yorkshireHumber Region: ",yorkshireHumber * 54.86)
-print(jsonObject)
+percentageFactor = 58.823529411
+
+eastOfMidlands = round(eastOfMidlands * 48 * percentageFactor, 0)
+eastOfEngland = round(eastOfEngland * 62.35 * percentageFactor, 0)
+london = round(london * 89.1 * percentageFactor, 0)
+northEast = round(northEast * 26.57 * percentageFactor, 0)
+northWest = round(northWest * 73 * percentageFactor,0)
+southEast = round(southEast * 91.75 * percentageFactor, 0)
+southWest = round(southWest * 56.16 * percentageFactor, 0)
+westMidlands = round(westMidlands * 29.28 * percentageFactor, 0)
+yorkshireHumber = round(yorkshireHumber * 54.86 * percentageFactor, 0)
+
+
+
+regions_data = []
+
+# Define a function to add region data to the regions_data list
+def add_region_data(region_name, count, latitude, longitude):
+    region_data = {
+        "region": region_name,
+        "count": count,
+        "latitude": latitude,
+        "longitude": longitude
+    }
+    regions_data.append(region_data)
+
+add_region_data("EastMidlands", eastOfMidlands, 52.8833, -1.9741)
+add_region_data("EastofEngland", eastOfEngland, 52.2405, 0.9027)
+add_region_data("London", london, 51.5074, -0.1278)
+add_region_data("NorthEast", northEast, 54.9783, -1.6174)
+add_region_data("NorthWest", northWest, 53.4084, -2.9916)
+add_region_data("SouthEast", southEast, 51.5074, 0.1278)
+add_region_data("SouthWest", southWest, 51.4545, -2.5879)
+add_region_data("WestMidlands", westMidlands, 52.4862, -1.8904)
+add_region_data("YorkshireHumber", yorkshireHumber, 53.9591, -1.0815)
+
+json_data = json.dumps(regions_data, indent=4)
+
+with open("flu_data.json", "w") as json_file:
+    json_file.write(json_data)
+
+print("Data has been written to flu_data.json file.")
