@@ -20,7 +20,7 @@ const MicroscopeMap = () => {
     const [radius, setRadius] = useState(2500);
 
     useEffect(() => {
-        fetch("http://localhost:5000/getPop")
+        fetch("http://127.0.0.1:5000/getPop")
             .then((response) => response.json())
             .then((data) => {
                 const transformData = data.map((item) => {
