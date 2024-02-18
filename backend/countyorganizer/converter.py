@@ -25,20 +25,38 @@ def distribute_counts(output_data, population_data):
         output_lon = float(output_obj["longitude"])
         output_count = int(output_obj["count"])
         output_pop = int(output_obj["population"])
+        output_rei = (output_obj["region"])
+        
 
         for population_obj in population_data:
             population_lat = float(population_obj["lat"])
             population_lon = float(population_obj["lng"])
+            population_name = (population_obj["city"])
+            population_pop=int(population_obj["population"])
+            county_name=county_data.get(population_name)
+            reigon_name=''
+            if county_name is not None:
+                
+                for entry in region_data:
+                    if entry['County']== county_name:
+                        reigon_name=entry['Region']
+                
+                
+            # if reigon_name=='':
+            # # Calculate the distance between the output and population objects
+            #     distance = calculate_distance(
+            #         output_lat, output_lon, population_lat, population_lon
+            #     )
 
-            # Calculate the distance between the output and population objects
-            distance = calculate_distance(
-                output_lat, output_lon, population_lat, population_lon
-            )
+            #     # Calculate the weight based on the inverse of the distance
+            #     weight = 1 / distance if distance != 0 else 1
 
-            # Calculate the weight based on the inverse of the distance
-            weight = 1 / distance if distance != 0 else 1
-
-            # Add the covid_count key to the existing population object
+            # # Add the covid_count key to the existing population object
+            # else:
+                if reigon_name==output_rei:
+                    weight= population_pop/output_pop
+                else:
+                    weight = 1
             population_obj["covid_count"] = int(output_count * weight)
 
 
@@ -52,6 +70,12 @@ with open("output.json", "r") as output_file:
 # Read the data from Population.json
 with open("Population.json", "r") as population_file:
     population_data = json.load(population_file)
+
+with open("british-cities-to-counties.json", "r") as county_file:
+    county_data = json.load(county_file)
+with open("counties-to-regions.json", "r") as region_file:
+    region_data = json.load(region_file)
+
 
 # Distribute the counts
 updated_population_data = distribute_counts(output_data, population_data)

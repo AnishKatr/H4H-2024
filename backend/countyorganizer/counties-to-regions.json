@@ -1,0 +1,2126 @@
+[
+    {
+        "County": "Guernsey",
+        "Region": "Crown Dependencies"
+    },
+    {
+        "County": "IOM",
+        "Region": "Crown Dependencies"
+    },
+    {
+        "County": "Jersey",
+        "Region": "Crown Dependencies"
+    },
+    {
+        "County": "North East Derbyshire",
+        "Region": "East Midlands"
+    },
+    {
+        "County": "Amber Valley",
+        "Region": "East Midlands"
+    },
+    {
+        "County": "Ashfield",
+        "Region": "East Midlands"
+    },
+    {
+        "County": "Bassetlaw",
+        "Region": "East Midlands"
+    },
+    {
+        "County": "Blaby",
+        "Region": "East Midlands"
+    },
+    {
+        "County": "Bolsover",
+        "Region": "East Midlands"
+    },
+    {
+        "County": "Boston",
+        "Region": "East Midlands"
+    },
+    {
+        "County": "Broxtowe",
+        "Region": "East Midlands"
+    },
+    {
+        "County": "Charnwood",
+        "Region": "East Midlands"
+    },
+    {
+        "County": "Chesterfield",
+        "Region": "East Midlands"
+    },
+    {
+        "County": "Corby",
+        "Region": "East Midlands"
+    },
+    {
+        "County": "Daventry",
+        "Region": "East Midlands"
+    },
+    {
+        "County": "Derby",
+        "Region": "East Midlands"
+    },
+    {
+        "County": "Derbyshire",
+        "Region": "East Midlands"
+    },
+    {
+        "County": "Derbyshire",
+        "Region": "East Midlands"
+    },
+    {
+        "County": "Derbyshire Dales",
+        "Region": "East Midlands"
+    },
+    {
+        "County": "East Lindsey",
+        "Region": "East Midlands"
+    },
+    {
+        "County": "East Northamptonshire",
+        "Region": "East Midlands"
+    },
+    {
+        "County": "Erewash",
+        "Region": "East Midlands"
+    },
+    {
+        "County": "Gedling",
+        "Region": "East Midlands"
+    },
+    {
+        "County": "Harborough",
+        "Region": "East Midlands"
+    },
+    {
+        "County": "High Peak",
+        "Region": "East Midlands"
+    },
+    {
+        "County": "Hinckley and Bosworth",
+        "Region": "East Midlands"
+    },
+    {
+        "County": "Kettering",
+        "Region": "East Midlands"
+    },
+    {
+        "County": "Leicester",
+        "Region": "East Midlands"
+    },
+    {
+        "County": "Leicestershire",
+        "Region": "East Midlands"
+    },
+    {
+        "County": "Leicestershire",
+        "Region": "East Midlands"
+    },
+    {
+        "County": "Lincoln",
+        "Region": "East Midlands"
+    },
+    {
+        "County": "Lincolnshire",
+        "Region": "East Midlands"
+    },
+    {
+        "County": "Lincolnshire",
+        "Region": "East Midlands"
+    },
+    {
+        "County": "Mansfield",
+        "Region": "East Midlands"
+    },
+    {
+        "County": "Melton",
+        "Region": "East Midlands"
+    },
+    {
+        "County": "Newark and Sherwood",
+        "Region": "East Midlands"
+    },
+    {
+        "County": "North Kesteven",
+        "Region": "East Midlands"
+    },
+    {
+        "County": "North West Leicestershire",
+        "Region": "East Midlands"
+    },
+    {
+        "County": "Northampton",
+        "Region": "East Midlands"
+    },
+    {
+        "County": "Northamptonshire",
+        "Region": "East Midlands"
+    },
+    {
+        "County": "Nottingham",
+        "Region": "East Midlands"
+    },
+    {
+        "County": "Nottinghamshire",
+        "Region": "East Midlands"
+    },
+    {
+        "County": "Nottinghamshire",
+        "Region": "East Midlands"
+    },
+    {
+        "County": "Oadby and Wigston",
+        "Region": "East Midlands"
+    },
+    {
+        "County": "Rushcliffe",
+        "Region": "East Midlands"
+    },
+    {
+        "County": "Rutland",
+        "Region": "East Midlands"
+    },
+    {
+        "County": "South Derbyshire",
+        "Region": "East Midlands"
+    },
+    {
+        "County": "South Holland",
+        "Region": "East Midlands"
+    },
+    {
+        "County": "South Kesteven",
+        "Region": "East Midlands"
+    },
+    {
+        "County": "South Northamptonshire",
+        "Region": "East Midlands"
+    },
+    {
+        "County": "Wellingborough",
+        "Region": "East Midlands"
+    },
+    {
+        "County": "West Lindsey",
+        "Region": "East Midlands"
+    },
+    {
+        "County": "Babergh",
+        "Region": "East of England"
+    },
+    {
+        "County": "Basildon",
+        "Region": "East of England"
+    },
+    {
+        "County": "Bedford",
+        "Region": "East of England"
+    },
+    {
+        "County": "Bedford Borough",
+        "Region": "East of England"
+    },
+    {
+        "County": "Bedfordshire",
+        "Region": "East of England"
+    },
+    {
+        "County": "Braintree",
+        "Region": "East of England"
+    },
+    {
+        "County": "Breckland",
+        "Region": "East of England"
+    },
+    {
+        "County": "Brentwood",
+        "Region": "East of England"
+    },
+    {
+        "County": "Broadland",
+        "Region": "East of England"
+    },
+    {
+        "County": "Broxbourne",
+        "Region": "East of England"
+    },
+    {
+        "County": "Cambridge",
+        "Region": "East of England"
+    },
+    {
+        "County": "Cambridgeshire",
+        "Region": "East of England"
+    },
+    {
+        "County": "Cambridgeshire",
+        "Region": "East of England"
+    },
+    {
+        "County": "Castle Point",
+        "Region": "East of England"
+    },
+    {
+        "County": "Central Bedfordshire",
+        "Region": "East of England"
+    },
+    {
+        "County": "Chelmsford",
+        "Region": "East of England"
+    },
+    {
+        "County": "Colchester",
+        "Region": "East of England"
+    },
+    {
+        "County": "Dacorum",
+        "Region": "East of England"
+    },
+    {
+        "County": "East Cambridgeshire",
+        "Region": "East of England"
+    },
+    {
+        "County": "East Hertfordshire",
+        "Region": "East of England"
+    },
+    {
+        "County": "Epping Forest",
+        "Region": "East of England"
+    },
+    {
+        "County": "Essex",
+        "Region": "East of England"
+    },
+    {
+        "County": "Essex",
+        "Region": "East of England"
+    },
+    {
+        "County": "Fenland",
+        "Region": "East of England"
+    },
+    {
+        "County": "Forest Heath",
+        "Region": "East of England"
+    },
+    {
+        "County": "Great Yarmouth",
+        "Region": "East of England"
+    },
+    {
+        "County": "Harlow",
+        "Region": "East of England"
+    },
+    {
+        "County": "Hertfordshire",
+        "Region": "East of England"
+    },
+    {
+        "County": "Hertsmere",
+        "Region": "East of England"
+    },
+    {
+        "County": "Huntingdonshire",
+        "Region": "East of England"
+    },
+    {
+        "County": "Ipswich",
+        "Region": "East of England"
+    },
+    {
+        "County": "King's Lynn and West Norfolk",
+        "Region": "East of England"
+    },
+    {
+        "County": "Luton",
+        "Region": "East of England"
+    },
+    {
+        "County": "Maldon",
+        "Region": "East of England"
+    },
+    {
+        "County": "Mid Suffolk",
+        "Region": "East of England"
+    },
+    {
+        "County": "Norfolk",
+        "Region": "East of England"
+    },
+    {
+        "County": "North Hertfordshire",
+        "Region": "East of England"
+    },
+    {
+        "County": "North Norfolk",
+        "Region": "East of England"
+    },
+    {
+        "County": "Norwich",
+        "Region": "East of England"
+    },
+    {
+        "County": "Peterborough",
+        "Region": "East of England"
+    },
+    {
+        "County": "Rochford",
+        "Region": "East of England"
+    },
+    {
+        "County": "South Cambridgeshire",
+        "Region": "East of England"
+    },
+    {
+        "County": "South Norfolk",
+        "Region": "East of England"
+    },
+    {
+        "County": "Southend-on-Sea",
+        "Region": "East of England"
+    },
+    {
+        "County": "St Albans",
+        "Region": "East of England"
+    },
+    {
+        "County": "St. Edmundsbury",
+        "Region": "East of England"
+    },
+    {
+        "County": "Stevenage",
+        "Region": "East of England"
+    },
+    {
+        "County": "Suffolk",
+        "Region": "East of England"
+    },
+    {
+        "County": "Suffolk Coastal",
+        "Region": "East of England"
+    },
+    {
+        "County": "Tendring",
+        "Region": "East of England"
+    },
+    {
+        "County": "Three Rivers",
+        "Region": "East of England"
+    },
+    {
+        "County": "Thurrock",
+        "Region": "East of England"
+    },
+    {
+        "County": "Uttlesford",
+        "Region": "East of England"
+    },
+    {
+        "County": "Watford",
+        "Region": "East of England"
+    },
+    {
+        "County": "Waveney",
+        "Region": "East of England"
+    },
+    {
+        "County": "Welwyn Hatfield",
+        "Region": "East of England"
+    },
+    {
+        "County": "Barking and Dagenham",
+        "Region": "London"
+    },
+    {
+        "County": "Barnet",
+        "Region": "London"
+    },
+    {
+        "County": "Bexley",
+        "Region": "London"
+    },
+    {
+        "County": "Brent",
+        "Region": "London"
+    },
+    {
+        "County": "Bromley",
+        "Region": "London"
+    },
+    {
+        "County": "Camden",
+        "Region": "London"
+    },
+    {
+        "County": "City of London",
+        "Region": "London"
+    },
+    {
+        "County": "City of London",
+        "Region": "London"
+    },
+    {
+        "County": "City of Westminster",
+        "Region": "London"
+    },
+    {
+        "County": "Croydon",
+        "Region": "London"
+    },
+    {
+        "County": "Ealing",
+        "Region": "London"
+    },
+    {
+        "County": "Enfield",
+        "Region": "London"
+    },
+    {
+        "County": "Greater London",
+        "Region": "London"
+    },
+    {
+        "County": "Greenwich",
+        "Region": "London"
+    },
+    {
+        "County": "Hackney",
+        "Region": "London"
+    },
+    {
+        "County": "Hammersmith and Fulham",
+        "Region": "London"
+    },
+    {
+        "County": "Haringey",
+        "Region": "London"
+    },
+    {
+        "County": "Harrow",
+        "Region": "London"
+    },
+    {
+        "County": "Havering",
+        "Region": "London"
+    },
+    {
+        "County": "Hillingdon",
+        "Region": "London"
+    },
+    {
+        "County": "Hounslow",
+        "Region": "London"
+    },
+    {
+        "County": "Islington",
+        "Region": "London"
+    },
+    {
+        "County": "Kensington and Chelsea",
+        "Region": "London"
+    },
+    {
+        "County": "Kingston upon Thames",
+        "Region": "London"
+    },
+    {
+        "County": "Lambeth",
+        "Region": "London"
+    },
+    {
+        "County": "Lewisham",
+        "Region": "London"
+    },
+    {
+        "County": "Merton",
+        "Region": "London"
+    },
+    {
+        "County": "Newham",
+        "Region": "London"
+    },
+    {
+        "County": "Redbridge",
+        "Region": "London"
+    },
+    {
+        "County": "Richmond",
+        "Region": "London"
+    },
+    {
+        "County": "Southwark",
+        "Region": "London"
+    },
+    {
+        "County": "Sutton",
+        "Region": "London"
+    },
+    {
+        "County": "Tower Hamlets",
+        "Region": "London"
+    },
+    {
+        "County": "Waltham Forest",
+        "Region": "London"
+    },
+    {
+        "County": "Wandsworth",
+        "Region": "London"
+    },
+    {
+        "County": "Westminster",
+        "Region": "London"
+    },
+    {
+        "County": "County Durham",
+        "Region": "North East England"
+    },
+    {
+        "County": "Darlington",
+        "Region": "North East England"
+    },
+    {
+        "County": "Durham",
+        "Region": "North East England"
+    },
+    {
+        "County": "Durham",
+        "Region": "North East England"
+    },
+    {
+        "County": "Gateshead",
+        "Region": "North East England"
+    },
+    {
+        "County": "Hartlepool",
+        "Region": "North East England"
+    },
+    {
+        "County": "Middlesbrough",
+        "Region": "North East England"
+    },
+    {
+        "County": "Newcastle Upon Tyne",
+        "Region": "North East England"
+    },
+    {
+        "County": "North Tyneside",
+        "Region": "North East England"
+    },
+    {
+        "County": "North Yorkshire",
+        "Region": "North East England"
+    },
+    {
+        "County": "Northumberland",
+        "Region": "North East England"
+    },
+    {
+        "County": "Redcar and Cleveland",
+        "Region": "North East England"
+    },
+    {
+        "County": "South Tyneside",
+        "Region": "North East England"
+    },
+    {
+        "County": "Stockton-on-Tees",
+        "Region": "North East England"
+    },
+    {
+        "County": "Sunderland",
+        "Region": "North East England"
+    },
+    {
+        "County": "Tyne and Wear",
+        "Region": "North East England"
+    },
+    {
+        "County": "Allerdale",
+        "Region": "North West England"
+    },
+    {
+        "County": "Barrow-in-Furness",
+        "Region": "North West England"
+    },
+    {
+        "County": "Blackburn with Darwen",
+        "Region": "North West England"
+    },
+    {
+        "County": "Blackpool",
+        "Region": "North West England"
+    },
+    {
+        "County": "Bolton",
+        "Region": "North West England"
+    },
+    {
+        "County": "Burnley",
+        "Region": "North West England"
+    },
+    {
+        "County": "Bury",
+        "Region": "North West England"
+    },
+    {
+        "County": "Carlisle",
+        "Region": "North West England"
+    },
+    {
+        "County": "Cheshire",
+        "Region": "North West England"
+    },
+    {
+        "County": "Cheshire East",
+        "Region": "North West England"
+    },
+    {
+        "County": "Cheshire West and Chester",
+        "Region": "North West England"
+    },
+    {
+        "County": "Chorley",
+        "Region": "North West England"
+    },
+    {
+        "County": "Copeland",
+        "Region": "North West England"
+    },
+    {
+        "County": "Cumbria",
+        "Region": "North West England"
+    },
+    {
+        "County": "Eden",
+        "Region": "North West England"
+    },
+    {
+        "County": "Fylde",
+        "Region": "North West England"
+    },
+    {
+        "County": "Greater Manchester",
+        "Region": "North West England"
+    },
+    {
+        "County": "Halton",
+        "Region": "North West England"
+    },
+    {
+        "County": "Hyndburn",
+        "Region": "North West England"
+    },
+    {
+        "County": "Knowsley",
+        "Region": "North West England"
+    },
+    {
+        "County": "Lancashire",
+        "Region": "North West England"
+    },
+    {
+        "County": "Lancashire",
+        "Region": "North West England"
+    },
+    {
+        "County": "Lancaster",
+        "Region": "North West England"
+    },
+    {
+        "County": "Liverpool",
+        "Region": "North West England"
+    },
+    {
+        "County": "Manchester",
+        "Region": "North West England"
+    },
+    {
+        "County": "Merseyside",
+        "Region": "North West England"
+    },
+    {
+        "County": "Oldham",
+        "Region": "North West England"
+    },
+    {
+        "County": "Pendle",
+        "Region": "North West England"
+    },
+    {
+        "County": "Preston",
+        "Region": "North West England"
+    },
+    {
+        "County": "Ribble Valley",
+        "Region": "North West England"
+    },
+    {
+        "County": "Rochdale",
+        "Region": "North West England"
+    },
+    {
+        "County": "Rossendale",
+        "Region": "North West England"
+    },
+    {
+        "County": "Salford",
+        "Region": "North West England"
+    },
+    {
+        "County": "Sefton",
+        "Region": "North West England"
+    },
+    {
+        "County": "South Lakeland",
+        "Region": "North West England"
+    },
+    {
+        "County": "South Ribble",
+        "Region": "North West England"
+    },
+    {
+        "County": "St Helens",
+        "Region": "North West England"
+    },
+    {
+        "County": "St. Helens",
+        "Region": "North West England"
+    },
+    {
+        "County": "Stockport",
+        "Region": "North West England"
+    },
+    {
+        "County": "Tameside",
+        "Region": "North West England"
+    },
+    {
+        "County": "Trafford",
+        "Region": "North West England"
+    },
+    {
+        "County": "Warrington",
+        "Region": "North West England"
+    },
+    {
+        "County": "West Lancashire",
+        "Region": "North West England"
+    },
+    {
+        "County": "Wigan",
+        "Region": "North West England"
+    },
+    {
+        "County": "Wirral",
+        "Region": "North West England"
+    },
+    {
+        "County": "Wyre",
+        "Region": "North West England"
+    },
+    {
+        "County": "Antrim",
+        "Region": "Northern Ireland"
+    },
+    {
+        "County": "Ards",
+        "Region": "Northern Ireland"
+    },
+    {
+        "County": "Armagh",
+        "Region": "Northern Ireland"
+    },
+    {
+        "County": "Ballymena",
+        "Region": "Northern Ireland"
+    },
+    {
+        "County": "Ballymoney",
+        "Region": "Northern Ireland"
+    },
+    {
+        "County": "Banbridge",
+        "Region": "Northern Ireland"
+    },
+    {
+        "County": "Belfast",
+        "Region": "Northern Ireland"
+    },
+    {
+        "County": "Carrickfergus",
+        "Region": "Northern Ireland"
+    },
+    {
+        "County": "Castlereagh",
+        "Region": "Northern Ireland"
+    },
+    {
+        "County": "Coleraine",
+        "Region": "Northern Ireland"
+    },
+    {
+        "County": "Cookstown",
+        "Region": "Northern Ireland"
+    },
+    {
+        "County": "County Armagh",
+        "Region": "Northern Ireland"
+    },
+    {
+        "County": "County Fermanagh",
+        "Region": "Northern Ireland"
+    },
+    {
+        "County": "Craigavon",
+        "Region": "Northern Ireland"
+    },
+    {
+        "County": "Derry",
+        "Region": "Northern Ireland"
+    },
+    {
+        "County": "Down",
+        "Region": "Northern Ireland"
+    },
+    {
+        "County": "Dungannon",
+        "Region": "Northern Ireland"
+    },
+    {
+        "County": "Fermanagh",
+        "Region": "Northern Ireland"
+    },
+    {
+        "County": "Larne",
+        "Region": "Northern Ireland"
+    },
+    {
+        "County": "Limavady",
+        "Region": "Northern Ireland"
+    },
+    {
+        "County": "Lisburn",
+        "Region": "Northern Ireland"
+    },
+    {
+        "County": "Magherafelt",
+        "Region": "Northern Ireland"
+    },
+    {
+        "County": "Moyle",
+        "Region": "Northern Ireland"
+    },
+    {
+        "County": "Newry and Mourne",
+        "Region": "Northern Ireland"
+    },
+    {
+        "County": "Newry and Mourne",
+        "Region": "Northern Ireland"
+    },
+    {
+        "County": "Newtownabbey",
+        "Region": "Northern Ireland"
+    },
+    {
+        "County": "North Down",
+        "Region": "Northern Ireland"
+    },
+    {
+        "County": "Omagh",
+        "Region": "Northern Ireland"
+    },
+    {
+        "County": "South Tyrone",
+        "Region": "Northern Ireland"
+    },
+    {
+        "County": "Strabane",
+        "Region": "Northern Ireland"
+    },
+    {
+        "County": "Aberdeen City",
+        "Region": "Scotland"
+    },
+    {
+        "County": "Aberdeenshire",
+        "Region": "Scotland"
+    },
+    {
+        "County": "Angus",
+        "Region": "Scotland"
+    },
+    {
+        "County": "Argyll and Bute",
+        "Region": "Scotland"
+    },
+    {
+        "County": "Argyllshire",
+        "Region": "Scotland"
+    },
+    {
+        "County": "Ayrshire",
+        "Region": "Scotland"
+    },
+    {
+        "County": "Banffshire",
+        "Region": "Scotland"
+    },
+    {
+        "County": "Berwickshire",
+        "Region": "Scotland"
+    },
+    {
+        "County": "Bute",
+        "Region": "Scotland"
+    },
+    {
+        "County": "Caithness",
+        "Region": "Scotland"
+    },
+    {
+        "County": "City of Edinburgh",
+        "Region": "Scotland"
+    },
+    {
+        "County": "Clackmannanshire",
+        "Region": "Scotland"
+    },
+    {
+        "County": "Dumfries and Galloway",
+        "Region": "Scotland"
+    },
+    {
+        "County": "Dumfriesshire",
+        "Region": "Scotland"
+    },
+    {
+        "County": "Dunbartonshire",
+        "Region": "Scotland"
+    },
+    {
+        "County": "Dundee City",
+        "Region": "Scotland"
+    },
+    {
+        "County": "East Ayrshire",
+        "Region": "Scotland"
+    },
+    {
+        "County": "East Dunbartonshire",
+        "Region": "Scotland"
+    },
+    {
+        "County": "East Lothian",
+        "Region": "Scotland"
+    },
+    {
+        "County": "East Renfrewshire",
+        "Region": "Scotland"
+    },
+    {
+        "County": "Edinburgh City",
+        "Region": "Scotland"
+    },
+    {
+        "County": "Eilean Siar",
+        "Region": "Scotland"
+    },
+    {
+        "County": "Falkirk",
+        "Region": "Scotland"
+    },
+    {
+        "County": "Fife",
+        "Region": "Scotland"
+    },
+    {
+        "County": "Glasgow City",
+        "Region": "Scotland"
+    },
+    {
+        "County": "Highland",
+        "Region": "Scotland"
+    },
+    {
+        "County": "Inverclyde",
+        "Region": "Scotland"
+    },
+    {
+        "County": "Inverness-shire",
+        "Region": "Scotland"
+    },
+    {
+        "County": "Kincardineshire",
+        "Region": "Scotland"
+    },
+    {
+        "County": "Kinross-shire",
+        "Region": "Scotland"
+    },
+    {
+        "County": "Kirkcudbrightshire",
+        "Region": "Scotland"
+    },
+    {
+        "County": "Lanarkshire",
+        "Region": "Scotland"
+    },
+    {
+        "County": "Midlothian",
+        "Region": "Scotland"
+    },
+    {
+        "County": "Moray",
+        "Region": "Scotland"
+    },
+    {
+        "County": "Nairnshire",
+        "Region": "Scotland"
+    },
+    {
+        "County": "North Ayrshire",
+        "Region": "Scotland"
+    },
+    {
+        "County": "North Lanarkshire",
+        "Region": "Scotland"
+    },
+    {
+        "County": "Orkney",
+        "Region": "Scotland"
+    },
+    {
+        "County": "Orkney Islands",
+        "Region": "Scotland"
+    },
+    {
+        "County": "Peeblesshire",
+        "Region": "Scotland"
+    },
+    {
+        "County": "Perth and Kinross",
+        "Region": "Scotland"
+    },
+    {
+        "County": "Perthshire",
+        "Region": "Scotland"
+    },
+    {
+        "County": "Renfrewshire",
+        "Region": "Scotland"
+    },
+    {
+        "County": "Ross and Cromarty",
+        "Region": "Scotland"
+    },
+    {
+        "County": "Roxburghshire",
+        "Region": "Scotland"
+    },
+    {
+        "County": "Selkirkshire",
+        "Region": "Scotland"
+    },
+    {
+        "County": "Shetland Islands",
+        "Region": "Scotland"
+    },
+    {
+        "County": "South Ayrshire",
+        "Region": "Scotland"
+    },
+    {
+        "County": "South Lanarkshire",
+        "Region": "Scotland"
+    },
+    {
+        "County": "South Lanarkshire",
+        "Region": "Scotland"
+    },
+    {
+        "County": "Stirling",
+        "Region": "Scotland"
+    },
+    {
+        "County": "Stirlingshire",
+        "Region": "Scotland"
+    },
+    {
+        "County": "Sutherland",
+        "Region": "Scotland"
+    },
+    {
+        "County": "The Scottish Borders",
+        "Region": "Scotland"
+    },
+    {
+        "County": "West Ayrshire",
+        "Region": "Scotland"
+    },
+    {
+        "County": "West Dunbartonshire",
+        "Region": "Scotland"
+    },
+    {
+        "County": "West Lothian",
+        "Region": "Scotland"
+    },
+    {
+        "County": "Wigtownshire",
+        "Region": "Scotland"
+    },
+    {
+        "County": "Zetland",
+        "Region": "Scotland"
+    },
+    {
+        "County": "Adur",
+        "Region": "South East England"
+    },
+    {
+        "County": "Arun",
+        "Region": "South East England"
+    },
+    {
+        "County": "Ashford",
+        "Region": "South East England"
+    },
+    {
+        "County": "Aylesbury Vale",
+        "Region": "South East England"
+    },
+    {
+        "County": "Basingstoke and Deane",
+        "Region": "South East England"
+    },
+    {
+        "County": "Berkshire",
+        "Region": "South East England"
+    },
+    {
+        "County": "Bracknell Forest",
+        "Region": "South East England"
+    },
+    {
+        "County": "Brighton and Hove",
+        "Region": "South East England"
+    },
+    {
+        "County": "Buckinghamshire",
+        "Region": "South East England"
+    },
+    {
+        "County": "Buckinghamshire",
+        "Region": "South East England"
+    },
+    {
+        "County": "Canterbury",
+        "Region": "South East England"
+    },
+    {
+        "County": "Cherwell",
+        "Region": "South East England"
+    },
+    {
+        "County": "Chichester",
+        "Region": "South East England"
+    },
+    {
+        "County": "Chiltern",
+        "Region": "South East England"
+    },
+    {
+        "County": "Crawley",
+        "Region": "South East England"
+    },
+    {
+        "County": "Dartford",
+        "Region": "South East England"
+    },
+    {
+        "County": "Dover",
+        "Region": "South East England"
+    },
+    {
+        "County": "East Hampshire",
+        "Region": "South East England"
+    },
+    {
+        "County": "East Sussex",
+        "Region": "South East England"
+    },
+    {
+        "County": "East Sussex",
+        "Region": "South East England"
+    },
+    {
+        "County": "Eastbourne",
+        "Region": "South East England"
+    },
+    {
+        "County": "Eastleigh",
+        "Region": "South East England"
+    },
+    {
+        "County": "Elmbridge",
+        "Region": "South East England"
+    },
+    {
+        "County": "Epsom and Ewell",
+        "Region": "South East England"
+    },
+    {
+        "County": "Fareham",
+        "Region": "South East England"
+    },
+    {
+        "County": "Gosport",
+        "Region": "South East England"
+    },
+    {
+        "County": "Gravesham",
+        "Region": "South East England"
+    },
+    {
+        "County": "Guildford",
+        "Region": "South East England"
+    },
+    {
+        "County": "Hampshire",
+        "Region": "South East England"
+    },
+    {
+        "County": "Hampshire",
+        "Region": "South East England"
+    },
+    {
+        "County": "Hart",
+        "Region": "South East England"
+    },
+    {
+        "County": "Hastings",
+        "Region": "South East England"
+    },
+    {
+        "County": "Havant",
+        "Region": "South East England"
+    },
+    {
+        "County": "Horsham",
+        "Region": "South East England"
+    },
+    {
+        "County": "Isle of Wight",
+        "Region": "South East England"
+    },
+    {
+        "County": "Kent",
+        "Region": "South East England"
+    },
+    {
+        "County": "Kent",
+        "Region": "South East England"
+    },
+    {
+        "County": "Lewes",
+        "Region": "South East England"
+    },
+    {
+        "County": "Maidstone",
+        "Region": "South East England"
+    },
+    {
+        "County": "Medway",
+        "Region": "South East England"
+    },
+    {
+        "County": "Mid Sussex",
+        "Region": "South East England"
+    },
+    {
+        "County": "Milton Keynes",
+        "Region": "South East England"
+    },
+    {
+        "County": "Mole Valley",
+        "Region": "South East England"
+    },
+    {
+        "County": "New Forest",
+        "Region": "South East England"
+    },
+    {
+        "County": "Oxford",
+        "Region": "South East England"
+    },
+    {
+        "County": "Oxfordshire",
+        "Region": "South East England"
+    },
+    {
+        "County": "Portsmouth",
+        "Region": "South East England"
+    },
+    {
+        "County": "Reading",
+        "Region": "South East England"
+    },
+    {
+        "County": "Reigate and Banstead",
+        "Region": "South East England"
+    },
+    {
+        "County": "Rother",
+        "Region": "South East England"
+    },
+    {
+        "County": "Runnymede",
+        "Region": "South East England"
+    },
+    {
+        "County": "Rushmoor",
+        "Region": "South East England"
+    },
+    {
+        "County": "Sevenoaks",
+        "Region": "South East England"
+    },
+    {
+        "County": "Shepway",
+        "Region": "South East England"
+    },
+    {
+        "County": "Slough",
+        "Region": "South East England"
+    },
+    {
+        "County": "South Bucks",
+        "Region": "South East England"
+    },
+    {
+        "County": "South Oxfordshire",
+        "Region": "South East England"
+    },
+    {
+        "County": "Southampton",
+        "Region": "South East England"
+    },
+    {
+        "County": "Spelthorne",
+        "Region": "South East England"
+    },
+    {
+        "County": "Surrey",
+        "Region": "South East England"
+    },
+    {
+        "County": "Surrey Heath",
+        "Region": "South East England"
+    },
+    {
+        "County": "Swale",
+        "Region": "South East England"
+    },
+    {
+        "County": "Tandridge",
+        "Region": "South East England"
+    },
+    {
+        "County": "Test Valley",
+        "Region": "South East England"
+    },
+    {
+        "County": "Thanet",
+        "Region": "South East England"
+    },
+    {
+        "County": "Tonbridge and Malling",
+        "Region": "South East England"
+    },
+    {
+        "County": "Tunbridge Wells",
+        "Region": "South East England"
+    },
+    {
+        "County": "Vale of White Horse",
+        "Region": "South East England"
+    },
+    {
+        "County": "Waverley",
+        "Region": "South East England"
+    },
+    {
+        "County": "Wealden",
+        "Region": "South East England"
+    },
+    {
+        "County": "West Berkshire",
+        "Region": "South East England"
+    },
+    {
+        "County": "West Oxfordshire",
+        "Region": "South East England"
+    },
+    {
+        "County": "West Sussex",
+        "Region": "South East England"
+    },
+    {
+        "County": "Winchester",
+        "Region": "South East England"
+    },
+    {
+        "County": "Windsor and Maidenhead",
+        "Region": "South East England"
+    },
+    {
+        "County": "Woking",
+        "Region": "South East England"
+    },
+    {
+        "County": "Wokingham",
+        "Region": "South East England"
+    },
+    {
+        "County": "Worthing",
+        "Region": "South East England"
+    },
+    {
+        "County": "Wycombe",
+        "Region": "South East England"
+    },
+    {
+        "County": "Bath and North East Somerset",
+        "Region": "South West England"
+    },
+    {
+        "County": "Bournemouth",
+        "Region": "South West England"
+    },
+    {
+        "County": "Bristol",
+        "Region": "South West England"
+    },
+    {
+        "County": "Cheltenham",
+        "Region": "South West England"
+    },
+    {
+        "County": "Christchurch",
+        "Region": "South West England"
+    },
+    {
+        "County": "City of Bristol",
+        "Region": "South West England"
+    },
+    {
+        "County": "Cornwall",
+        "Region": "South West England"
+    },
+    {
+        "County": "Cornwall",
+        "Region": "South West England"
+    },
+    {
+        "County": "Cotswold",
+        "Region": "South West England"
+    },
+    {
+        "County": "Devon",
+        "Region": "South West England"
+    },
+    {
+        "County": "Devon",
+        "Region": "South West England"
+    },
+    {
+        "County": "Dorset",
+        "Region": "South West England"
+    },
+    {
+        "County": "Dorset",
+        "Region": "South West England"
+    },
+    {
+        "County": "East Devon",
+        "Region": "South West England"
+    },
+    {
+        "County": "East Dorset",
+        "Region": "South West England"
+    },
+    {
+        "County": "Exeter",
+        "Region": "South West England"
+    },
+    {
+        "County": "Forest of Dean",
+        "Region": "South West England"
+    },
+    {
+        "County": "Gloucester",
+        "Region": "South West England"
+    },
+    {
+        "County": "Gloucestershire",
+        "Region": "South West England"
+    },
+    {
+        "County": "Gloucestershire",
+        "Region": "South West England"
+    },
+    {
+        "County": "Isles of Scilly",
+        "Region": "South West England"
+    },
+    {
+        "County": "Mendip",
+        "Region": "South West England"
+    },
+    {
+        "County": "Mid Devon",
+        "Region": "South West England"
+    },
+    {
+        "County": "North Devon",
+        "Region": "South West England"
+    },
+    {
+        "County": "North Dorset",
+        "Region": "South West England"
+    },
+    {
+        "County": "North Somerset",
+        "Region": "South West England"
+    },
+    {
+        "County": "Plymouth",
+        "Region": "South West England"
+    },
+    {
+        "County": "Poole",
+        "Region": "South West England"
+    },
+    {
+        "County": "Purbeck",
+        "Region": "South West England"
+    },
+    {
+        "County": "Sedgemoor",
+        "Region": "South West England"
+    },
+    {
+        "County": "Somerset",
+        "Region": "South West England"
+    },
+    {
+        "County": "Somerset",
+        "Region": "South West England"
+    },
+    {
+        "County": "South Gloucestershire",
+        "Region": "South West England"
+    },
+    {
+        "County": "South Hams",
+        "Region": "South West England"
+    },
+    {
+        "County": "South Somerset",
+        "Region": "South West England"
+    },
+    {
+        "County": "Stroud",
+        "Region": "South West England"
+    },
+    {
+        "County": "Swindon",
+        "Region": "South West England"
+    },
+    {
+        "County": "Taunton Deane",
+        "Region": "South West England"
+    },
+    {
+        "County": "Teignbridge",
+        "Region": "South West England"
+    },
+    {
+        "County": "Tewkesbury",
+        "Region": "South West England"
+    },
+    {
+        "County": "Torbay",
+        "Region": "South West England"
+    },
+    {
+        "County": "Torridge",
+        "Region": "South West England"
+    },
+    {
+        "County": "West Devon",
+        "Region": "South West England"
+    },
+    {
+        "County": "West Dorset",
+        "Region": "South West England"
+    },
+    {
+        "County": "West Somerset",
+        "Region": "South West England"
+    },
+    {
+        "County": "Weymouth and Portland",
+        "Region": "South West England"
+    },
+    {
+        "County": "Wiltshire",
+        "Region": "South West England"
+    },
+    {
+        "County": "Wiltshire",
+        "Region": "South West England"
+    },
+    {
+        "County": "Aberdare",
+        "Region": "Wales"
+    },
+    {
+        "County": "Bargoed",
+        "Region": "Wales"
+    },
+    {
+        "County": "Barry",
+        "Region": "Wales"
+    },
+    {
+        "County": "Blaenau Gwent",
+        "Region": "Wales"
+    },
+    {
+        "County": "Bridgend",
+        "Region": "Wales"
+    },
+    {
+        "County": "Caerphilly",
+        "Region": "Wales"
+    },
+    {
+        "County": "Cardiff",
+        "Region": "Wales"
+    },
+    {
+        "County": "Carmarthenshire",
+        "Region": "Wales"
+    },
+    {
+        "County": "Ceredigion",
+        "Region": "Wales"
+    },
+    {
+        "County": "Conwy",
+        "Region": "Wales"
+    },
+    {
+        "County": "Cowbridge",
+        "Region": "Wales"
+    },
+    {
+        "County": "Denbighshire",
+        "Region": "Wales"
+    },
+    {
+        "County": "Dinas Powys",
+        "Region": "Wales"
+    },
+    {
+        "County": "Ferndale",
+        "Region": "Wales"
+    },
+    {
+        "County": "Flintshire",
+        "Region": "Wales"
+    },
+    {
+        "County": "Gwynedd",
+        "Region": "Wales"
+    },
+    {
+        "County": "Hengoed",
+        "Region": "Wales"
+    },
+    {
+        "County": "Isle of Anglesey",
+        "Region": "Wales"
+    },
+    {
+        "County": "Llantwit Major",
+        "Region": "Wales"
+    },
+    {
+        "County": "Maesteg",
+        "Region": "Wales"
+    },
+    {
+        "County": "Merthyr Tydfil",
+        "Region": "Wales"
+    },
+    {
+        "County": "Monmouthshire",
+        "Region": "Wales"
+    },
+    {
+        "County": "Monmouthshire",
+        "Region": "Wales"
+    },
+    {
+        "County": "Mountain Ash",
+        "Region": "Wales"
+    },
+    {
+        "County": "Neath Port Talbot",
+        "Region": "Wales"
+    },
+    {
+        "County": "Newport",
+        "Region": "Wales"
+    },
+    {
+        "County": "Newport",
+        "Region": "Wales"
+    },
+    {
+        "County": "Pembrokeshire",
+        "Region": "Wales"
+    },
+    {
+        "County": "Penarth",
+        "Region": "Wales"
+    },
+    {
+        "County": "Pentre",
+        "Region": "Wales"
+    },
+    {
+        "County": "Pontyclun",
+        "Region": "Wales"
+    },
+    {
+        "County": "Pontypridd",
+        "Region": "Wales"
+    },
+    {
+        "County": "Porth",
+        "Region": "Wales"
+    },
+    {
+        "County": "Porthcawl",
+        "Region": "Wales"
+    },
+    {
+        "County": "Powys",
+        "Region": "Wales"
+    },
+    {
+        "County": "Rhondda Cynon Taff",
+        "Region": "Wales"
+    },
+    {
+        "County": "Rhoose",
+        "Region": "Wales"
+    },
+    {
+        "County": "Sully",
+        "Region": "Wales"
+    },
+    {
+        "County": "Swansea",
+        "Region": "Wales"
+    },
+    {
+        "County": "The Vale of Glamorgan",
+        "Region": "Wales"
+    },
+    {
+        "County": "Tonypandy",
+        "Region": "Wales"
+    },
+    {
+        "County": "Torfaen",
+        "Region": "Wales"
+    },
+    {
+        "County": "Treharris",
+        "Region": "Wales"
+    },
+    {
+        "County": "Treorchy",
+        "Region": "Wales"
+    },
+    {
+        "County": "Wrexham",
+        "Region": "Wales"
+    },
+    {
+        "County": "Birmingham",
+        "Region": "West Midlands"
+    },
+    {
+        "County": "Bromsgrove",
+        "Region": "West Midlands"
+    },
+    {
+        "County": "Cannock Chase",
+        "Region": "West Midlands"
+    },
+    {
+        "County": "Coventry",
+        "Region": "West Midlands"
+    },
+    {
+        "County": "Dudley",
+        "Region": "West Midlands"
+    },
+    {
+        "County": "East Staffordshire",
+        "Region": "West Midlands"
+    },
+    {
+        "County": "Herefordshire",
+        "Region": "West Midlands"
+    },
+    {
+        "County": "Lichfield",
+        "Region": "West Midlands"
+    },
+    {
+        "County": "Malvern Hills",
+        "Region": "West Midlands"
+    },
+    {
+        "County": "Newcastle-under-Lyme",
+        "Region": "West Midlands"
+    },
+    {
+        "County": "North Warwickshire",
+        "Region": "West Midlands"
+    },
+    {
+        "County": "Nuneaton and Bedworth",
+        "Region": "West Midlands"
+    },
+    {
+        "County": "Redditch",
+        "Region": "West Midlands"
+    },
+    {
+        "County": "Rugby",
+        "Region": "West Midlands"
+    },
+    {
+        "County": "Sandwell",
+        "Region": "West Midlands"
+    },
+    {
+        "County": "Shropshire",
+        "Region": "West Midlands"
+    },
+    {
+        "County": "Shropshire",
+        "Region": "West Midlands"
+    },
+    {
+        "County": "Solihull",
+        "Region": "West Midlands"
+    },
+    {
+        "County": "South Staffordshire",
+        "Region": "West Midlands"
+    },
+    {
+        "County": "Stafford",
+        "Region": "West Midlands"
+    },
+    {
+        "County": "Staffordshire",
+        "Region": "West Midlands"
+    },
+    {
+        "County": "Staffordshire",
+        "Region": "West Midlands"
+    },
+    {
+        "County": "Staffordshire Moorlands",
+        "Region": "West Midlands"
+    },
+    {
+        "County": "Stoke-on-Trent",
+        "Region": "West Midlands"
+    },
+    {
+        "County": "Stratford-on-Avon",
+        "Region": "West Midlands"
+    },
+    {
+        "County": "Tamworth",
+        "Region": "West Midlands"
+    },
+    {
+        "County": "Telford and Wrekin",
+        "Region": "West Midlands"
+    },
+    {
+        "County": "Walsall",
+        "Region": "West Midlands"
+    },
+    {
+        "County": "Warwick",
+        "Region": "West Midlands"
+    },
+    {
+        "County": "Warwickshire",
+        "Region": "West Midlands"
+    },
+    {
+        "County": "West Midlands",
+        "Region": "West Midlands"
+    },
+    {
+        "County": "Wolverhampton",
+        "Region": "West Midlands"
+    },
+    {
+        "County": "Worcester",
+        "Region": "West Midlands"
+    },
+    {
+        "County": "Worcestershire",
+        "Region": "West Midlands"
+    },
+    {
+        "County": "Wychavon",
+        "Region": "West Midlands"
+    },
+    {
+        "County": "Wyre Forest",
+        "Region": "West Midlands"
+    },
+    {
+        "County": "Barnsley",
+        "Region": "Yorkshire and the Humber"
+    },
+    {
+        "County": "Bradford",
+        "Region": "Yorkshire and the Humber"
+    },
+    {
+        "County": "Calderdale",
+        "Region": "Yorkshire and the Humber"
+    },
+    {
+        "County": "City of Kingston-upon-Hull",
+        "Region": "Yorkshire and the Humber"
+    },
+    {
+        "County": "Craven",
+        "Region": "Yorkshire and the Humber"
+    },
+    {
+        "County": "Doncaster",
+        "Region": "Yorkshire and the Humber"
+    },
+    {
+        "County": "East Riding of Yorkshire",
+        "Region": "Yorkshire and the Humber"
+    },
+    {
+        "County": "East Riding of Yorkshire",
+        "Region": "Yorkshire and the Humber"
+    },
+    {
+        "County": "Hambleton",
+        "Region": "Yorkshire and the Humber"
+    },
+    {
+        "County": "Harrogate",
+        "Region": "Yorkshire and the Humber"
+    },
+    {
+        "County": "Kingston upon Hull",
+        "Region": "Yorkshire and the Humber"
+    },
+    {
+        "County": "Kirklees",
+        "Region": "Yorkshire and the Humber"
+    },
+    {
+        "County": "Leeds",
+        "Region": "Yorkshire and the Humber"
+    },
+    {
+        "County": "Lincolnshire",
+        "Region": "Yorkshire and the Humber"
+    },
+    {
+        "County": "North East Lincolnshire",
+        "Region": "Yorkshire and the Humber"
+    },
+    {
+        "County": "North Lincolnshire",
+        "Region": "Yorkshire and the Humber"
+    },
+    {
+        "County": "North Yorkshire",
+        "Region": "Yorkshire and the Humber"
+    },
+    {
+        "County": "North Yorkshire",
+        "Region": "Yorkshire and the Humber"
+    },
+    {
+        "County": "Richmondshire",
+        "Region": "Yorkshire and the Humber"
+    },
+    {
+        "County": "Rotherham",
+        "Region": "Yorkshire and the Humber"
+    },
+    {
+        "County": "Ryedale",
+        "Region": "Yorkshire and the Humber"
+    },
+    {
+        "County": "Scarborough",
+        "Region": "Yorkshire and the Humber"
+    },
+    {
+        "County": "Selby",
+        "Region": "Yorkshire and the Humber"
+    },
+    {
+        "County": "Sheffield",
+        "Region": "Yorkshire and the Humber"
+    },
+    {
+        "County": "South Yorkshire",
+        "Region": "Yorkshire and the Humber"
+    },
+    {
+        "County": "Wakefield",
+        "Region": "Yorkshire and the Humber"
+    },
+    {
+        "County": "West Yorkshire",
+        "Region": "Yorkshire and the Humber"
+    },
+    {
+        "County": "York",
+        "Region": "Yorkshire and the Humber"
+    }
+]
