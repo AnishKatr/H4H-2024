@@ -13,7 +13,7 @@ def NorthEast():
 
 @app.route("/getPop")
 def getPop():
-    with open("gb.json") as f:
+    with open("Population.json") as f:
         data = json.load(f)
     return data
 
