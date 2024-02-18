@@ -25,6 +25,12 @@ function Banner({ title }) {
                 >
                     News
                 </button>
+                <button
+                    className=" border-2 border-black p-2 m-2 rounded-lg bg-sky-500 hover:bg-sky-700 text-sky-100 font-bold py-2 px-4"
+                    onClick={() => navigate("/map")}
+                >
+                    Live Map
+                </button>
             </div>
         </div>
     );
