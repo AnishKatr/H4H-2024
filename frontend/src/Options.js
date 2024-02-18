@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 
-function Options({ setDisease }) {
+function Options({ setDisease, cases, pop }) {
     const [isOpen, setIsOpen] = useState(false);
     const [selectedOption, setSelectedOption] = useState("All Diseases");
     const [popup, setPopup] = useState(false);
@@ -22,7 +22,10 @@ function Options({ setDisease }) {
     return (
         <div>
             <div className="fixed right-0 mt-4 mr-4 w-1/5 h-screen bg-sky-950 text-center space-y-4 p-4 rounded-lg shadow-lg">
-                <div className="text-sky-100">Options</div>
+                <div className="text-sky-100 font-bold text-lg">Options</div>
+                <div className="border border-black p-0.5 bg-black"></div>
+                <div className="text-s">Cases: {cases}</div>
+                <div className="text-s">Population: {pop}</div>
                 <div
                     onClick={toggleDropdown}
                     className="dropdown text-sky-100 relative bg-sky-700 justify-center cursor-pointer"
@@ -55,9 +58,9 @@ function Options({ setDisease }) {
                 </div>
                 <div>
                     <div className="bg-sky-700 text-sky-100"> Info</div>
-                    <div className="h-64 bg-sky-700 text-sky-100 overflow-auto ">
+                    <div className="bg-sky-700 text-sky-100 overflow-auto h-96">
                         {selectedOption === "All Diseases" && (
-                            <div className="text-xs ">
+                            <div className="text-s ">
                                 <div>
                                     An infection is the invasion of tissues by
                                     pathogens, their multiplication, and the
@@ -97,7 +100,7 @@ function Options({ setDisease }) {
                             </div>
                         )}
                         {selectedOption === "COVID-19" && (
-                            <div className="text-xs ">
+                            <div className="text-s ">
                                 <div>
                                     Coronavirus disease 2019 or COVID-19 is a
                                     contagious disease caused by the virus
@@ -131,7 +134,7 @@ function Options({ setDisease }) {
                             </div>
                         )}
                         {selectedOption === "Influenza" && (
-                            <div className="text-xs ">
+                            <div className="text-s ">
                                 <div>
                                     Influenza, commonly known as "the flu" or
                                     just "flu", is an infectious disease caused
@@ -217,7 +220,7 @@ function Options({ setDisease }) {
                                 Symptoms
                             </div>
                             {selectedOption === "All Diseases" && (
-                                <div>
+                                <div className="text-s text-left">
                                     This is where disease information for
                                     identifying symptoms will be located. If you
                                     have any serious concerns please contact
@@ -225,7 +228,7 @@ function Options({ setDisease }) {
                                 </div>
                             )}
                             {selectedOption === "COVID-19" && (
-                                <div className="text-xs text-left">
+                                <div className="text-s text-left">
                                     <b>COVID-19 symptoms can include:</b>
                                     <br />
                                     - a high temperature or shivering (chills)
@@ -305,7 +308,7 @@ function Options({ setDisease }) {
                                 </div>
                             )}
                             {selectedOption === "Influenza" && (
-                                <div className="text-xs text-left">
+                                <div className="text-s text-left">
                                     <div>
                                         Flu symptoms come on very quickly and
                                         can include:

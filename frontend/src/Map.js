@@ -19,6 +19,8 @@ const MicroscopeMap = () => {
     const [color, setColor] = useState(true);
     const [radius, setRadius] = useState(2500);
     const [disease, setDisease] = useState("COVID-19");
+    const [cases, setCases] = useState("");
+    const [pop, setPop] = useState("");
 
     useEffect(() => {
         fetch("http://127.0.0.1:5000/getPop")
@@ -131,6 +133,9 @@ const MicroscopeMap = () => {
             0
         );
 
+        setCases(count);
+        setPop(pop);
+
         return (
             <div
                 ref={tooltipRef}
@@ -138,10 +143,6 @@ const MicroscopeMap = () => {
                 style={tooltipStyle}
             >
                 <div>City: {name}</div>
-                <div>Population: {pop}</div>
-                <div>
-                    {disease === "COVID-19" ? "Covid: " : "Flu Count: "} {count}
-                </div>
                 <div>Latitude: {info.object.position[1].toFixed(6)}</div>
                 <div>Longitude: {info.object.position[0].toFixed(6)}</div>
             </div>
@@ -216,7 +217,7 @@ const MicroscopeMap = () => {
                 setRadius={setRadius}
             />
             <div className=" absolute top-0 right-0">
-                <Options setDisease={setDisease} />
+                <Options setDisease={setDisease} cases={cases} pop={pop} />
             </div>
         </div>
     );

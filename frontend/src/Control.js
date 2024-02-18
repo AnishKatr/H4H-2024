@@ -67,7 +67,8 @@ function Control({ setHeight, setColor, setRadius }) {
                     </div>
                 )}
             </div>
-            <div className="relative overflow-y-scroll p-2 scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-100 bg-sky-700">
+            <div className="relative overflow-y-scroll p-2 scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-100 bg-sky-700 flex flex-row">
+                <div className="text-sky-100 mr-5">Radius</div>
                 <input
                     type="range"
                     min="1000"
