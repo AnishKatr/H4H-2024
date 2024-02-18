@@ -178,7 +178,7 @@ const MicroscopeMap = () => {
                 />
             </DeckGL>
             <Tooltip info={tooltipInfo} />
-            <div className="absolute top-0 right-0">
+            <div className=" absolute top-0 right-0">
                 <Options />
             </div>
         </div>
