@@ -97,18 +97,18 @@ with open("YorkshireHumberFlu.json") as YH:
 
 NEdict = {
     "region": "NorthEast",
-    "count": northEast
+    "count": northEast * 26.57
 }
 
 jsonObject = json.dumps(NEdict, indent = 4)
 
-print("\n eastMidland Region: ",eastOfMidlands)
-print("\n eastEngland Region: ",eastOfEngland)
-print("\n London Region: ",london)
-print("\n northEast Region: ",northEast)
-print("\n northWest Region: ",northWest)
-print("\n southEast Region: ",southEast)
-print("\n southWest Region: ",southWest)
-print("\n westMidlands Region: ",westMidlands)
-print("\n yorkshireHumber Region: ",yorkshireHumber)
+print("\n eastMidland Region: ",eastOfMidlands * 48)
+print("\n eastEngland Region: ",eastOfEngland * 62.35)
+print("\n London Region: ",london * 89.1)
+print("\n northEast Region: ",northEast * 26.57)
+print("\n northWest Region: ",northWest * 73)
+print("\n southEast Region: ",southEast * 91.75)
+print("\n southWest Region: ",southWest * 56.16)
+print("\n westMidlands Region: ",westMidlands * 29.28)
+print("\n yorkshireHumber Region: ",yorkshireHumber * 54.86)
 print(jsonObject)
