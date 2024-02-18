@@ -26,8 +26,13 @@ function About() {
                 severity of each illness under the "Choose Heatmap Metric," with the options "Total Disease Number" or "Population Effected."
                 There is also a drag-bar beside those two dropdown boxes to adjust the radius of each of the hexagon bars.
             </p>
-            <h3 className="mt-11 text-xl font-bold">About Our Mission</h3>
             <p className="text-center p-4">
+                Besides the "About" option that was clicked to get to this page, lie the "News" and "Live Map" buttons. The News button will 
+                navigate you to our constantly updating news bulletin with reliable and relevant articles popping up on the page. The Live Map 
+                button will bring you back to the page with the 3-D Interactive Map and the information provided.
+            </p>
+            <h3 className="mt-11 text-xl font-bold">About Our Mission</h3>
+            <p className="text-center p-5">
                 Our Team, composed of 6 members, Jake Esperson, Grant Goldman, Anish Katragadda, Ian Kennar, Jonathan Kimyai, and Austin Nguyen, 
                 set out on the mission to improve the general person's ability to become more knowledgable regarding these viruses. After several
                 team meetings, we decided on this interface due to it allowing us to format the information in a way that is easy to interpret, 
