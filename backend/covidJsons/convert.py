@@ -21,13 +21,13 @@ def calculate_distance(lat1, lon1, lat2, lon2):
 
 def distribute_counts(output_data, population_data):
     for output_obj in output_data:
-        output_lat = output_obj["lat"]
-        output_lon = output_obj["lon"]
+        output_lat = float(output_obj["latitude"])
+        output_lon = float(output_obj["longitude"])
         output_count = int(output_obj["count"])
 
         for population_obj in population_data:
-            population_lat = population_obj["lat"]
-            population_lon = population_obj["lon"]
+            population_lat = float(population_obj["lat"])
+            population_lon = float(population_obj["lng"])
 
             # Calculate the distance between the output and population objects
             distance = calculate_distance(
@@ -37,8 +37,8 @@ def distribute_counts(output_data, population_data):
             # Calculate the weight based on the inverse of the distance
             weight = 1 / distance if distance != 0 else 1
 
-            # Distribute the count based on the weight
-            population_obj["covid_count"] += output_count * weight
+            # Add the covid_count key to the existing population object
+            population_obj["covid_count"] = int(output_count * weight)
 
     return population_data
 
@@ -54,6 +54,6 @@ with open("Population.json", "r") as population_file:
 # Distribute the counts
 updated_population_data = distribute_counts(output_data, population_data)
 
-# Save the updated data back to Population.json
-with open("test.json", "w") as population_file:
-    json.dump(updated_population_data, population_file)
+# Save the updated data back to test.json
+with open("test.json", "w") as test_file:
+    json.dump(updated_population_data, test_file)

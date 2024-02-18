@@ -20,7 +20,7 @@ def getFlu():
 
 @app.route("/getPop")
 def getPop():
-    with open("Population.json") as f:
+    with open("test.json") as f:
         data = json.load(f)
     return data
 

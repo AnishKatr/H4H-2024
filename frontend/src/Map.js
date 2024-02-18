@@ -116,6 +116,10 @@ const MicroscopeMap = () => {
             (acc, p) => acc + Number(p.source.pop),
             0
         );
+        const count = info.object.points.reduce(
+            (acc, p) => acc + Number(p.source.count),
+            0
+        );
 
         return (
             <div
@@ -125,6 +129,7 @@ const MicroscopeMap = () => {
             >
                 <div>City: {name}</div>
                 <div>Population: {pop}</div>
+                <div>Covid Count: {count}</div>
                 <div>Latitude: {info.object.position[1].toFixed(6)}</div>
                 <div>Longitude: {info.object.position[0].toFixed(6)}</div>
             </div>
@@ -150,12 +155,13 @@ const MicroscopeMap = () => {
                   getColorValue: (points) =>
                       points.reduce((total, point) => {
                           const count = Number(point.count);
-                          return total + count;
+                          const cap = Math.min(count, 100);
+                          return Number.isFinite(cap) ? cap : 0;
                       }, 0) / points.length,
                   extruded: true,
                   getPosition: (d) => d.COORDINATES,
                   pickable: true,
-                  radius: 1000,
+                  radius: 10000,
                   upperPercentile: 100,
                   material,
                   transitions: {
