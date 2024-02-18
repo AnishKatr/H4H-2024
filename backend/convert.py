@@ -19,7 +19,7 @@ def calculate_distance(lat1, lon1, lat2, lon2):
     return distance
 
 
-def distribute_counts(output_data, population_data):
+def distribute_counts(output_data, population_data, flu_data):
     for output_obj in output_data:
         output_lat = float(output_obj["latitude"])
         output_lon = float(output_obj["longitude"])
@@ -40,6 +40,26 @@ def distribute_counts(output_data, population_data):
             # Add the covid_count key to the existing population object
             population_obj["covid_count"] = int(output_count * weight)
 
+    for output_obj in flu_data:
+        output_lat = float(output_obj["latitude"])
+        output_lon = float(output_obj["longitude"])
+        output_count = int(output_obj["count"])
+
+        for population_obj in population_data:
+            population_lat = float(population_obj["lat"])
+            population_lon = float(population_obj["lng"])
+
+            # Calculate the distance between the output and population objects
+            distance = calculate_distance(
+                output_lat, output_lon, population_lat, population_lon
+            )
+
+            # Calculate the weight based on the inverse of the distance
+            weight = 1 / distance if distance != 0 else 1
+
+            # Add the covid_count key to the existing population object
+            population_obj["flu_count"] = int(output_count * weight)
+
     return population_data
 
 
@@ -47,12 +67,15 @@ def distribute_counts(output_data, population_data):
 with open("output.json", "r") as output_file:
     output_data = json.load(output_file)
 
+with open("flu_data.json", "r") as flu_file:
+    flu_data = json.load(flu_file)
+
 # Read the data from Population.json
 with open("Population.json", "r") as population_file:
     population_data = json.load(population_file)
 
 # Distribute the counts
-updated_population_data = distribute_counts(output_data, population_data)
+updated_population_data = distribute_counts(output_data, population_data, flu_data)
 
 # Save the updated data back to test.json
 with open("test.json", "w") as test_file:

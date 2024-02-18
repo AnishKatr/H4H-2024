@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 
-function Options() {
+function Options({ setDisease }) {
     const [isOpen, setIsOpen] = useState(false);
     const [selectedOption, setSelectedOption] = useState("All Diseases");
     const [popup, setPopup] = useState(false);
@@ -12,6 +12,8 @@ function Options() {
 
     const handleItemClick = (item) => {
         setSelectedOption(item);
+        setDisease(item);
+        console.log(item);
         setIsOpen(false);
     };
     const togglePopup = () => {
@@ -31,7 +33,7 @@ function Options() {
                     {isOpen && (
                         <div className="absolute mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
                             <div
-                                onClick={() => handleItemClick("All Diseases")}
+                                onClick={() => handleItemClick("COVID-19")}
                                 className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:rounded-md"
                             >
                                 All Diseases

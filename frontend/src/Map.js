@@ -18,6 +18,7 @@ const MicroscopeMap = () => {
     const [height, setHeight] = useState(true);
     const [color, setColor] = useState(true);
     const [radius, setRadius] = useState(2500);
+    const [disease, setDisease] = useState("COVID-19");
 
     useEffect(() => {
         fetch("http://127.0.0.1:5000/getPop")
@@ -31,7 +32,8 @@ const MicroscopeMap = () => {
                             parseFloat(item.lat),
                         ],
                         pop: item.population,
-                        count: item.covid_count,
+                        covid_count: item.covid_count,
+                        flu_count: item.flu_count,
                     };
                 });
                 setData(transformData);
@@ -121,7 +123,11 @@ const MicroscopeMap = () => {
             0
         );
         const count = info.object.points.reduce(
-            (acc, p) => acc + Number(p.source.count),
+            (acc, p) =>
+                acc +
+                (disease === "COVID-19"
+                    ? Number(p.source.covid_count)
+                    : Number(p.source.flu_count)),
             0
         );
 
@@ -133,7 +139,9 @@ const MicroscopeMap = () => {
             >
                 <div>City: {name}</div>
                 <div>Population: {pop}</div>
-                <div>Covid Count: {count}</div>
+                <div>
+                    {disease === "COVID-19" ? "Covid: " : "Flu Count: "} {count}
+                </div>
                 <div>Latitude: {info.object.position[1].toFixed(6)}</div>
                 <div>Longitude: {info.object.position[0].toFixed(6)}</div>
             </div>
@@ -152,13 +160,25 @@ const MicroscopeMap = () => {
                   elevationScale: data && data.length ? 500 : 0,
                   getElevationValue: (points) =>
                       points.reduce((total, point) => {
-                          const pop = Number(height ? point.pop : point.count);
+                          const pop = Number(
+                              height
+                                  ? point.pop
+                                  : disease === "COVID-19"
+                                  ? point.covid_count
+                                  : point.flu_count
+                          );
                           const cap = Math.min(pop, height ? 500000 : 100);
                           return Number.isFinite(cap) ? cap : 0;
                       }, 0),
                   getColorValue: (points) =>
                       points.reduce((total, point) => {
-                          const count = Number(color ? point.count : point.pop);
+                          const count = Number(
+                              color
+                                  ? disease === "COVID-19"
+                                      ? point.covid_count
+                                      : point.flu_count
+                                  : point.pop
+                          );
                           const cap = Math.min(count, color ? 500000 : 100);
                           return Number.isFinite(cap) ? cap : 0;
                       }, 0) / points.length,
@@ -177,7 +197,7 @@ const MicroscopeMap = () => {
     return (
         <div className="absolute top-0 bottom-0 left-0 right-0">
             <DeckGL
-                key={`${height}-${color}-${radius}`}
+                key={`${height}-${color}-${radius}-${disease}`}
                 onHover={(info) => setTooltipInfo(info)}
                 initialViewState={INITIAL_VIEW_STATE}
                 controller={true}
@@ -196,7 +216,7 @@ const MicroscopeMap = () => {
                 setRadius={setRadius}
             />
             <div className=" absolute top-0 right-0">
-                <Options />
+                <Options setDisease={setDisease} />
             </div>
         </div>
     );

@@ -9,7 +9,8 @@
         "capital": "primary",
         "population": "11262000",
         "population_proper": "8825001",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 8
     },
     {
         "city": "Birmingham",
@@ -21,7 +22,8 @@
         "capital": "",
         "population": "2919600",
         "population_proper": "1137100",
-        "covid_count": 21
+        "covid_count": 21,
+        "flu_count": 14
     },
     {
         "city": "Manchester",
@@ -33,7 +35,8 @@
         "capital": "",
         "population": "2705000",
         "population_proper": "547627",
-        "covid_count": 39
+        "covid_count": 39,
+        "flu_count": 26
     },
     {
         "city": "Liverpool",
@@ -45,7 +48,8 @@
         "capital": "",
         "population": "864122",
         "population_proper": "513441",
-        "covid_count": 26
+        "covid_count": 26,
+        "flu_count": 17
     },
     {
         "city": "Portsmouth",
@@ -57,7 +61,8 @@
         "capital": "",
         "population": "855679",
         "population_proper": "248440",
-        "covid_count": 10
+        "covid_count": 10,
+        "flu_count": 7
     },
     {
         "city": "Southampton",
@@ -69,7 +74,8 @@
         "capital": "",
         "population": "855569",
         "population_proper": "271173",
-        "covid_count": 10
+        "covid_count": 10,
+        "flu_count": 7
     },
     {
         "city": "Nottingham",
@@ -81,7 +87,8 @@
         "capital": "",
         "population": "768638",
         "population_proper": "289301",
-        "covid_count": 32
+        "covid_count": 32,
+        "flu_count": 22
     },
     {
         "city": "Bristol",
@@ -93,7 +100,8 @@
         "capital": "",
         "population": "567111",
         "population_proper": "567111",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Leicester",
@@ -105,7 +113,8 @@
         "capital": "",
         "population": "508916",
         "population_proper": "464395",
-        "covid_count": 24
+        "covid_count": 24,
+        "flu_count": 17
     },
     {
         "city": "Coventry",
@@ -117,7 +126,8 @@
         "capital": "",
         "population": "362690",
         "population_proper": "362690",
-        "covid_count": 21
+        "covid_count": 21,
+        "flu_count": 14
     },
     {
         "city": "Belfast",
@@ -129,7 +139,8 @@
         "capital": "",
         "population": "333871",
         "population_proper": "333871",
-        "covid_count": 11
+        "covid_count": 11,
+        "flu_count": 7
     },
     {
         "city": "Stockport",
@@ -141,7 +152,8 @@
         "capital": "",
         "population": "295200",
         "population_proper": "295200",
-        "covid_count": 39
+        "covid_count": 39,
+        "flu_count": 26
     },
     {
         "city": "Bradford",
@@ -153,7 +165,8 @@
         "capital": "",
         "population": "293277",
         "population_proper": "293277",
-        "covid_count": 77
+        "covid_count": 77,
+        "flu_count": 53
     },
     {
         "city": "Plymouth",
@@ -165,7 +178,8 @@
         "capital": "",
         "population": "267918",
         "population_proper": "267918",
-        "covid_count": 8
+        "covid_count": 8,
+        "flu_count": 5
     },
     {
         "city": "Derby",
@@ -177,7 +191,8 @@
         "capital": "",
         "population": "255394",
         "population_proper": "255394",
-        "covid_count": 31
+        "covid_count": 31,
+        "flu_count": 21
     },
     {
         "city": "Westminster",
@@ -189,7 +204,8 @@
         "capital": "",
         "population": "255324",
         "population_proper": "255324",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 8
     },
     {
         "city": "Wolverhampton",
@@ -201,7 +217,8 @@
         "capital": "",
         "population": "250970",
         "population_proper": "250970",
-        "covid_count": 21
+        "covid_count": 21,
+        "flu_count": 14
     },
     {
         "city": "Norwich",
@@ -213,7 +230,8 @@
         "capital": "",
         "population": "213166",
         "population_proper": "195971",
-        "covid_count": 17
+        "covid_count": 17,
+        "flu_count": 11
     },
     {
         "city": "Luton",
@@ -225,7 +243,8 @@
         "capital": "",
         "population": "213052",
         "population_proper": "213052",
-        "covid_count": 15
+        "covid_count": 15,
+        "flu_count": 10
     },
     {
         "city": "Solihull",
@@ -237,7 +256,8 @@
         "capital": "",
         "population": "206674",
         "population_proper": "206674",
-        "covid_count": 20
+        "covid_count": 20,
+        "flu_count": 14
     },
     {
         "city": "Islington",
@@ -249,7 +269,8 @@
         "capital": "",
         "population": "206125",
         "population_proper": "206125",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "Aberdeen",
@@ -261,7 +282,8 @@
         "capital": "",
         "population": "200680",
         "population_proper": "200680",
-        "covid_count": 10
+        "covid_count": 10,
+        "flu_count": 6
     },
     {
         "city": "Croydon",
@@ -273,7 +295,8 @@
         "capital": "",
         "population": "192064",
         "population_proper": "192064",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Bournemouth",
@@ -285,7 +308,8 @@
         "capital": "",
         "population": "187503",
         "population_proper": "187503",
-        "covid_count": 10
+        "covid_count": 10,
+        "flu_count": 6
     },
     {
         "city": "Basildon",
@@ -297,7 +321,8 @@
         "capital": "",
         "population": "185900",
         "population_proper": "185900",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Ilford",
@@ -309,7 +334,8 @@
         "capital": "",
         "population": "168168",
         "population_proper": "168168",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "Warrington",
@@ -321,7 +347,8 @@
         "capital": "",
         "population": "165456",
         "population_proper": "165456",
-        "covid_count": 31
+        "covid_count": 31,
+        "flu_count": 21
     },
     {
         "city": "Kingswood",
@@ -333,7 +360,8 @@
         "capital": "",
         "population": "160260",
         "population_proper": "160260",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Oxford",
@@ -345,7 +373,8 @@
         "capital": "",
         "population": "152000",
         "population_proper": "152000",
-        "covid_count": 14
+        "covid_count": 14,
+        "flu_count": 10
     },
     {
         "city": "Harrow",
@@ -357,7 +386,8 @@
         "capital": "",
         "population": "149246",
         "population_proper": "149246",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "West Bromwich",
@@ -369,7 +399,8 @@
         "capital": "",
         "population": "146386",
         "population_proper": "146386",
-        "covid_count": 21
+        "covid_count": 21,
+        "flu_count": 14
     },
     {
         "city": "Gloucester",
@@ -381,7 +412,8 @@
         "capital": "",
         "population": "145563",
         "population_proper": "145563",
-        "covid_count": 14
+        "covid_count": 14,
+        "flu_count": 10
     },
     {
         "city": "Blackpool",
@@ -393,7 +425,8 @@
         "capital": "",
         "population": "139305",
         "population_proper": "139305",
-        "covid_count": 28
+        "covid_count": 28,
+        "flu_count": 19
     },
     {
         "city": "Sale",
@@ -405,7 +438,8 @@
         "capital": "",
         "population": "134022",
         "population_proper": "134022",
-        "covid_count": 36
+        "covid_count": 36,
+        "flu_count": 24
     },
     {
         "city": "Tottenham",
@@ -417,7 +451,8 @@
         "capital": "",
         "population": "129237",
         "population_proper": "129237",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "Cambridge",
@@ -429,7 +464,8 @@
         "capital": "",
         "population": "123867",
         "population_proper": "123867",
-        "covid_count": 17
+        "covid_count": 17,
+        "flu_count": 11
     },
     {
         "city": "Romford",
@@ -441,7 +477,8 @@
         "capital": "",
         "population": "122854",
         "population_proper": "122854",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "Colchester",
@@ -453,7 +490,8 @@
         "capital": "",
         "population": "121859",
         "population_proper": "121859",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "High Wycombe",
@@ -465,7 +503,8 @@
         "capital": "",
         "population": "120256",
         "population_proper": "120256",
-        "covid_count": 14
+        "covid_count": 14,
+        "flu_count": 9
     },
     {
         "city": "Gateshead",
@@ -477,7 +516,8 @@
         "capital": "",
         "population": "120046",
         "population_proper": "120046",
-        "covid_count": 31
+        "covid_count": 31,
+        "flu_count": 21
     },
     {
         "city": "Slough",
@@ -489,7 +529,8 @@
         "capital": "",
         "population": "119070",
         "population_proper": "119070",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "Blackburn",
@@ -501,7 +542,8 @@
         "capital": "",
         "population": "117963",
         "population_proper": "117963",
-        "covid_count": 38
+        "covid_count": 38,
+        "flu_count": 26
     },
     {
         "city": "Chelmsford",
@@ -513,7 +555,8 @@
         "capital": "",
         "population": "115369",
         "population_proper": "115369",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "Rochdale",
@@ -525,7 +568,8 @@
         "capital": "",
         "population": "110194",
         "population_proper": "110194",
-        "covid_count": 45
+        "covid_count": 45,
+        "flu_count": 31
     },
     {
         "city": "Rotherham",
@@ -537,7 +581,8 @@
         "capital": "",
         "population": "109691",
         "population_proper": "109691",
-        "covid_count": 59
+        "covid_count": 59,
+        "flu_count": 40
     },
     {
         "city": "Walthamstow",
@@ -549,7 +594,8 @@
         "capital": "",
         "population": "109424",
         "population_proper": "109424",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "Maidstone",
@@ -561,7 +607,8 @@
         "capital": "",
         "population": "107627",
         "population_proper": "107627",
-        "covid_count": 11
+        "covid_count": 11,
+        "flu_count": 7
     },
     {
         "city": "Basingstoke",
@@ -573,7 +620,8 @@
         "capital": "",
         "population": "107355",
         "population_proper": "107355",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Salford",
@@ -585,7 +633,8 @@
         "capital": "",
         "population": "103886",
         "population_proper": "103886",
-        "covid_count": 38
+        "covid_count": 38,
+        "flu_count": 26
     },
     {
         "city": "Hounslow",
@@ -597,7 +646,8 @@
         "capital": "",
         "population": "103337",
         "population_proper": "103337",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 8
     },
     {
         "city": "Wembley",
@@ -609,7 +659,8 @@
         "capital": "",
         "population": "102856",
         "population_proper": "102856",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "Worcester",
@@ -621,7 +672,8 @@
         "capital": "",
         "population": "101891",
         "population_proper": "101891",
-        "covid_count": 17
+        "covid_count": 17,
+        "flu_count": 11
     },
     {
         "city": "Hammersmith",
@@ -633,7 +685,8 @@
         "capital": "",
         "population": "95996",
         "population_proper": "95996",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 8
     },
     {
         "city": "Rayleigh",
@@ -645,7 +698,8 @@
         "capital": "",
         "population": "95580",
         "population_proper": "95580",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Hemel Hempstead",
@@ -657,7 +711,8 @@
         "capital": "",
         "population": "94932",
         "population_proper": "94932",
-        "covid_count": 14
+        "covid_count": 14,
+        "flu_count": 10
     },
     {
         "city": "Bath",
@@ -669,7 +724,8 @@
         "capital": "",
         "population": "94782",
         "population_proper": "94782",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Darlington",
@@ -681,7 +737,8 @@
         "capital": "",
         "population": "92363",
         "population_proper": "92363",
-        "covid_count": 52
+        "covid_count": 52,
+        "flu_count": 35
     },
     {
         "city": "Hove",
@@ -693,7 +750,8 @@
         "capital": "",
         "population": "91900",
         "population_proper": "91900",
-        "covid_count": 10
+        "covid_count": 10,
+        "flu_count": 7
     },
     {
         "city": "Hastings",
@@ -705,7 +763,8 @@
         "capital": "",
         "population": "91053",
         "population_proper": "91053",
-        "covid_count": 10
+        "covid_count": 10,
+        "flu_count": 6
     },
     {
         "city": "Watford",
@@ -717,7 +776,8 @@
         "capital": "",
         "population": "90301",
         "population_proper": "90301",
-        "covid_count": 14
+        "covid_count": 14,
+        "flu_count": 9
     },
     {
         "city": "Stevenage",
@@ -729,7 +789,8 @@
         "capital": "",
         "population": "89663",
         "population_proper": "89663",
-        "covid_count": 15
+        "covid_count": 15,
+        "flu_count": 10
     },
     {
         "city": "Hartlepool",
@@ -741,7 +802,8 @@
         "capital": "",
         "population": "88855",
         "population_proper": "88855",
-        "covid_count": 44
+        "covid_count": 44,
+        "flu_count": 30
     },
     {
         "city": "Chester",
@@ -753,7 +815,8 @@
         "capital": "",
         "population": "87507",
         "population_proper": "87507",
-        "covid_count": 25
+        "covid_count": 25,
+        "flu_count": 17
     },
     {
         "city": "Fulham",
@@ -765,7 +828,8 @@
         "capital": "",
         "population": "87161",
         "population_proper": "87161",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 8
     },
     {
         "city": "Nuneaton",
@@ -777,7 +841,8 @@
         "capital": "",
         "population": "86552",
         "population_proper": "86552",
-        "covid_count": 22
+        "covid_count": 22,
+        "flu_count": 15
     },
     {
         "city": "Ealing",
@@ -789,7 +854,8 @@
         "capital": "",
         "population": "85014",
         "population_proper": "85014",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "Hayes",
@@ -801,7 +867,8 @@
         "capital": "",
         "population": "83564",
         "population_proper": "83564",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "Aylesbury",
@@ -813,7 +880,8 @@
         "capital": "",
         "population": "83407",
         "population_proper": "83407",
-        "covid_count": 15
+        "covid_count": 15,
+        "flu_count": 10
     },
     {
         "city": "Edmonton",
@@ -825,7 +893,8 @@
         "capital": "",
         "population": "82472",
         "population_proper": "82472",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "Saint Albans",
@@ -837,7 +906,8 @@
         "capital": "",
         "population": "82146",
         "population_proper": "82146",
-        "covid_count": 14
+        "covid_count": 14,
+        "flu_count": 10
     },
     {
         "city": "Burnley",
@@ -849,7 +919,8 @@
         "capital": "",
         "population": "82002",
         "population_proper": "82002",
-        "covid_count": 46
+        "covid_count": 46,
+        "flu_count": 31
     },
     {
         "city": "Batley",
@@ -861,7 +932,8 @@
         "capital": "",
         "population": "80485",
         "population_proper": "80485",
-        "covid_count": 80
+        "covid_count": 80,
+        "flu_count": 55
     },
     {
         "city": "Scunthorpe",
@@ -873,7 +945,8 @@
         "capital": "",
         "population": "79977",
         "population_proper": "79977",
-        "covid_count": 72
+        "covid_count": 72,
+        "flu_count": 49
     },
     {
         "city": "Dudley",
@@ -885,7 +958,8 @@
         "capital": "",
         "population": "79379",
         "population_proper": "79379",
-        "covid_count": 21
+        "covid_count": 21,
+        "flu_count": 14
     },
     {
         "city": "Brixton",
@@ -897,7 +971,8 @@
         "capital": "",
         "population": "78536",
         "population_proper": "78536",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Paisley",
@@ -909,7 +984,8 @@
         "capital": "",
         "population": "77220",
         "population_proper": "77220",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Chatham",
@@ -921,7 +997,8 @@
         "capital": "",
         "population": "76792",
         "population_proper": "76792",
-        "covid_count": 11
+        "covid_count": 11,
+        "flu_count": 8
     },
     {
         "city": "Edgware",
@@ -933,7 +1010,8 @@
         "capital": "",
         "population": "76506",
         "population_proper": "76506",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "East Ham",
@@ -945,7 +1023,8 @@
         "capital": "",
         "population": "76186",
         "population_proper": "76186",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 8
     },
     {
         "city": "Weston-super-Mare",
@@ -957,7 +1036,8 @@
         "capital": "",
         "population": "76143",
         "population_proper": "76143",
-        "covid_count": 11
+        "covid_count": 11,
+        "flu_count": 7
     },
     {
         "city": "Carlisle",
@@ -969,7 +1049,8 @@
         "capital": "",
         "population": "75399",
         "population_proper": "75399",
-        "covid_count": 23
+        "covid_count": 23,
+        "flu_count": 15
     },
     {
         "city": "South Shields",
@@ -981,7 +1062,8 @@
         "capital": "",
         "population": "75337",
         "population_proper": "75337",
-        "covid_count": 31
+        "covid_count": 31,
+        "flu_count": 21
     },
     {
         "city": "East Kilbride",
@@ -993,7 +1075,8 @@
         "capital": "",
         "population": "75120",
         "population_proper": "75120",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 8
     },
     {
         "city": "Burton upon Trent",
@@ -1005,7 +1088,8 @@
         "capital": "",
         "population": "75074",
         "population_proper": "75074",
-        "covid_count": 27
+        "covid_count": 27,
+        "flu_count": 18
     },
     {
         "city": "Harrogate",
@@ -1017,7 +1101,8 @@
         "capital": "",
         "population": "73576",
         "population_proper": "73576",
-        "covid_count": 121
+        "covid_count": 121,
+        "flu_count": 83
     },
     {
         "city": "Crewe",
@@ -1029,7 +1114,8 @@
         "capital": "",
         "population": "73241",
         "population_proper": "73241",
-        "covid_count": 27
+        "covid_count": 27,
+        "flu_count": 19
     },
     {
         "city": "Lowestoft",
@@ -1041,7 +1127,8 @@
         "capital": "",
         "population": "70945",
         "population_proper": "70945",
-        "covid_count": 14
+        "covid_count": 14,
+        "flu_count": 10
     },
     {
         "city": "Rugby",
@@ -1053,7 +1140,8 @@
         "capital": "",
         "population": "70627",
         "population_proper": "70627",
-        "covid_count": 20
+        "covid_count": 20,
+        "flu_count": 14
     },
     {
         "city": "Chingford",
@@ -1065,7 +1153,8 @@
         "capital": "",
         "population": "70583",
         "population_proper": "70583",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "Uxbridge",
@@ -1077,7 +1166,8 @@
         "capital": "",
         "population": "70560",
         "population_proper": "70560",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "Southall",
@@ -1089,7 +1179,8 @@
         "capital": "",
         "population": "69857",
         "population_proper": "69857",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "Walsall",
@@ -1101,7 +1192,8 @@
         "capital": "",
         "population": "67594",
         "population_proper": "67594",
-        "covid_count": 22
+        "covid_count": 22,
+        "flu_count": 15
     },
     {
         "city": "Grays",
@@ -1113,7 +1205,8 @@
         "capital": "",
         "population": "66843",
         "population_proper": "66843",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Walton upon Thames",
@@ -1125,7 +1218,8 @@
         "capital": "",
         "population": "66566",
         "population_proper": "66566",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Thornton Heath",
@@ -1137,7 +1231,8 @@
         "capital": "",
         "population": "65812",
         "population_proper": "65812",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Finchley",
@@ -1149,7 +1244,8 @@
         "capital": "",
         "population": "65812",
         "population_proper": "65812",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "Kensington",
@@ -1161,7 +1257,8 @@
         "capital": "",
         "population": "64681",
         "population_proper": "64681",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 8
     },
     {
         "city": "Boston",
@@ -1173,7 +1270,8 @@
         "capital": "",
         "population": "64600",
         "population_proper": "64600",
-        "covid_count": 28
+        "covid_count": 28,
+        "flu_count": 19
     },
     {
         "city": "Paignton",
@@ -1185,7 +1283,8 @@
         "capital": "",
         "population": "64410",
         "population_proper": "64410",
-        "covid_count": 8
+        "covid_count": 8,
+        "flu_count": 5
     },
     {
         "city": "Waterlooville",
@@ -1197,7 +1296,8 @@
         "capital": "",
         "population": "64350",
         "population_proper": "64350",
-        "covid_count": 10
+        "covid_count": 10,
+        "flu_count": 7
     },
     {
         "city": "Hornchurch",
@@ -1209,7 +1309,8 @@
         "capital": "",
         "population": "63583",
         "population_proper": "63583",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 8
     },
     {
         "city": "Merthyr Tudful",
@@ -1221,7 +1322,8 @@
         "capital": "",
         "population": "63546",
         "population_proper": "63546",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Mitcham",
@@ -1233,7 +1335,8 @@
         "capital": "",
         "population": "63393",
         "population_proper": "63393",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Feltham",
@@ -1245,7 +1348,8 @@
         "capital": "",
         "population": "63368",
         "population_proper": "63368",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 8
     },
     {
         "city": "Stourbridge",
@@ -1257,7 +1361,8 @@
         "capital": "",
         "population": "63298",
         "population_proper": "63298",
-        "covid_count": 20
+        "covid_count": 20,
+        "flu_count": 13
     },
     {
         "city": "Hereford",
@@ -1269,7 +1374,8 @@
         "capital": "",
         "population": "63024",
         "population_proper": "63024",
-        "covid_count": 15
+        "covid_count": 15,
+        "flu_count": 10
     },
     {
         "city": "Rochester",
@@ -1281,7 +1387,8 @@
         "capital": "",
         "population": "62982",
         "population_proper": "62982",
-        "covid_count": 11
+        "covid_count": 11,
+        "flu_count": 8
     },
     {
         "city": "Dewsbury",
@@ -1293,7 +1400,8 @@
         "capital": "",
         "population": "62945",
         "population_proper": "62945",
-        "covid_count": 78
+        "covid_count": 78,
+        "flu_count": 53
     },
     {
         "city": "Acton",
@@ -1305,7 +1413,8 @@
         "capital": "",
         "population": "62480",
         "population_proper": "62480",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "Twickenham",
@@ -1317,7 +1426,8 @@
         "capital": "",
         "population": "62148",
         "population_proper": "62148",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Scarborough",
@@ -1329,7 +1439,8 @@
         "capital": "",
         "population": "61749",
         "population_proper": "61749",
-        "covid_count": 64
+        "covid_count": 64,
+        "flu_count": 44
     },
     {
         "city": "Wrecsam",
@@ -1341,7 +1452,8 @@
         "capital": "",
         "population": "61603",
         "population_proper": "61603",
-        "covid_count": 22
+        "covid_count": 22,
+        "flu_count": 15
     },
     {
         "city": "Wandsworth",
@@ -1353,7 +1465,8 @@
         "capital": "",
         "population": "61594",
         "population_proper": "61594",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Ellesmere Port",
@@ -1365,7 +1478,8 @@
         "capital": "",
         "population": "61090",
         "population_proper": "61090",
-        "covid_count": 25
+        "covid_count": 25,
+        "flu_count": 17
     },
     {
         "city": "Bangor",
@@ -1377,7 +1491,8 @@
         "capital": "",
         "population": "61011",
         "population_proper": "61011",
-        "covid_count": 11
+        "covid_count": 11,
+        "flu_count": 8
     },
     {
         "city": "Taunton",
@@ -1389,7 +1504,8 @@
         "capital": "",
         "population": "60479",
         "population_proper": "60479",
-        "covid_count": 10
+        "covid_count": 10,
+        "flu_count": 7
     },
     {
         "city": "Loughborough",
@@ -1401,7 +1517,8 @@
         "capital": "",
         "population": "59932",
         "population_proper": "59932",
-        "covid_count": 27
+        "covid_count": 27,
+        "flu_count": 19
     },
     {
         "city": "Barking",
@@ -1413,7 +1530,8 @@
         "capital": "",
         "population": "59068",
         "population_proper": "59068",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 8
     },
     {
         "city": "Littlehampton",
@@ -1425,7 +1543,8 @@
         "capital": "",
         "population": "58357",
         "population_proper": "58357",
-        "covid_count": 10
+        "covid_count": 10,
+        "flu_count": 7
     },
     {
         "city": "Ruislip",
@@ -1437,7 +1556,8 @@
         "capital": "",
         "population": "58217",
         "population_proper": "58217",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "Streatham",
@@ -1449,7 +1569,8 @@
         "capital": "",
         "population": "58055",
         "population_proper": "58055",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Royal Tunbridge Wells",
@@ -1461,7 +1582,8 @@
         "capital": "",
         "population": "57772",
         "population_proper": "57772",
-        "covid_count": 11
+        "covid_count": 11,
+        "flu_count": 7
     },
     {
         "city": "Bebington",
@@ -1473,7 +1595,8 @@
         "capital": "",
         "population": "57336",
         "population_proper": "57336",
-        "covid_count": 25
+        "covid_count": 25,
+        "flu_count": 17
     },
     {
         "city": "Barrow in Furness",
@@ -1485,7 +1608,8 @@
         "capital": "",
         "population": "56745",
         "population_proper": "56745",
-        "covid_count": 26
+        "covid_count": 26,
+        "flu_count": 17
     },
     {
         "city": "Macclesfield",
@@ -1497,7 +1621,8 @@
         "capital": "",
         "population": "56581",
         "population_proper": "56581",
-        "covid_count": 35
+        "covid_count": 35,
+        "flu_count": 23
     },
     {
         "city": "Wellingborough",
@@ -1509,7 +1634,8 @@
         "capital": "",
         "population": "56564",
         "population_proper": "56564",
-        "covid_count": 19
+        "covid_count": 19,
+        "flu_count": 13
     },
     {
         "city": "Kettering",
@@ -1521,7 +1647,8 @@
         "capital": "",
         "population": "56226",
         "population_proper": "56226",
-        "covid_count": 20
+        "covid_count": 20,
+        "flu_count": 14
     },
     {
         "city": "Braintree",
@@ -1533,7 +1660,8 @@
         "capital": "",
         "population": "55792",
         "population_proper": "55792",
-        "covid_count": 14
+        "covid_count": 14,
+        "flu_count": 9
     },
     {
         "city": "Royal Leamington Spa",
@@ -1545,7 +1673,8 @@
         "capital": "",
         "population": "55733",
         "population_proper": "55733",
-        "covid_count": 19
+        "covid_count": 19,
+        "flu_count": 13
     },
     {
         "city": "Dunfermline",
@@ -1557,7 +1686,8 @@
         "capital": "",
         "population": "53100",
         "population_proper": "53100",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "Altrincham",
@@ -1569,7 +1699,8 @@
         "capital": "",
         "population": "52419",
         "population_proper": "52419",
-        "covid_count": 34
+        "covid_count": 34,
+        "flu_count": 23
     },
     {
         "city": "Lancaster",
@@ -1581,7 +1712,8 @@
         "capital": "",
         "population": "52234",
         "population_proper": "52234",
-        "covid_count": 32
+        "covid_count": 32,
+        "flu_count": 22
     },
     {
         "city": "Crosby",
@@ -1593,7 +1725,8 @@
         "capital": "",
         "population": "51789",
         "population_proper": "51789",
-        "covid_count": 26
+        "covid_count": 26,
+        "flu_count": 18
     },
     {
         "city": "Barri",
@@ -1605,7 +1738,8 @@
         "capital": "",
         "population": "51502",
         "population_proper": "51502",
-        "covid_count": 11
+        "covid_count": 11,
+        "flu_count": 7
     },
     {
         "city": "Bootle",
@@ -1617,7 +1751,8 @@
         "capital": "",
         "population": "51394",
         "population_proper": "51394",
-        "covid_count": 26
+        "covid_count": 26,
+        "flu_count": 18
     },
     {
         "city": "Stratford",
@@ -1629,7 +1764,8 @@
         "capital": "",
         "population": "51387",
         "population_proper": "51387",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "Folkestone",
@@ -1641,7 +1777,8 @@
         "capital": "",
         "population": "51337",
         "population_proper": "51337",
-        "covid_count": 10
+        "covid_count": 10,
+        "flu_count": 7
     },
     {
         "city": "Cumbernauld",
@@ -1653,7 +1790,8 @@
         "capital": "",
         "population": "50920",
         "population_proper": "50920",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Andover",
@@ -1665,7 +1803,8 @@
         "capital": "",
         "population": "50887",
         "population_proper": "50887",
-        "covid_count": 11
+        "covid_count": 11,
+        "flu_count": 8
     },
     {
         "city": "Neath",
@@ -1677,7 +1816,8 @@
         "capital": "",
         "population": "50658",
         "population_proper": "50658",
-        "covid_count": 11
+        "covid_count": 11,
+        "flu_count": 8
     },
     {
         "city": "Rowley Regis",
@@ -1689,7 +1829,8 @@
         "capital": "",
         "population": "50257",
         "population_proper": "50257",
-        "covid_count": 20
+        "covid_count": 20,
+        "flu_count": 14
     },
     {
         "city": "Leith",
@@ -1701,7 +1842,8 @@
         "capital": "",
         "population": "50030",
         "population_proper": "50030",
-        "covid_count": 14
+        "covid_count": 14,
+        "flu_count": 9
     },
     {
         "city": "Yeovil",
@@ -1713,7 +1855,8 @@
         "capital": "",
         "population": "49698",
         "population_proper": "49698",
-        "covid_count": 10
+        "covid_count": 10,
+        "flu_count": 7
     },
     {
         "city": "Eltham",
@@ -1725,7 +1868,8 @@
         "capital": "",
         "population": "48964",
         "population_proper": "48964",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Sutton in Ashfield",
@@ -1737,7 +1881,8 @@
         "capital": "",
         "population": "48527",
         "population_proper": "48527",
-        "covid_count": 39
+        "covid_count": 39,
+        "flu_count": 26
     },
     {
         "city": "Morden",
@@ -1749,7 +1894,8 @@
         "capital": "",
         "population": "48233",
         "population_proper": "48233",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Barnet",
@@ -1761,7 +1907,8 @@
         "capital": "",
         "population": "47359",
         "population_proper": "47359",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "West Bridgford",
@@ -1773,7 +1920,8 @@
         "capital": "",
         "population": "47109",
         "population_proper": "47109",
-        "covid_count": 32
+        "covid_count": 32,
+        "flu_count": 22
     },
     {
         "city": "Stretford",
@@ -1785,7 +1933,8 @@
         "capital": "",
         "population": "46910",
         "population_proper": "46910",
-        "covid_count": 37
+        "covid_count": 37,
+        "flu_count": 25
     },
     {
         "city": "Beckenham",
@@ -1797,7 +1946,8 @@
         "capital": "",
         "population": "46844",
         "population_proper": "46844",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Greenford",
@@ -1809,7 +1959,8 @@
         "capital": "",
         "population": "46787",
         "population_proper": "46787",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "Cheshunt",
@@ -1821,7 +1972,8 @@
         "capital": "",
         "population": "45832",
         "population_proper": "45832",
-        "covid_count": 14
+        "covid_count": 14,
+        "flu_count": 9
     },
     {
         "city": "Salisbury",
@@ -1833,7 +1985,8 @@
         "capital": "",
         "population": "45477",
         "population_proper": "45477",
-        "covid_count": 11
+        "covid_count": 11,
+        "flu_count": 7
     },
     {
         "city": "Ashton",
@@ -1845,7 +1998,8 @@
         "capital": "",
         "population": "45198",
         "population_proper": "45198",
-        "covid_count": 43
+        "covid_count": 43,
+        "flu_count": 29
     },
     {
         "city": "Surbiton",
@@ -1857,7 +2011,8 @@
         "capital": "",
         "population": "45132",
         "population_proper": "45132",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Catford",
@@ -1869,7 +2024,8 @@
         "capital": "",
         "population": "44905",
         "population_proper": "44905",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Worksop",
@@ -1881,7 +2037,8 @@
         "capital": "",
         "population": "44733",
         "population_proper": "44733",
-        "covid_count": 50
+        "covid_count": 50,
+        "flu_count": 34
     },
     {
         "city": "Morley",
@@ -1893,7 +2050,8 @@
         "capital": "",
         "population": "44440",
         "population_proper": "44440",
-        "covid_count": 88
+        "covid_count": 88,
+        "flu_count": 60
     },
     {
         "city": "Middleton",
@@ -1905,7 +2063,8 @@
         "capital": "",
         "population": "42972",
         "population_proper": "42972",
-        "covid_count": 42
+        "covid_count": 42,
+        "flu_count": 29
     },
     {
         "city": "Fleet",
@@ -1917,7 +2076,8 @@
         "capital": "",
         "population": "42835",
         "population_proper": "42835",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Fareham",
@@ -1929,7 +2089,8 @@
         "capital": "",
         "population": "42210",
         "population_proper": "42210",
-        "covid_count": 10
+        "covid_count": 10,
+        "flu_count": 7
     },
     {
         "city": "Urmston",
@@ -1941,7 +2102,8 @@
         "capital": "",
         "population": "41825",
         "population_proper": "41825",
-        "covid_count": 35
+        "covid_count": 35,
+        "flu_count": 24
     },
     {
         "city": "Sutton",
@@ -1953,7 +2115,8 @@
         "capital": "",
         "population": "41483",
         "population_proper": "41483",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Caerphilly",
@@ -1965,7 +2128,8 @@
         "capital": "",
         "population": "41402",
         "population_proper": "41402",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Bridgwater",
@@ -1977,7 +2141,8 @@
         "capital": "",
         "population": "41276",
         "population_proper": "41276",
-        "covid_count": 10
+        "covid_count": 10,
+        "flu_count": 7
     },
     {
         "city": "Newbury",
@@ -1989,7 +2154,8 @@
         "capital": "",
         "population": "41075",
         "population_proper": "41075",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Welling",
@@ -2001,7 +2167,8 @@
         "capital": "",
         "population": "41000",
         "population_proper": "41000",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Kirkby",
@@ -2013,7 +2180,8 @@
         "capital": "",
         "population": "40472",
         "population_proper": "40472",
-        "covid_count": 28
+        "covid_count": 28,
+        "flu_count": 19
     },
     {
         "city": "Ramsgate",
@@ -2025,7 +2193,8 @@
         "capital": "",
         "population": "40408",
         "population_proper": "40408",
-        "covid_count": 10
+        "covid_count": 10,
+        "flu_count": 7
     },
     {
         "city": "Castleford",
@@ -2037,7 +2206,8 @@
         "capital": "",
         "population": "40210",
         "population_proper": "40210",
-        "covid_count": 112
+        "covid_count": 112,
+        "flu_count": 77
     },
     {
         "city": "Strood",
@@ -2049,7 +2219,8 @@
         "capital": "",
         "population": "40000",
         "population_proper": "40000",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Cleethorpes",
@@ -2061,7 +2232,8 @@
         "capital": "",
         "population": "38996",
         "population_proper": "38996",
-        "covid_count": 44
+        "covid_count": 44,
+        "flu_count": 30
     },
     {
         "city": "Ilkeston",
@@ -2073,7 +2245,8 @@
         "capital": "",
         "population": "38640",
         "population_proper": "38640",
-        "covid_count": 33
+        "covid_count": 33,
+        "flu_count": 22
     },
     {
         "city": "Chorley",
@@ -2085,7 +2258,8 @@
         "capital": "",
         "population": "38420",
         "population_proper": "38420",
-        "covid_count": 34
+        "covid_count": 34,
+        "flu_count": 23
     },
     {
         "city": "Herne Bay",
@@ -2097,7 +2271,8 @@
         "capital": "",
         "population": "38385",
         "population_proper": "38385",
-        "covid_count": 11
+        "covid_count": 11,
+        "flu_count": 7
     },
     {
         "city": "Bishops Stortford",
@@ -2109,7 +2284,8 @@
         "capital": "",
         "population": "38202",
         "population_proper": "38202",
-        "covid_count": 14
+        "covid_count": 14,
+        "flu_count": 10
     },
     {
         "city": "Arnold",
@@ -2121,7 +2297,8 @@
         "capital": "",
         "population": "37768",
         "population_proper": "37768",
-        "covid_count": 34
+        "covid_count": 34,
+        "flu_count": 23
     },
     {
         "city": "Coalville",
@@ -2133,7 +2310,8 @@
         "capital": "",
         "population": "37661",
         "population_proper": "37661",
-        "covid_count": 26
+        "covid_count": 26,
+        "flu_count": 18
     },
     {
         "city": "Bletchley",
@@ -2145,7 +2323,8 @@
         "capital": "",
         "population": "37520",
         "population_proper": "37520",
-        "covid_count": 16
+        "covid_count": 16,
+        "flu_count": 11
     },
     {
         "city": "Leighton Buzzard",
@@ -2157,7 +2336,8 @@
         "capital": "",
         "population": "37469",
         "population_proper": "37469",
-        "covid_count": 16
+        "covid_count": 16,
+        "flu_count": 10
     },
     {
         "city": "Airdrie",
@@ -2169,7 +2349,8 @@
         "capital": "",
         "population": "37410",
         "population_proper": "37410",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 8
     },
     {
         "city": "Blyth",
@@ -2181,7 +2362,8 @@
         "capital": "",
         "population": "37339",
         "population_proper": "37339",
-        "covid_count": 27
+        "covid_count": 27,
+        "flu_count": 18
     },
     {
         "city": "Laindon",
@@ -2193,7 +2375,8 @@
         "capital": "",
         "population": "37175",
         "population_proper": "37175",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Llanelli",
@@ -2205,7 +2388,8 @@
         "capital": "",
         "population": "37050",
         "population_proper": "37050",
-        "covid_count": 11
+        "covid_count": 11,
+        "flu_count": 7
     },
     {
         "city": "Bicester",
@@ -2217,7 +2401,8 @@
         "capital": "",
         "population": "37020",
         "population_proper": "37020",
-        "covid_count": 16
+        "covid_count": 16,
+        "flu_count": 10
     },
     {
         "city": "Beeston",
@@ -2229,7 +2414,8 @@
         "capital": "",
         "population": "37000",
         "population_proper": "37000",
-        "covid_count": 31
+        "covid_count": 31,
+        "flu_count": 21
     },
     {
         "city": "Small Heath",
@@ -2241,7 +2427,8 @@
         "capital": "",
         "population": "36898",
         "population_proper": "36898",
-        "covid_count": 21
+        "covid_count": 21,
+        "flu_count": 14
     },
     {
         "city": "Whitley Bay",
@@ -2253,7 +2440,8 @@
         "capital": "",
         "population": "36623",
         "population_proper": "36623",
-        "covid_count": 29
+        "covid_count": 29,
+        "flu_count": 20
     },
     {
         "city": "Denton",
@@ -2265,7 +2453,8 @@
         "capital": "",
         "population": "36591",
         "population_proper": "36591",
-        "covid_count": 41
+        "covid_count": 41,
+        "flu_count": 28
     },
     {
         "city": "Falkirk",
@@ -2277,7 +2466,8 @@
         "capital": "",
         "population": "35850",
         "population_proper": "35850",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Walkden",
@@ -2289,7 +2479,8 @@
         "capital": "",
         "population": "35616",
         "population_proper": "35616",
-        "covid_count": 36
+        "covid_count": 36,
+        "flu_count": 25
     },
     {
         "city": "Kenton",
@@ -2301,7 +2492,8 @@
         "capital": "",
         "population": "35600",
         "population_proper": "35600",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "Bridlington",
@@ -2313,7 +2505,8 @@
         "capital": "",
         "population": "35264",
         "population_proper": "35264",
-        "covid_count": 61
+        "covid_count": 61,
+        "flu_count": 42
     },
     {
         "city": "Billingham",
@@ -2325,7 +2518,8 @@
         "capital": "",
         "population": "35165",
         "population_proper": "35165",
-        "covid_count": 50
+        "covid_count": 50,
+        "flu_count": 34
     },
     {
         "city": "Dunstable",
@@ -2337,7 +2531,8 @@
         "capital": "",
         "population": "35000",
         "population_proper": "35000",
-        "covid_count": 15
+        "covid_count": 15,
+        "flu_count": 10
     },
     {
         "city": "Spalding",
@@ -2349,7 +2544,8 @@
         "capital": "",
         "population": "34613",
         "population_proper": "34613",
-        "covid_count": 25
+        "covid_count": 25,
+        "flu_count": 17
     },
     {
         "city": "Grantham",
@@ -2361,7 +2557,8 @@
         "capital": "",
         "population": "34592",
         "population_proper": "34592",
-        "covid_count": 30
+        "covid_count": 30,
+        "flu_count": 21
     },
     {
         "city": "North Shields",
@@ -2373,7 +2570,8 @@
         "capital": "",
         "population": "34423",
         "population_proper": "34423",
-        "covid_count": 30
+        "covid_count": 30,
+        "flu_count": 21
     },
     {
         "city": "Colwyn Bay",
@@ -2385,7 +2583,8 @@
         "capital": "",
         "population": "34284",
         "population_proper": "34284",
-        "covid_count": 19
+        "covid_count": 19,
+        "flu_count": 13
     },
     {
         "city": "Hitchin",
@@ -2397,7 +2596,8 @@
         "capital": "",
         "population": "34266",
         "population_proper": "34266",
-        "covid_count": 15
+        "covid_count": 15,
+        "flu_count": 10
     },
     {
         "city": "Rainham",
@@ -2409,7 +2609,8 @@
         "capital": "",
         "population": "34088",
         "population_proper": "34088",
-        "covid_count": 11
+        "covid_count": 11,
+        "flu_count": 8
     },
     {
         "city": "Wickford",
@@ -2421,7 +2622,8 @@
         "capital": "",
         "population": "33486",
         "population_proper": "33486",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 8
     },
     {
         "city": "Letchworth",
@@ -2433,7 +2635,8 @@
         "capital": "",
         "population": "33249",
         "population_proper": "33249",
-        "covid_count": 16
+        "covid_count": 16,
+        "flu_count": 11
     },
     {
         "city": "Huyton",
@@ -2445,7 +2648,8 @@
         "capital": "",
         "population": "33193",
         "population_proper": "33193",
-        "covid_count": 28
+        "covid_count": 28,
+        "flu_count": 19
     },
     {
         "city": "Abingdon",
@@ -2457,7 +2661,8 @@
         "capital": "",
         "population": "33130",
         "population_proper": "33130",
-        "covid_count": 14
+        "covid_count": 14,
+        "flu_count": 9
     },
     {
         "city": "Trowbridge",
@@ -2469,7 +2674,8 @@
         "capital": "",
         "population": "33108",
         "population_proper": "33108",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Wigston Magna",
@@ -2481,7 +2687,8 @@
         "capital": "",
         "population": "32321",
         "population_proper": "32321",
-        "covid_count": 23
+        "covid_count": 23,
+        "flu_count": 16
     },
     {
         "city": "Didcot",
@@ -2493,7 +2700,8 @@
         "capital": "",
         "population": "32183",
         "population_proper": "32183",
-        "covid_count": 14
+        "covid_count": 14,
+        "flu_count": 9
     },
     {
         "city": "Earley",
@@ -2505,7 +2713,8 @@
         "capital": "",
         "population": "32036",
         "population_proper": "32036",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 8
     },
     {
         "city": "Borehamwood",
@@ -2517,7 +2726,8 @@
         "capital": "",
         "population": "31955",
         "population_proper": "31955",
-        "covid_count": 14
+        "covid_count": 14,
+        "flu_count": 9
     },
     {
         "city": "Bexleyheath",
@@ -2529,7 +2739,8 @@
         "capital": "",
         "population": "31929",
         "population_proper": "31929",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Prestwich",
@@ -2541,7 +2752,8 @@
         "capital": "",
         "population": "31693",
         "population_proper": "31693",
-        "covid_count": 39
+        "covid_count": 39,
+        "flu_count": 27
     },
     {
         "city": "Ecclesfield",
@@ -2553,7 +2765,8 @@
         "capital": "",
         "population": "31609",
         "population_proper": "31609",
-        "covid_count": 58
+        "covid_count": 58,
+        "flu_count": 40
     },
     {
         "city": "Darwen",
@@ -2565,7 +2778,8 @@
         "capital": "",
         "population": "31570",
         "population_proper": "31570",
-        "covid_count": 38
+        "covid_count": 38,
+        "flu_count": 26
     },
     {
         "city": "Pontypridd",
@@ -2577,7 +2791,8 @@
         "capital": "",
         "population": "31206",
         "population_proper": "31206",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Rutherglen",
@@ -2589,7 +2804,8 @@
         "capital": "",
         "population": "31190",
         "population_proper": "31190",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Saint Neots",
@@ -2601,7 +2817,8 @@
         "capital": "",
         "population": "31165",
         "population_proper": "31165",
-        "covid_count": 18
+        "covid_count": 18,
+        "flu_count": 12
     },
     {
         "city": "Pinner",
@@ -2613,7 +2830,8 @@
         "capital": "",
         "population": "31130",
         "population_proper": "31130",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "Dover",
@@ -2625,7 +2843,8 @@
         "capital": "",
         "population": "31022",
         "population_proper": "31022",
-        "covid_count": 10
+        "covid_count": 10,
+        "flu_count": 7
     },
     {
         "city": "Chichester",
@@ -2637,7 +2856,8 @@
         "capital": "",
         "population": "30925",
         "population_proper": "30925",
-        "covid_count": 10
+        "covid_count": 10,
+        "flu_count": 7
     },
     {
         "city": "Deal",
@@ -2649,7 +2869,8 @@
         "capital": "",
         "population": "30917",
         "population_proper": "30917",
-        "covid_count": 10
+        "covid_count": 10,
+        "flu_count": 7
     },
     {
         "city": "Northolt",
@@ -2661,7 +2882,8 @@
         "capital": "",
         "population": "30304",
         "population_proper": "30304",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "Wishaw",
@@ -2673,7 +2895,8 @@
         "capital": "",
         "population": "30290",
         "population_proper": "30290",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "Carshalton",
@@ -2685,7 +2908,8 @@
         "capital": "",
         "population": "29917",
         "population_proper": "29917",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Bulwell",
@@ -2697,7 +2921,8 @@
         "capital": "",
         "population": "29771",
         "population_proper": "29771",
-        "covid_count": 34
+        "covid_count": 34,
+        "flu_count": 23
     },
     {
         "city": "Kendal",
@@ -2709,7 +2934,8 @@
         "capital": "",
         "population": "29593",
         "population_proper": "29593",
-        "covid_count": 31
+        "covid_count": 31,
+        "flu_count": 21
     },
     {
         "city": "Cramlington",
@@ -2721,7 +2947,8 @@
         "capital": "",
         "population": "29405",
         "population_proper": "29405",
-        "covid_count": 28
+        "covid_count": 28,
+        "flu_count": 19
     },
     {
         "city": "Bromsgrove",
@@ -2733,7 +2960,8 @@
         "capital": "",
         "population": "29237",
         "population_proper": "29237",
-        "covid_count": 19
+        "covid_count": 19,
+        "flu_count": 13
     },
     {
         "city": "Pont-y-p\u00c5\u00b5l",
@@ -2745,7 +2973,8 @@
         "capital": "",
         "population": "28970",
         "population_proper": "28970",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Hanwell",
@@ -2757,7 +2986,8 @@
         "capital": "",
         "population": "28768",
         "population_proper": "28768",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "Hertford",
@@ -2769,7 +2999,8 @@
         "capital": "",
         "population": "28689",
         "population_proper": "24720",
-        "covid_count": 14
+        "covid_count": 14,
+        "flu_count": 10
     },
     {
         "city": "Frome",
@@ -2781,7 +3012,8 @@
         "capital": "",
         "population": "28559",
         "population_proper": "28559",
-        "covid_count": 11
+        "covid_count": 11,
+        "flu_count": 7
     },
     {
         "city": "Wood Green",
@@ -2793,7 +3025,8 @@
         "capital": "",
         "population": "28453",
         "population_proper": "28453",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "Daventry",
@@ -2805,7 +3038,8 @@
         "capital": "",
         "population": "28123",
         "population_proper": "28123",
-        "covid_count": 19
+        "covid_count": 19,
+        "flu_count": 13
     },
     {
         "city": "Darlaston",
@@ -2817,7 +3051,8 @@
         "capital": "",
         "population": "27821",
         "population_proper": "27821",
-        "covid_count": 21
+        "covid_count": 21,
+        "flu_count": 15
     },
     {
         "city": "Ashington",
@@ -2829,7 +3064,8 @@
         "capital": "",
         "population": "27764",
         "population_proper": "27764",
-        "covid_count": 26
+        "covid_count": 26,
+        "flu_count": 18
     },
     {
         "city": "Longton",
@@ -2841,7 +3077,8 @@
         "capital": "",
         "population": "27214",
         "population_proper": "27214",
-        "covid_count": 28
+        "covid_count": 28,
+        "flu_count": 19
     },
     {
         "city": "Melton Mowbray",
@@ -2853,7 +3090,8 @@
         "capital": "",
         "population": "27158",
         "population_proper": "27158",
-        "covid_count": 27
+        "covid_count": 27,
+        "flu_count": 18
     },
     {
         "city": "Aldridge",
@@ -2865,7 +3103,8 @@
         "capital": "",
         "population": "26988",
         "population_proper": "26988",
-        "covid_count": 22
+        "covid_count": 22,
+        "flu_count": 15
     },
     {
         "city": "Farnworth",
@@ -2877,7 +3116,8 @@
         "capital": "",
         "population": "26939",
         "population_proper": "26939",
-        "covid_count": 37
+        "covid_count": 37,
+        "flu_count": 25
     },
     {
         "city": "Highbury",
@@ -2889,7 +3129,8 @@
         "capital": "",
         "population": "26664",
         "population_proper": "26664",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "Newton Aycliffe",
@@ -2901,7 +3142,8 @@
         "capital": "",
         "population": "26633",
         "population_proper": "26633",
-        "covid_count": 45
+        "covid_count": 45,
+        "flu_count": 31
     },
     {
         "city": "Cheadle Hulme",
@@ -2913,7 +3155,8 @@
         "capital": "",
         "population": "26479",
         "population_proper": "26479",
-        "covid_count": 37
+        "covid_count": 37,
+        "flu_count": 25
     },
     {
         "city": "Bournville",
@@ -2925,7 +3168,8 @@
         "capital": "",
         "population": "25938",
         "population_proper": "25938",
-        "covid_count": 20
+        "covid_count": 20,
+        "flu_count": 14
     },
     {
         "city": "Shenley Brook End",
@@ -2937,7 +3181,8 @@
         "capital": "",
         "population": "25828",
         "population_proper": "25828",
-        "covid_count": 16
+        "covid_count": 16,
+        "flu_count": 11
     },
     {
         "city": "Consett",
@@ -2949,7 +3194,8 @@
         "capital": "",
         "population": "25812",
         "population_proper": "25812",
-        "covid_count": 33
+        "covid_count": 33,
+        "flu_count": 22
     },
     {
         "city": "Northfield",
@@ -2961,7 +3207,8 @@
         "capital": "",
         "population": "25707",
         "population_proper": "25707",
-        "covid_count": 20
+        "covid_count": 20,
+        "flu_count": 13
     },
     {
         "city": "Coulsdon",
@@ -2973,7 +3220,8 @@
         "capital": "",
         "population": "25695",
         "population_proper": "25695",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Bilston",
@@ -2985,7 +3233,8 @@
         "capital": "",
         "population": "25576",
         "population_proper": "25576",
-        "covid_count": 21
+        "covid_count": 21,
+        "flu_count": 14
     },
     {
         "city": "Wellington",
@@ -2997,7 +3246,8 @@
         "capital": "",
         "population": "25554",
         "population_proper": "25554",
-        "covid_count": 21
+        "covid_count": 21,
+        "flu_count": 14
     },
     {
         "city": "Bishop Auckland",
@@ -3009,7 +3259,8 @@
         "capital": "",
         "population": "25455",
         "population_proper": "25455",
-        "covid_count": 42
+        "covid_count": 42,
+        "flu_count": 28
     },
     {
         "city": "Longbridge",
@@ -3021,7 +3272,8 @@
         "capital": "",
         "population": "25410",
         "population_proper": "25410",
-        "covid_count": 19
+        "covid_count": 19,
+        "flu_count": 13
     },
     {
         "city": "Bloxwich",
@@ -3033,7 +3285,8 @@
         "capital": "",
         "population": "25401",
         "population_proper": "25401",
-        "covid_count": 22
+        "covid_count": 22,
+        "flu_count": 15
     },
     {
         "city": "Upminster",
@@ -3045,7 +3298,8 @@
         "capital": "",
         "population": "25361",
         "population_proper": "25361",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 8
     },
     {
         "city": "Rhyl",
@@ -3057,7 +3311,8 @@
         "capital": "",
         "population": "25149",
         "population_proper": "25149",
-        "covid_count": 21
+        "covid_count": 21,
+        "flu_count": 14
     },
     {
         "city": "Droitwich",
@@ -3069,7 +3324,8 @@
         "capital": "",
         "population": "25027",
         "population_proper": "25027",
-        "covid_count": 18
+        "covid_count": 18,
+        "flu_count": 12
     },
     {
         "city": "Hindley",
@@ -3081,7 +3337,8 @@
         "capital": "",
         "population": "25001",
         "population_proper": "25001",
-        "covid_count": 33
+        "covid_count": 33,
+        "flu_count": 23
     },
     {
         "city": "Westhoughton",
@@ -3093,7 +3350,8 @@
         "capital": "",
         "population": "24974",
         "population_proper": "24974",
-        "covid_count": 34
+        "covid_count": 34,
+        "flu_count": 23
     },
     {
         "city": "Ryde",
@@ -3105,7 +3363,8 @@
         "capital": "",
         "population": "24847",
         "population_proper": "24847",
-        "covid_count": 10
+        "covid_count": 10,
+        "flu_count": 7
     },
     {
         "city": "Gorleston-on-Sea",
@@ -3117,7 +3376,8 @@
         "capital": "",
         "population": "24785",
         "population_proper": "24785",
-        "covid_count": 15
+        "covid_count": 15,
+        "flu_count": 10
     },
     {
         "city": "Thornaby on Tees",
@@ -3129,7 +3389,8 @@
         "capital": "",
         "population": "24741",
         "population_proper": "24741",
-        "covid_count": 53
+        "covid_count": 53,
+        "flu_count": 36
     },
     {
         "city": "Kings Norton",
@@ -3141,7 +3402,8 @@
         "capital": "",
         "population": "24380",
         "population_proper": "24380",
-        "covid_count": 20
+        "covid_count": 20,
+        "flu_count": 13
     },
     {
         "city": "Plymstock",
@@ -3153,7 +3415,8 @@
         "capital": "",
         "population": "24103",
         "population_proper": "24103",
-        "covid_count": 8
+        "covid_count": 8,
+        "flu_count": 5
     },
     {
         "city": "Barnstaple",
@@ -3165,7 +3428,8 @@
         "capital": "",
         "population": "23976",
         "population_proper": "23976",
-        "covid_count": 9
+        "covid_count": 9,
+        "flu_count": 6
     },
     {
         "city": "Arbroath",
@@ -3177,7 +3441,8 @@
         "capital": "",
         "population": "23940",
         "population_proper": "23940",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Caversham",
@@ -3189,7 +3454,8 @@
         "capital": "",
         "population": "23885",
         "population_proper": "23885",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "Oadby",
@@ -3201,7 +3467,8 @@
         "capital": "",
         "population": "23849",
         "population_proper": "23849",
-        "covid_count": 24
+        "covid_count": 24,
+        "flu_count": 16
     },
     {
         "city": "Stalybridge",
@@ -3213,7 +3480,8 @@
         "capital": "",
         "population": "23731",
         "population_proper": "23731",
-        "covid_count": 44
+        "covid_count": 44,
+        "flu_count": 30
     },
     {
         "city": "Stanmore",
@@ -3225,7 +3493,8 @@
         "capital": "",
         "population": "23700",
         "population_proper": "23700",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "Droylsden",
@@ -3237,7 +3506,8 @@
         "capital": "",
         "population": "23689",
         "population_proper": "23689",
-        "covid_count": 41
+        "covid_count": 41,
+        "flu_count": 28
     },
     {
         "city": "Perry Barr",
@@ -3249,7 +3519,8 @@
         "capital": "",
         "population": "23652",
         "population_proper": "23652",
-        "covid_count": 21
+        "covid_count": 21,
+        "flu_count": 14
     },
     {
         "city": "Gosforth",
@@ -3261,7 +3532,8 @@
         "capital": "",
         "population": "23620",
         "population_proper": "23620",
-        "covid_count": 30
+        "covid_count": 30,
+        "flu_count": 20
     },
     {
         "city": "Whitefield",
@@ -3273,7 +3545,8 @@
         "capital": "",
         "population": "23283",
         "population_proper": "23283",
-        "covid_count": 39
+        "covid_count": 39,
+        "flu_count": 27
     },
     {
         "city": "Penwortham",
@@ -3285,7 +3558,8 @@
         "capital": "",
         "population": "23047",
         "population_proper": "23047",
-        "covid_count": 33
+        "covid_count": 33,
+        "flu_count": 22
     },
     {
         "city": "Harborne",
@@ -3297,7 +3571,8 @@
         "capital": "",
         "population": "23001",
         "population_proper": "23001",
-        "covid_count": 20
+        "covid_count": 20,
+        "flu_count": 14
     },
     {
         "city": "Swinton",
@@ -3309,7 +3584,8 @@
         "capital": "",
         "population": "22931",
         "population_proper": "22931",
-        "covid_count": 37
+        "covid_count": 37,
+        "flu_count": 26
     },
     {
         "city": "Market Harborough",
@@ -3321,7 +3597,8 @@
         "capital": "",
         "population": "22911",
         "population_proper": "22911",
-        "covid_count": 22
+        "covid_count": 22,
+        "flu_count": 15
     },
     {
         "city": "Erdington",
@@ -3333,7 +3610,8 @@
         "capital": "",
         "population": "22828",
         "population_proper": "22828",
-        "covid_count": 21
+        "covid_count": 21,
+        "flu_count": 15
     },
     {
         "city": "Clifton",
@@ -3345,7 +3623,8 @@
         "capital": "",
         "population": "22749",
         "population_proper": "22749",
-        "covid_count": 31
+        "covid_count": 31,
+        "flu_count": 21
     },
     {
         "city": "Stratton Saint Margaret",
@@ -3357,7 +3636,8 @@
         "capital": "",
         "population": "22698",
         "population_proper": "22698",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "Wednesfield",
@@ -3369,7 +3649,8 @@
         "capital": "",
         "population": "22646",
         "population_proper": "22646",
-        "covid_count": 22
+        "covid_count": 22,
+        "flu_count": 15
     },
     {
         "city": "Farsley",
@@ -3381,7 +3662,8 @@
         "capital": "",
         "population": "22594",
         "population_proper": "22594",
-        "covid_count": 87
+        "covid_count": 87,
+        "flu_count": 59
     },
     {
         "city": "Guiseley",
@@ -3393,7 +3675,8 @@
         "capital": "",
         "population": "22347",
         "population_proper": "22347",
-        "covid_count": 87
+        "covid_count": 87,
+        "flu_count": 59
     },
     {
         "city": "March",
@@ -3405,7 +3688,8 @@
         "capital": "",
         "population": "22298",
         "population_proper": "22298",
-        "covid_count": 21
+        "covid_count": 21,
+        "flu_count": 14
     },
     {
         "city": "Tiverton",
@@ -3417,7 +3701,8 @@
         "capital": "",
         "population": "22291",
         "population_proper": "22291",
-        "covid_count": 9
+        "covid_count": 9,
+        "flu_count": 6
     },
     {
         "city": "Litherland",
@@ -3429,7 +3714,8 @@
         "capital": "",
         "population": "22242",
         "population_proper": "22242",
-        "covid_count": 26
+        "covid_count": 26,
+        "flu_count": 18
     },
     {
         "city": "Acomb",
@@ -3441,7 +3727,8 @@
         "capital": "",
         "population": "22215",
         "population_proper": "22215",
-        "covid_count": 1187
+        "covid_count": 1187,
+        "flu_count": 854
     },
     {
         "city": "Newton in Makerfield",
@@ -3453,7 +3740,8 @@
         "capital": "",
         "population": "22114",
         "population_proper": "22114",
-        "covid_count": 31
+        "covid_count": 31,
+        "flu_count": 21
     },
     {
         "city": "Penarth",
@@ -3465,7 +3753,8 @@
         "capital": "",
         "population": "22083",
         "population_proper": "22083",
-        "covid_count": 11
+        "covid_count": 11,
+        "flu_count": 8
     },
     {
         "city": "Camborne",
@@ -3477,7 +3766,8 @@
         "capital": "",
         "population": "22074",
         "population_proper": "22074",
-        "covid_count": 7
+        "covid_count": 7,
+        "flu_count": 4
     },
     {
         "city": "Newquay",
@@ -3489,7 +3779,8 @@
         "capital": "",
         "population": "22074",
         "population_proper": "22074",
-        "covid_count": 7
+        "covid_count": 7,
+        "flu_count": 5
     },
     {
         "city": "Northwood",
@@ -3501,7 +3792,8 @@
         "capital": "",
         "population": "22047",
         "population_proper": "22047",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "Atherton",
@@ -3513,7 +3805,8 @@
         "capital": "",
         "population": "22000",
         "population_proper": "22000",
-        "covid_count": 35
+        "covid_count": 35,
+        "flu_count": 24
     },
     {
         "city": "Belper",
@@ -3525,7 +3818,8 @@
         "capital": "",
         "population": "21822",
         "population_proper": "21822",
-        "covid_count": 34
+        "covid_count": 34,
+        "flu_count": 23
     },
     {
         "city": "Sheldon",
@@ -3537,7 +3831,8 @@
         "capital": "",
         "population": "21817",
         "population_proper": "21817",
-        "covid_count": 21
+        "covid_count": 21,
+        "flu_count": 14
     },
     {
         "city": "Yate",
@@ -3549,7 +3844,8 @@
         "capital": "",
         "population": "21789",
         "population_proper": "21789",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Bailleston",
@@ -3561,7 +3857,8 @@
         "capital": "",
         "population": "21663",
         "population_proper": "21663",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Truro",
@@ -3573,7 +3870,8 @@
         "capital": "",
         "population": "21555",
         "population_proper": "21555",
-        "covid_count": 7
+        "covid_count": 7,
+        "flu_count": 5
     },
     {
         "city": "Chandlers Ford",
@@ -3585,7 +3883,8 @@
         "capital": "",
         "population": "21436",
         "population_proper": "21436",
-        "covid_count": 11
+        "covid_count": 11,
+        "flu_count": 7
     },
     {
         "city": "Royton",
@@ -3597,7 +3896,8 @@
         "capital": "",
         "population": "21284",
         "population_proper": "21284",
-        "covid_count": 45
+        "covid_count": 45,
+        "flu_count": 31
     },
     {
         "city": "Clevedon",
@@ -3609,7 +3909,8 @@
         "capital": "",
         "population": "21281",
         "population_proper": "21281",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Dronfield",
@@ -3621,7 +3922,8 @@
         "capital": "",
         "population": "21261",
         "population_proper": "21261",
-        "covid_count": 47
+        "covid_count": 47,
+        "flu_count": 32
     },
     {
         "city": "Ossett",
@@ -3633,7 +3935,8 @@
         "capital": "",
         "population": "21231",
         "population_proper": "21231",
-        "covid_count": 81
+        "covid_count": 81,
+        "flu_count": 55
     },
     {
         "city": "Woodlesford",
@@ -3645,7 +3948,8 @@
         "capital": "",
         "population": "21010",
         "population_proper": "21010",
-        "covid_count": 110
+        "covid_count": 110,
+        "flu_count": 75
     },
     {
         "city": "Wallington",
@@ -3657,7 +3961,8 @@
         "capital": "",
         "population": "20850",
         "population_proper": "20850",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Norton",
@@ -3669,7 +3974,8 @@
         "capital": "",
         "population": "20829",
         "population_proper": "20829",
-        "covid_count": 51
+        "covid_count": 51,
+        "flu_count": 35
     },
     {
         "city": "Leek",
@@ -3681,7 +3987,8 @@
         "capital": "",
         "population": "20768",
         "population_proper": "20768",
-        "covid_count": 32
+        "covid_count": 32,
+        "flu_count": 22
     },
     {
         "city": "Leigh-on-Sea",
@@ -3693,7 +4000,8 @@
         "capital": "",
         "population": "20737",
         "population_proper": "20737",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Boscombe",
@@ -3705,7 +4013,8 @@
         "capital": "",
         "population": "20719",
         "population_proper": "20719",
-        "covid_count": 10
+        "covid_count": 10,
+        "flu_count": 6
     },
     {
         "city": "Failsworth",
@@ -3717,7 +4026,8 @@
         "capital": "",
         "population": "20680",
         "population_proper": "20680",
-        "covid_count": 42
+        "covid_count": 42,
+        "flu_count": 29
     },
     {
         "city": "Kirkstall",
@@ -3729,7 +4039,8 @@
         "capital": "",
         "population": "20673",
         "population_proper": "20673",
-        "covid_count": 97
+        "covid_count": 97,
+        "flu_count": 66
     },
     {
         "city": "Maesteg",
@@ -3741,7 +4052,8 @@
         "capital": "",
         "population": "20612",
         "population_proper": "20612",
-        "covid_count": 11
+        "covid_count": 11,
+        "flu_count": 8
     },
     {
         "city": "Shoreham-by-Sea",
@@ -3753,7 +4065,8 @@
         "capital": "",
         "population": "20547",
         "population_proper": "20547",
-        "covid_count": 10
+        "covid_count": 10,
+        "flu_count": 7
     },
     {
         "city": "Hythe",
@@ -3765,7 +4078,8 @@
         "capital": "",
         "population": "20526",
         "population_proper": "20526",
-        "covid_count": 10
+        "covid_count": 10,
+        "flu_count": 7
     },
     {
         "city": "Maghull",
@@ -3777,7 +4091,8 @@
         "capital": "",
         "population": "20444",
         "population_proper": "20444",
-        "covid_count": 27
+        "covid_count": 27,
+        "flu_count": 19
     },
     {
         "city": "Rothwell",
@@ -3789,7 +4104,8 @@
         "capital": "",
         "population": "20354",
         "population_proper": "20354",
-        "covid_count": 104
+        "covid_count": 104,
+        "flu_count": 71
     },
     {
         "city": "Seaham",
@@ -3801,7 +4117,8 @@
         "capital": "",
         "population": "20172",
         "population_proper": "20172",
-        "covid_count": 36
+        "covid_count": 36,
+        "flu_count": 25
     },
     {
         "city": "Peterlee",
@@ -3813,7 +4130,8 @@
         "capital": "",
         "population": "20164",
         "population_proper": "20164",
-        "covid_count": 40
+        "covid_count": 40,
+        "flu_count": 27
     },
     {
         "city": "Killingworth",
@@ -3825,7 +4143,8 @@
         "capital": "",
         "population": "20079",
         "population_proper": "20079",
-        "covid_count": 29
+        "covid_count": 29,
+        "flu_count": 20
     },
     {
         "city": "Horwich",
@@ -3837,7 +4156,8 @@
         "capital": "",
         "population": "20067",
         "population_proper": "20067",
-        "covid_count": 35
+        "covid_count": 35,
+        "flu_count": 24
     },
     {
         "city": "Bispham",
@@ -3849,7 +4169,8 @@
         "capital": "",
         "population": "20001",
         "population_proper": "20001",
-        "covid_count": 28
+        "covid_count": 28,
+        "flu_count": 19
     },
     {
         "city": "Biddulph",
@@ -3861,7 +4182,8 @@
         "capital": "",
         "population": "19892",
         "population_proper": "19892",
-        "covid_count": 31
+        "covid_count": 31,
+        "flu_count": 21
     },
     {
         "city": "Stoke Gifford",
@@ -3873,7 +4195,8 @@
         "capital": "",
         "population": "19794",
         "population_proper": "19794",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Selby",
@@ -3885,7 +4208,8 @@
         "capital": "",
         "population": "19760",
         "population_proper": "19760",
-        "covid_count": 186
+        "covid_count": 186,
+        "flu_count": 127
     },
     {
         "city": "Stamford",
@@ -3897,7 +4221,8 @@
         "capital": "",
         "population": "19701",
         "population_proper": "19701",
-        "covid_count": 24
+        "covid_count": 24,
+        "flu_count": 16
     },
     {
         "city": "Davyhulme",
@@ -3909,7 +4234,8 @@
         "capital": "",
         "population": "19634",
         "population_proper": "19634",
-        "covid_count": 36
+        "covid_count": 36,
+        "flu_count": 24
     },
     {
         "city": "Burnham-on-Sea",
@@ -3921,7 +4247,8 @@
         "capital": "",
         "population": "19576",
         "population_proper": "19576",
-        "covid_count": 11
+        "covid_count": 11,
+        "flu_count": 7
     },
     {
         "city": "Abbots Langley",
@@ -3933,7 +4260,8 @@
         "capital": "",
         "population": "19574",
         "population_proper": "19574",
-        "covid_count": 14
+        "covid_count": 14,
+        "flu_count": 9
     },
     {
         "city": "Great Linford",
@@ -3945,7 +4273,8 @@
         "capital": "",
         "population": "19350",
         "population_proper": "19350",
-        "covid_count": 17
+        "covid_count": 17,
+        "flu_count": 11
     },
     {
         "city": "Dukinfield",
@@ -3957,7 +4286,8 @@
         "capital": "",
         "population": "19306",
         "population_proper": "19306",
-        "covid_count": 43
+        "covid_count": 43,
+        "flu_count": 29
     },
     {
         "city": "Peterhead",
@@ -3969,7 +4299,8 @@
         "capital": "",
         "population": "19270",
         "population_proper": "19270",
-        "covid_count": 9
+        "covid_count": 9,
+        "flu_count": 6
     },
     {
         "city": "Ecclesall",
@@ -3981,7 +4312,8 @@
         "capital": "",
         "population": "19211",
         "population_proper": "19211",
-        "covid_count": 51
+        "covid_count": 51,
+        "flu_count": 35
     },
     {
         "city": "Hebburn",
@@ -3993,7 +4325,8 @@
         "capital": "",
         "population": "19148",
         "population_proper": "19148",
-        "covid_count": 31
+        "covid_count": 31,
+        "flu_count": 21
     },
     {
         "city": "Frimley",
@@ -4005,7 +4338,8 @@
         "capital": "",
         "population": "19094",
         "population_proper": "19094",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Molesey",
@@ -4017,7 +4351,8 @@
         "capital": "",
         "population": "19088",
         "population_proper": "19088",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Prestatyn",
@@ -4029,7 +4364,8 @@
         "capital": "",
         "population": "19085",
         "population_proper": "19085",
-        "covid_count": 21
+        "covid_count": 21,
+        "flu_count": 14
     },
     {
         "city": "Calne",
@@ -4041,7 +4377,8 @@
         "capital": "",
         "population": "19074",
         "population_proper": "19074",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Southbourne",
@@ -4053,7 +4390,8 @@
         "capital": "",
         "population": "18960",
         "population_proper": "18960",
-        "covid_count": 10
+        "covid_count": 10,
+        "flu_count": 6
     },
     {
         "city": "Broughty Ferry",
@@ -4065,7 +4403,8 @@
         "capital": "",
         "population": "18659",
         "population_proper": "18659",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Bedlington",
@@ -4077,7 +4416,8 @@
         "capital": "",
         "population": "18470",
         "population_proper": "18470",
-        "covid_count": 27
+        "covid_count": 27,
+        "flu_count": 18
     },
     {
         "city": "Hadleigh",
@@ -4089,7 +4429,8 @@
         "capital": "",
         "population": "18300",
         "population_proper": "18300",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Bingley",
@@ -4101,7 +4442,8 @@
         "capital": "",
         "population": "18294",
         "population_proper": "18294",
-        "covid_count": 71
+        "covid_count": 71,
+        "flu_count": 49
     },
     {
         "city": "Warminster",
@@ -4113,7 +4455,8 @@
         "capital": "",
         "population": "18173",
         "population_proper": "18173",
-        "covid_count": 11
+        "covid_count": 11,
+        "flu_count": 7
     },
     {
         "city": "Redhill",
@@ -4125,7 +4468,8 @@
         "capital": "",
         "population": "18163",
         "population_proper": "18163",
-        "covid_count": 11
+        "covid_count": 11,
+        "flu_count": 8
     },
     {
         "city": "Bourne",
@@ -4137,7 +4481,8 @@
         "capital": "",
         "population": "17981",
         "population_proper": "17981",
-        "covid_count": 26
+        "covid_count": 26,
+        "flu_count": 17
     },
     {
         "city": "Colne",
@@ -4149,7 +4494,8 @@
         "capital": "",
         "population": "17855",
         "population_proper": "17855",
-        "covid_count": 50
+        "covid_count": 50,
+        "flu_count": 34
     },
     {
         "city": "Tonypandy",
@@ -4161,7 +4507,8 @@
         "capital": "",
         "population": "17789",
         "population_proper": "3750",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Moreton",
@@ -4173,7 +4520,8 @@
         "capital": "",
         "population": "17670",
         "population_proper": "17670",
-        "covid_count": 24
+        "covid_count": 24,
+        "flu_count": 17
     },
     {
         "city": "Fern Down",
@@ -4185,7 +4533,8 @@
         "capital": "",
         "population": "17650",
         "population_proper": "17650",
-        "covid_count": 10
+        "covid_count": 10,
+        "flu_count": 7
     },
     {
         "city": "Bonnyrigg",
@@ -4197,7 +4546,8 @@
         "capital": "",
         "population": "17530",
         "population_proper": "17530",
-        "covid_count": 14
+        "covid_count": 14,
+        "flu_count": 10
     },
     {
         "city": "Quedgeley",
@@ -4209,7 +4559,8 @@
         "capital": "",
         "population": "17519",
         "population_proper": "17519",
-        "covid_count": 14
+        "covid_count": 14,
+        "flu_count": 10
     },
     {
         "city": "Houghton Regis",
@@ -4221,7 +4572,8 @@
         "capital": "",
         "population": "17280",
         "population_proper": "17280",
-        "covid_count": 15
+        "covid_count": 15,
+        "flu_count": 10
     },
     {
         "city": "Friern Barnet",
@@ -4233,7 +4585,8 @@
         "capital": "",
         "population": "17250",
         "population_proper": "17250",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "Milton",
@@ -4245,7 +4598,8 @@
         "capital": "",
         "population": "17250",
         "population_proper": "17250",
-        "covid_count": 29
+        "covid_count": 29,
+        "flu_count": 20
     },
     {
         "city": "Cottingham",
@@ -4257,7 +4611,8 @@
         "capital": "",
         "population": "17164",
         "population_proper": "17164",
-        "covid_count": 76
+        "covid_count": 76,
+        "flu_count": 52
     },
     {
         "city": "Clitheroe",
@@ -4269,7 +4624,8 @@
         "capital": "",
         "population": "17141",
         "population_proper": "17141",
-        "covid_count": 42
+        "covid_count": 42,
+        "flu_count": 29
     },
     {
         "city": "Heckmondwike",
@@ -4281,7 +4637,8 @@
         "capital": "",
         "population": "16986",
         "population_proper": "16986",
-        "covid_count": 76
+        "covid_count": 76,
+        "flu_count": 52
     },
     {
         "city": "Clayton",
@@ -4293,7 +4650,8 @@
         "capital": "",
         "population": "16982",
         "population_proper": "16982",
-        "covid_count": 70
+        "covid_count": 70,
+        "flu_count": 48
     },
     {
         "city": "High Blantyre",
@@ -4305,7 +4663,8 @@
         "capital": "",
         "population": "16900",
         "population_proper": "16900",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 8
     },
     {
         "city": "Maltby",
@@ -4317,7 +4676,8 @@
         "capital": "",
         "population": "16856",
         "population_proper": "16856",
-        "covid_count": 61
+        "covid_count": 61,
+        "flu_count": 42
     },
     {
         "city": "Haslingden",
@@ -4329,7 +4689,8 @@
         "capital": "",
         "population": "16849",
         "population_proper": "16849",
-        "covid_count": 42
+        "covid_count": 42,
+        "flu_count": 29
     },
     {
         "city": "Devizes",
@@ -4341,7 +4702,8 @@
         "capital": "",
         "population": "16834",
         "population_proper": "16834",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Fazakerley",
@@ -4353,7 +4715,8 @@
         "capital": "",
         "population": "16786",
         "population_proper": "16786",
-        "covid_count": 27
+        "covid_count": 27,
+        "flu_count": 18
     },
     {
         "city": "Connahs Quay",
@@ -4365,7 +4728,8 @@
         "capital": "",
         "population": "16774",
         "population_proper": "16774",
-        "covid_count": 23
+        "covid_count": 23,
+        "flu_count": 16
     },
     {
         "city": "Plumstead",
@@ -4377,7 +4741,8 @@
         "capital": "",
         "population": "16736",
         "population_proper": "16736",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Wellington",
@@ -4389,7 +4754,8 @@
         "capital": "",
         "population": "16669",
         "population_proper": "16669",
-        "covid_count": 10
+        "covid_count": 10,
+        "flu_count": 6
     },
     {
         "city": "Whickham",
@@ -4401,7 +4767,8 @@
         "capital": "",
         "population": "16652",
         "population_proper": "16652",
-        "covid_count": 31
+        "covid_count": 31,
+        "flu_count": 21
     },
     {
         "city": "Keynsham",
@@ -4413,7 +4780,8 @@
         "capital": "",
         "population": "16641",
         "population_proper": "16641",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Cleckheaton",
@@ -4425,7 +4793,8 @@
         "capital": "",
         "population": "16622",
         "population_proper": "16622",
-        "covid_count": 74
+        "covid_count": 74,
+        "flu_count": 51
     },
     {
         "city": "Cowley",
@@ -4437,7 +4806,8 @@
         "capital": "",
         "population": "16500",
         "population_proper": "16500",
-        "covid_count": 14
+        "covid_count": 14,
+        "flu_count": 10
     },
     {
         "city": "Enfield Lock",
@@ -4449,7 +4819,8 @@
         "capital": "",
         "population": "16469",
         "population_proper": "16469",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "Kilwinning",
@@ -4461,7 +4832,8 @@
         "capital": "",
         "population": "16460",
         "population_proper": "16460",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Westbury",
@@ -4473,7 +4845,8 @@
         "capital": "",
         "population": "16414",
         "population_proper": "16414",
-        "covid_count": 11
+        "covid_count": 11,
+        "flu_count": 8
     },
     {
         "city": "Stepney",
@@ -4485,7 +4858,8 @@
         "capital": "",
         "population": "16238",
         "population_proper": "16238",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 8
     },
     {
         "city": "Basford",
@@ -4497,7 +4871,8 @@
         "capital": "",
         "population": "16207",
         "population_proper": "16207",
-        "covid_count": 33
+        "covid_count": 33,
+        "flu_count": 23
     },
     {
         "city": "Brackley",
@@ -4509,7 +4884,8 @@
         "capital": "",
         "population": "16195",
         "population_proper": "16195",
-        "covid_count": 17
+        "covid_count": 17,
+        "flu_count": 11
     },
     {
         "city": "Tyldesley",
@@ -4521,7 +4897,8 @@
         "capital": "",
         "population": "16142",
         "population_proper": "16142",
-        "covid_count": 35
+        "covid_count": 35,
+        "flu_count": 24
     },
     {
         "city": "East Barnet",
@@ -4533,7 +4910,8 @@
         "capital": "",
         "population": "16137",
         "population_proper": "16137",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "Upton",
@@ -4545,7 +4923,8 @@
         "capital": "",
         "population": "16130",
         "population_proper": "16130",
-        "covid_count": 24
+        "covid_count": 24,
+        "flu_count": 17
     },
     {
         "city": "Johnstone",
@@ -4557,7 +4936,8 @@
         "capital": "",
         "population": "16090",
         "population_proper": "16090",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Worcester Park",
@@ -4569,7 +4949,8 @@
         "capital": "",
         "population": "16031",
         "population_proper": "16031",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "South Hayling",
@@ -4581,7 +4962,8 @@
         "capital": "",
         "population": "15948",
         "population_proper": "15948",
-        "covid_count": 10
+        "covid_count": 10,
+        "flu_count": 7
     },
     {
         "city": "Addlestone",
@@ -4593,7 +4975,8 @@
         "capital": "",
         "population": "15883",
         "population_proper": "15883",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Royston",
@@ -4605,7 +4988,8 @@
         "capital": "",
         "population": "15781",
         "population_proper": "15781",
-        "covid_count": 16
+        "covid_count": 16,
+        "flu_count": 11
     },
     {
         "city": "Buckley",
@@ -4617,7 +5001,8 @@
         "capital": "",
         "population": "15665",
         "population_proper": "15665",
-        "covid_count": 23
+        "covid_count": 23,
+        "flu_count": 15
     },
     {
         "city": "Porthcawl",
@@ -4629,7 +5014,8 @@
         "capital": "",
         "population": "15640",
         "population_proper": "15640",
-        "covid_count": 11
+        "covid_count": 11,
+        "flu_count": 7
     },
     {
         "city": "Nailsea",
@@ -4641,7 +5027,8 @@
         "capital": "",
         "population": "15630",
         "population_proper": "15630",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "West Ham",
@@ -4653,7 +5040,8 @@
         "capital": "",
         "population": "15551",
         "population_proper": "15551",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "Shipley",
@@ -4665,7 +5053,8 @@
         "capital": "",
         "population": "15483",
         "population_proper": "15483",
-        "covid_count": 76
+        "covid_count": 76,
+        "flu_count": 52
     },
     {
         "city": "Baildon",
@@ -4677,7 +5066,8 @@
         "capital": "",
         "population": "15360",
         "population_proper": "15360",
-        "covid_count": 79
+        "covid_count": 79,
+        "flu_count": 54
     },
     {
         "city": "Wombwell",
@@ -4689,7 +5079,8 @@
         "capital": "",
         "population": "15316",
         "population_proper": "15316",
-        "covid_count": 68
+        "covid_count": 68,
+        "flu_count": 47
     },
     {
         "city": "Llantrisant",
@@ -4701,7 +5092,8 @@
         "capital": "",
         "population": "15313",
         "population_proper": "15313",
-        "covid_count": 11
+        "covid_count": 11,
+        "flu_count": 8
     },
     {
         "city": "Hazel Grove",
@@ -4713,7 +5105,8 @@
         "capital": "",
         "population": "15265",
         "population_proper": "15265",
-        "covid_count": 39
+        "covid_count": 39,
+        "flu_count": 26
     },
     {
         "city": "Dawlish",
@@ -4725,7 +5118,8 @@
         "capital": "",
         "population": "15257",
         "population_proper": "15257",
-        "covid_count": 8
+        "covid_count": 8,
+        "flu_count": 6
     },
     {
         "city": "Bidston",
@@ -4737,7 +5131,8 @@
         "capital": "",
         "population": "15216",
         "population_proper": "15216",
-        "covid_count": 25
+        "covid_count": 25,
+        "flu_count": 17
     },
     {
         "city": "Verwood",
@@ -4749,7 +5144,8 @@
         "capital": "",
         "population": "15196",
         "population_proper": "15196",
-        "covid_count": 10
+        "covid_count": 10,
+        "flu_count": 7
     },
     {
         "city": "Palmers Green",
@@ -4761,7 +5157,8 @@
         "capital": "",
         "population": "15162",
         "population_proper": "15162",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "New Brighton",
@@ -4773,7 +5170,8 @@
         "capital": "",
         "population": "15149",
         "population_proper": "15149",
-        "covid_count": 25
+        "covid_count": 25,
+        "flu_count": 17
     },
     {
         "city": "Netherton",
@@ -4785,7 +5183,8 @@
         "capital": "",
         "population": "15017",
         "population_proper": "15017",
-        "covid_count": 20
+        "covid_count": 20,
+        "flu_count": 14
     },
     {
         "city": "Hessle",
@@ -4797,7 +5196,8 @@
         "capital": "",
         "population": "15000",
         "population_proper": "15000",
-        "covid_count": 73
+        "covid_count": 73,
+        "flu_count": 50
     },
     {
         "city": "Kew Green",
@@ -4809,7 +5209,8 @@
         "capital": "",
         "population": "14915",
         "population_proper": "14915",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "West Wickham",
@@ -4821,7 +5222,8 @@
         "capital": "",
         "population": "14884",
         "population_proper": "14884",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Bromborough",
@@ -4833,7 +5235,8 @@
         "capital": "",
         "population": "14850",
         "population_proper": "14850",
-        "covid_count": 25
+        "covid_count": 25,
+        "flu_count": 17
     },
     {
         "city": "Baguley",
@@ -4845,7 +5248,8 @@
         "capital": "",
         "population": "14794",
         "population_proper": "14794",
-        "covid_count": 36
+        "covid_count": 36,
+        "flu_count": 25
     },
     {
         "city": "Balham",
@@ -4857,7 +5261,8 @@
         "capital": "",
         "population": "14751",
         "population_proper": "14751",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Larkhall",
@@ -4869,7 +5274,8 @@
         "capital": "",
         "population": "14740",
         "population_proper": "14740",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "Prestwick",
@@ -4881,7 +5287,8 @@
         "capital": "",
         "population": "14720",
         "population_proper": "14720",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Melksham",
@@ -4893,7 +5300,8 @@
         "capital": "",
         "population": "14677",
         "population_proper": "14677",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Wibsey",
@@ -4905,7 +5313,8 @@
         "capital": "",
         "population": "14671",
         "population_proper": "14671",
-        "covid_count": 73
+        "covid_count": 73,
+        "flu_count": 50
     },
     {
         "city": "Lowton",
@@ -4917,7 +5326,8 @@
         "capital": "",
         "population": "14605",
         "population_proper": "14605",
-        "covid_count": 32
+        "covid_count": 32,
+        "flu_count": 22
     },
     {
         "city": "Moston",
@@ -4929,7 +5339,8 @@
         "capital": "",
         "population": "14518",
         "population_proper": "14518",
-        "covid_count": 41
+        "covid_count": 41,
+        "flu_count": 28
     },
     {
         "city": "Thornbury",
@@ -4941,7 +5352,8 @@
         "capital": "",
         "population": "14496",
         "population_proper": "14496",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "Deysbrook",
@@ -4953,7 +5365,8 @@
         "capital": "",
         "population": "14490",
         "population_proper": "14490",
-        "covid_count": 27
+        "covid_count": 27,
+        "flu_count": 18
     },
     {
         "city": "Armthorpe",
@@ -4965,7 +5378,8 @@
         "capital": "",
         "population": "14457",
         "population_proper": "14457",
-        "covid_count": 77
+        "covid_count": 77,
+        "flu_count": 53
     },
     {
         "city": "Southgate",
@@ -4977,7 +5391,8 @@
         "capital": "",
         "population": "14454",
         "population_proper": "14454",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "Dollis Hill",
@@ -4989,7 +5404,8 @@
         "capital": "",
         "population": "14425",
         "population_proper": "14425",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "West Derby",
@@ -5001,7 +5417,8 @@
         "capital": "",
         "population": "14382",
         "population_proper": "14382",
-        "covid_count": 27
+        "covid_count": 27,
+        "flu_count": 18
     },
     {
         "city": "West Drayton",
@@ -5013,7 +5430,8 @@
         "capital": "",
         "population": "14370",
         "population_proper": "14370",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "Rottingdean",
@@ -5025,7 +5443,8 @@
         "capital": "",
         "population": "14324",
         "population_proper": "14324",
-        "covid_count": 10
+        "covid_count": 10,
+        "flu_count": 7
     },
     {
         "city": "Kidbrooke",
@@ -5037,7 +5456,8 @@
         "capital": "",
         "population": "14300",
         "population_proper": "14300",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Rock Ferry",
@@ -5049,7 +5469,8 @@
         "capital": "",
         "population": "14298",
         "population_proper": "14298",
-        "covid_count": 25
+        "covid_count": 25,
+        "flu_count": 17
     },
     {
         "city": "Shirley",
@@ -5061,7 +5482,8 @@
         "capital": "",
         "population": "14296",
         "population_proper": "14296",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Patcham",
@@ -5073,7 +5495,8 @@
         "capital": "",
         "population": "14277",
         "population_proper": "14277",
-        "covid_count": 10
+        "covid_count": 10,
+        "flu_count": 7
     },
     {
         "city": "Seacroft",
@@ -5085,7 +5508,8 @@
         "capital": "",
         "population": "14246",
         "population_proper": "14246",
-        "covid_count": 125
+        "covid_count": 125,
+        "flu_count": 86
     },
     {
         "city": "Maldon",
@@ -5097,7 +5521,8 @@
         "capital": "",
         "population": "14220",
         "population_proper": "14220",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "Leyton",
@@ -5109,7 +5534,8 @@
         "capital": "",
         "population": "14184",
         "population_proper": "14184",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "Hythe",
@@ -5121,7 +5547,8 @@
         "capital": "",
         "population": "14170",
         "population_proper": "14170",
-        "covid_count": 10
+        "covid_count": 10,
+        "flu_count": 7
     },
     {
         "city": "Childwall",
@@ -5133,7 +5560,8 @@
         "capital": "",
         "population": "14085",
         "population_proper": "13640",
-        "covid_count": 27
+        "covid_count": 27,
+        "flu_count": 18
     },
     {
         "city": "Nantwich",
@@ -5145,7 +5573,8 @@
         "capital": "",
         "population": "14045",
         "population_proper": "14045",
-        "covid_count": 26
+        "covid_count": 26,
+        "flu_count": 18
     },
     {
         "city": "Marlow",
@@ -5157,7 +5586,8 @@
         "capital": "",
         "population": "14004",
         "population_proper": "14004",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "Pemberton",
@@ -5169,7 +5599,8 @@
         "capital": "",
         "population": "13982",
         "population_proper": "13982",
-        "covid_count": 31
+        "covid_count": 31,
+        "flu_count": 21
     },
     {
         "city": "Brierley Hill",
@@ -5181,7 +5612,8 @@
         "capital": "",
         "population": "13935",
         "population_proper": "13935",
-        "covid_count": 20
+        "covid_count": 20,
+        "flu_count": 14
     },
     {
         "city": "Rustington",
@@ -5193,7 +5625,8 @@
         "capital": "",
         "population": "13883",
         "population_proper": "13883",
-        "covid_count": 10
+        "covid_count": 10,
+        "flu_count": 7
     },
     {
         "city": "Cosham",
@@ -5205,7 +5638,8 @@
         "capital": "",
         "population": "13830",
         "population_proper": "13830",
-        "covid_count": 10
+        "covid_count": 10,
+        "flu_count": 7
     },
     {
         "city": "Rosyth",
@@ -5217,7 +5651,8 @@
         "capital": "",
         "population": "13780",
         "population_proper": "13780",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "Kidlington",
@@ -5229,7 +5664,8 @@
         "capital": "",
         "population": "13723",
         "population_proper": "13723",
-        "covid_count": 15
+        "covid_count": 15,
+        "flu_count": 10
     },
     {
         "city": "Whitby",
@@ -5241,7 +5677,8 @@
         "capital": "",
         "population": "13594",
         "population_proper": "13594",
-        "covid_count": 55
+        "covid_count": 55,
+        "flu_count": 38
     },
     {
         "city": "Rossington",
@@ -5253,7 +5690,8 @@
         "capital": "",
         "population": "13557",
         "population_proper": "13557",
-        "covid_count": 68
+        "covid_count": 68,
+        "flu_count": 46
     },
     {
         "city": "Hilsea",
@@ -5265,7 +5703,8 @@
         "capital": "",
         "population": "13552",
         "population_proper": "13552",
-        "covid_count": 10
+        "covid_count": 10,
+        "flu_count": 7
     },
     {
         "city": "Clifton",
@@ -5277,7 +5716,8 @@
         "capital": "",
         "population": "13548",
         "population_proper": "13548",
-        "covid_count": 1940
+        "covid_count": 1940,
+        "flu_count": 1398
     },
     {
         "city": "Little Hulton",
@@ -5289,7 +5729,8 @@
         "capital": "",
         "population": "13469",
         "population_proper": "13469",
-        "covid_count": 36
+        "covid_count": 36,
+        "flu_count": 25
     },
     {
         "city": "Chaddesden",
@@ -5301,7 +5742,8 @@
         "capital": "",
         "population": "13413",
         "population_proper": "13413",
-        "covid_count": 31
+        "covid_count": 31,
+        "flu_count": 21
     },
     {
         "city": "Amblecote",
@@ -5313,7 +5755,8 @@
         "capital": "",
         "population": "13393",
         "population_proper": "13393",
-        "covid_count": 20
+        "covid_count": 20,
+        "flu_count": 13
     },
     {
         "city": "Egg Buckland",
@@ -5325,7 +5768,8 @@
         "capital": "",
         "population": "13351",
         "population_proper": "13351",
-        "covid_count": 8
+        "covid_count": 8,
+        "flu_count": 5
     },
     {
         "city": "Shiremoor",
@@ -5337,7 +5781,8 @@
         "capital": "",
         "population": "13300",
         "population_proper": "13300",
-        "covid_count": 29
+        "covid_count": 29,
+        "flu_count": 20
     },
     {
         "city": "Shirebrook",
@@ -5349,7 +5794,8 @@
         "capital": "",
         "population": "13300",
         "population_proper": "13300",
-        "covid_count": 43
+        "covid_count": 43,
+        "flu_count": 29
     },
     {
         "city": "West Boldon",
@@ -5361,7 +5807,8 @@
         "capital": "",
         "population": "13271",
         "population_proper": "13271",
-        "covid_count": 32
+        "covid_count": 32,
+        "flu_count": 22
     },
     {
         "city": "Linlithgow",
@@ -5373,7 +5820,8 @@
         "capital": "",
         "population": "13260",
         "population_proper": "13260",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "Dingle",
@@ -5385,7 +5833,8 @@
         "capital": "",
         "population": "13246",
         "population_proper": "13246",
-        "covid_count": 26
+        "covid_count": 26,
+        "flu_count": 18
     },
     {
         "city": "Walsall Wood",
@@ -5397,7 +5846,8 @@
         "capital": "",
         "population": "13207",
         "population_proper": "13207",
-        "covid_count": 23
+        "covid_count": 23,
+        "flu_count": 15
     },
     {
         "city": "Fraserburgh",
@@ -5409,7 +5859,8 @@
         "capital": "",
         "population": "13180",
         "population_proper": "13180",
-        "covid_count": 8
+        "covid_count": 8,
+        "flu_count": 6
     },
     {
         "city": "Caerfyrddin",
@@ -5421,7 +5872,8 @@
         "capital": "",
         "population": "13148",
         "population_proper": "13148",
-        "covid_count": 11
+        "covid_count": 11,
+        "flu_count": 7
     },
     {
         "city": "Wollaston",
@@ -5433,7 +5885,8 @@
         "capital": "",
         "population": "13092",
         "population_proper": "13092",
-        "covid_count": 20
+        "covid_count": 20,
+        "flu_count": 13
     },
     {
         "city": "Chard",
@@ -5445,7 +5898,8 @@
         "capital": "",
         "population": "13074",
         "population_proper": "13074",
-        "covid_count": 10
+        "covid_count": 10,
+        "flu_count": 6
     },
     {
         "city": "Goodmayes",
@@ -5457,7 +5911,8 @@
         "capital": "",
         "population": "13069",
         "population_proper": "13069",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "Pendlebury",
@@ -5469,7 +5924,8 @@
         "capital": "",
         "population": "13069",
         "population_proper": "13069",
-        "covid_count": 38
+        "covid_count": 38,
+        "flu_count": 26
     },
     {
         "city": "Holborn",
@@ -5481,7 +5937,8 @@
         "capital": "",
         "population": "13023",
         "population_proper": "13023",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "Midsomer Norton",
@@ -5493,7 +5950,8 @@
         "capital": "",
         "population": "13000",
         "population_proper": "13000",
-        "covid_count": 11
+        "covid_count": 11,
+        "flu_count": 8
     },
     {
         "city": "Gornalwood",
@@ -5505,7 +5963,8 @@
         "capital": "",
         "population": "12992",
         "population_proper": "12992",
-        "covid_count": 21
+        "covid_count": 21,
+        "flu_count": 14
     },
     {
         "city": "Yiewsley",
@@ -5517,7 +5976,8 @@
         "capital": "",
         "population": "12979",
         "population_proper": "12979",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "Shenley Church End",
@@ -5529,7 +5989,8 @@
         "capital": "",
         "population": "12961",
         "population_proper": "12961",
-        "covid_count": 16
+        "covid_count": 16,
+        "flu_count": 11
     },
     {
         "city": "Leagrave",
@@ -5541,7 +6002,8 @@
         "capital": "",
         "population": "12910",
         "population_proper": "12910",
-        "covid_count": 15
+        "covid_count": 15,
+        "flu_count": 10
     },
     {
         "city": "Buckingham",
@@ -5553,7 +6015,8 @@
         "capital": "",
         "population": "12890",
         "population_proper": "12890",
-        "covid_count": 16
+        "covid_count": 16,
+        "flu_count": 11
     },
     {
         "city": "Milngavie",
@@ -5565,7 +6028,8 @@
         "capital": "",
         "population": "12795",
         "population_proper": "12795",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Brownhills",
@@ -5577,7 +6041,8 @@
         "capital": "",
         "population": "12676",
         "population_proper": "12676",
-        "covid_count": 23
+        "covid_count": 23,
+        "flu_count": 16
     },
     {
         "city": "Hornsey",
@@ -5589,7 +6054,8 @@
         "capital": "",
         "population": "12659",
         "population_proper": "12659",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "Sutton on Hull",
@@ -5601,7 +6067,8 @@
         "capital": "",
         "population": "12649",
         "population_proper": "12649",
-        "covid_count": 67
+        "covid_count": 67,
+        "flu_count": 46
     },
     {
         "city": "Wolverton",
@@ -5613,7 +6080,8 @@
         "capital": "",
         "population": "12492",
         "population_proper": "12492",
-        "covid_count": 17
+        "covid_count": 17,
+        "flu_count": 11
     },
     {
         "city": "Barton upon Irwell",
@@ -5625,7 +6093,8 @@
         "capital": "",
         "population": "12462",
         "population_proper": "12462",
-        "covid_count": 36
+        "covid_count": 36,
+        "flu_count": 25
     },
     {
         "city": "Blunsdon Saint Andrew",
@@ -5637,7 +6106,8 @@
         "capital": "",
         "population": "12414",
         "population_proper": "12414",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "Coseley",
@@ -5649,7 +6119,8 @@
         "capital": "",
         "population": "12357",
         "population_proper": "12357",
-        "covid_count": 21
+        "covid_count": 21,
+        "flu_count": 14
     },
     {
         "city": "Ovenden",
@@ -5661,7 +6132,8 @@
         "capital": "",
         "population": "12351",
         "population_proper": "12351",
-        "covid_count": 63
+        "covid_count": 63,
+        "flu_count": 43
     },
     {
         "city": "Chepstow",
@@ -5673,7 +6145,8 @@
         "capital": "",
         "population": "12350",
         "population_proper": "12350",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "Lye",
@@ -5685,7 +6158,8 @@
         "capital": "",
         "population": "12346",
         "population_proper": "12346",
-        "covid_count": 20
+        "covid_count": 20,
+        "flu_count": 13
     },
     {
         "city": "Giffnock",
@@ -5697,7 +6171,8 @@
         "capital": "",
         "population": "12300",
         "population_proper": "12300",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Thatto Heath",
@@ -5709,7 +6184,8 @@
         "capital": "",
         "population": "12280",
         "population_proper": "12280",
-        "covid_count": 29
+        "covid_count": 29,
+        "flu_count": 20
     },
     {
         "city": "Sedgley",
@@ -5721,7 +6197,8 @@
         "capital": "",
         "population": "12087",
         "population_proper": "12087",
-        "covid_count": 21
+        "covid_count": 21,
+        "flu_count": 14
     },
     {
         "city": "Minehead",
@@ -5733,7 +6210,8 @@
         "capital": "",
         "population": "11981",
         "population_proper": "11981",
-        "covid_count": 10
+        "covid_count": 10,
+        "flu_count": 7
     },
     {
         "city": "Snaresbrook",
@@ -5745,7 +6223,8 @@
         "capital": "",
         "population": "11868",
         "population_proper": "11868",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "Sandown",
@@ -5757,7 +6236,8 @@
         "capital": "",
         "population": "11868",
         "population_proper": "11868",
-        "covid_count": 10
+        "covid_count": 10,
+        "flu_count": 6
     },
     {
         "city": "Hoyland Nether",
@@ -5769,7 +6249,8 @@
         "capital": "",
         "population": "11852",
         "population_proper": "11852",
-        "covid_count": 65
+        "covid_count": 65,
+        "flu_count": 44
     },
     {
         "city": "Hackney",
@@ -5781,7 +6262,8 @@
         "capital": "",
         "population": "11734",
         "population_proper": "11734",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "Wallingford",
@@ -5793,7 +6275,8 @@
         "capital": "",
         "population": "11600",
         "population_proper": "11600",
-        "covid_count": 14
+        "covid_count": 14,
+        "flu_count": 9
     },
     {
         "city": "Belgrave",
@@ -5805,7 +6288,8 @@
         "capital": "",
         "population": "11558",
         "population_proper": "11558",
-        "covid_count": 25
+        "covid_count": 25,
+        "flu_count": 17
     },
     {
         "city": "Wanstead",
@@ -5817,7 +6301,8 @@
         "capital": "",
         "population": "11543",
         "population_proper": "11543",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "Blundellsands",
@@ -5829,7 +6314,8 @@
         "capital": "",
         "population": "11514",
         "population_proper": "11514",
-        "covid_count": 26
+        "covid_count": 26,
+        "flu_count": 17
     },
     {
         "city": "Brislington",
@@ -5841,7 +6327,8 @@
         "capital": "",
         "population": "11511",
         "population_proper": "11511",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Culcheth",
@@ -5853,7 +6340,8 @@
         "capital": "",
         "population": "11454",
         "population_proper": "11454",
-        "covid_count": 33
+        "covid_count": 33,
+        "flu_count": 22
     },
     {
         "city": "Sandridge",
@@ -5865,7 +6353,8 @@
         "capital": "",
         "population": "11451",
         "population_proper": "11451",
-        "covid_count": 14
+        "covid_count": 14,
+        "flu_count": 10
     },
     {
         "city": "Holyhead",
@@ -5877,7 +6366,8 @@
         "capital": "",
         "population": "11431",
         "population_proper": "11431",
-        "covid_count": 14
+        "covid_count": 14,
+        "flu_count": 10
     },
     {
         "city": "Haydock",
@@ -5889,7 +6379,8 @@
         "capital": "",
         "population": "11416",
         "population_proper": "11416",
-        "covid_count": 31
+        "covid_count": 31,
+        "flu_count": 21
     },
     {
         "city": "Wealdstone",
@@ -5901,7 +6392,8 @@
         "capital": "",
         "population": "11394",
         "population_proper": "11394",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "Harrow Weald",
@@ -5913,7 +6405,8 @@
         "capital": "",
         "population": "11376",
         "population_proper": "11376",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "Carnoustie",
@@ -5925,7 +6418,8 @@
         "capital": "",
         "population": "11360",
         "population_proper": "11360",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Burslem",
@@ -5937,7 +6431,8 @@
         "capital": "",
         "population": "11314",
         "population_proper": "11314",
-        "covid_count": 29
+        "covid_count": 29,
+        "flu_count": 20
     },
     {
         "city": "Mountain Ash",
@@ -5949,7 +6444,8 @@
         "capital": "",
         "population": "11230",
         "population_proper": "11230",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Castle Bromwich",
@@ -5961,7 +6457,8 @@
         "capital": "",
         "population": "11217",
         "population_proper": "11217",
-        "covid_count": 21
+        "covid_count": 21,
+        "flu_count": 14
     },
     {
         "city": "Linslade",
@@ -5973,7 +6470,8 @@
         "capital": "",
         "population": "11185",
         "population_proper": "11185",
-        "covid_count": 16
+        "covid_count": 16,
+        "flu_count": 11
     },
     {
         "city": "Prescot",
@@ -5985,7 +6483,8 @@
         "capital": "",
         "population": "11184",
         "population_proper": "11184",
-        "covid_count": 28
+        "covid_count": 28,
+        "flu_count": 19
     },
     {
         "city": "Eckington",
@@ -5997,7 +6496,8 @@
         "capital": "",
         "population": "11152",
         "population_proper": "11152",
-        "covid_count": 49
+        "covid_count": 49,
+        "flu_count": 33
     },
     {
         "city": "Aylestone",
@@ -6009,7 +6509,8 @@
         "capital": "",
         "population": "11151",
         "population_proper": "11151",
-        "covid_count": 24
+        "covid_count": 24,
+        "flu_count": 16
     },
     {
         "city": "Southborough",
@@ -6021,7 +6522,8 @@
         "capital": "",
         "population": "11124",
         "population_proper": "11124",
-        "covid_count": 11
+        "covid_count": 11,
+        "flu_count": 7
     },
     {
         "city": "Timperley",
@@ -6033,7 +6535,8 @@
         "capital": "",
         "population": "11061",
         "population_proper": "11061",
-        "covid_count": 35
+        "covid_count": 35,
+        "flu_count": 24
     },
     {
         "city": "Bottesford",
@@ -6045,7 +6548,8 @@
         "capital": "",
         "population": "11038",
         "population_proper": "11038",
-        "covid_count": 69
+        "covid_count": 69,
+        "flu_count": 47
     },
     {
         "city": "Cudworth",
@@ -6057,7 +6561,8 @@
         "capital": "",
         "population": "10977",
         "population_proper": "10977",
-        "covid_count": 76
+        "covid_count": 76,
+        "flu_count": 52
     },
     {
         "city": "Oakham",
@@ -6069,7 +6574,8 @@
         "capital": "",
         "population": "10975",
         "population_proper": "10975",
-        "covid_count": 25
+        "covid_count": 25,
+        "flu_count": 17
     },
     {
         "city": "Highgate",
@@ -6081,7 +6587,8 @@
         "capital": "",
         "population": "10955",
         "population_proper": "10955",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "Hollinwood",
@@ -6093,7 +6600,8 @@
         "capital": "",
         "population": "10920",
         "population_proper": "10920",
-        "covid_count": 42
+        "covid_count": 42,
+        "flu_count": 29
     },
     {
         "city": "Earlestown",
@@ -6105,7 +6613,8 @@
         "capital": "",
         "population": "10830",
         "population_proper": "10830",
-        "covid_count": 31
+        "covid_count": 31,
+        "flu_count": 21
     },
     {
         "city": "Flixton",
@@ -6117,7 +6626,8 @@
         "capital": "",
         "population": "10786",
         "population_proper": "10786",
-        "covid_count": 35
+        "covid_count": 35,
+        "flu_count": 24
     },
     {
         "city": "Parkstone",
@@ -6129,7 +6639,8 @@
         "capital": "",
         "population": "10779",
         "population_proper": "10779",
-        "covid_count": 10
+        "covid_count": 10,
+        "flu_count": 6
     },
     {
         "city": "Royston",
@@ -6141,7 +6652,8 @@
         "capital": "",
         "population": "10728",
         "population_proper": "10728",
-        "covid_count": 80
+        "covid_count": 80,
+        "flu_count": 55
     },
     {
         "city": "Ormesby",
@@ -6153,7 +6665,8 @@
         "capital": "",
         "population": "10714",
         "population_proper": "10714",
-        "covid_count": 55
+        "covid_count": 55,
+        "flu_count": 38
     },
     {
         "city": "Hatch End",
@@ -6165,7 +6678,8 @@
         "capital": "",
         "population": "10693",
         "population_proper": "10693",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "Ryhope",
@@ -6177,7 +6691,8 @@
         "capital": "",
         "population": "10484",
         "population_proper": "10484",
-        "covid_count": 35
+        "covid_count": 35,
+        "flu_count": 24
     },
     {
         "city": "Holbeach",
@@ -6189,7 +6704,8 @@
         "capital": "",
         "population": "10458",
         "population_proper": "10458",
-        "covid_count": 24
+        "covid_count": 24,
+        "flu_count": 17
     },
     {
         "city": "Eccleston",
@@ -6201,7 +6717,8 @@
         "capital": "",
         "population": "10433",
         "population_proper": "10433",
-        "covid_count": 29
+        "covid_count": 29,
+        "flu_count": 20
     },
     {
         "city": "Bradford-on-Avon",
@@ -6213,7 +6730,8 @@
         "capital": "",
         "population": "10405",
         "population_proper": "10405",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Gourock",
@@ -6225,7 +6743,8 @@
         "capital": "",
         "population": "10350",
         "population_proper": "10350",
-        "covid_count": 11
+        "covid_count": 11,
+        "flu_count": 7
     },
     {
         "city": "Stranraer",
@@ -6237,7 +6756,8 @@
         "capital": "",
         "population": "10320",
         "population_proper": "10320",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "Spitalfields",
@@ -6249,7 +6769,8 @@
         "capital": "",
         "population": "10286",
         "population_proper": "10286",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 8
     },
     {
         "city": "Cheam",
@@ -6261,7 +6782,8 @@
         "capital": "",
         "population": "10285",
         "population_proper": "10285",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Lemington",
@@ -6273,7 +6795,8 @@
         "capital": "",
         "population": "10228",
         "population_proper": "10228",
-        "covid_count": 30
+        "covid_count": 30,
+        "flu_count": 20
     },
     {
         "city": "New Silksworth",
@@ -6285,7 +6808,8 @@
         "capital": "",
         "population": "10194",
         "population_proper": "10194",
-        "covid_count": 35
+        "covid_count": 35,
+        "flu_count": 24
     },
     {
         "city": "Forres",
@@ -6297,7 +6821,8 @@
         "capital": "",
         "population": "10100",
         "population_proper": "10100",
-        "covid_count": 8
+        "covid_count": 8,
+        "flu_count": 5
     },
     {
         "city": "Lydney",
@@ -6309,7 +6834,8 @@
         "capital": "",
         "population": "10043",
         "population_proper": "10043",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "Marton",
@@ -6321,7 +6847,8 @@
         "capital": "",
         "population": "9990",
         "population_proper": "9990",
-        "covid_count": 56
+        "covid_count": 56,
+        "flu_count": 38
     },
     {
         "city": "Bishopstoke",
@@ -6333,7 +6860,8 @@
         "capital": "",
         "population": "9974",
         "population_proper": "9974",
-        "covid_count": 11
+        "covid_count": 11,
+        "flu_count": 7
     },
     {
         "city": "Aberaman",
@@ -6345,7 +6873,8 @@
         "capital": "",
         "population": "9964",
         "population_proper": "9964",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Birchington",
@@ -6357,7 +6886,8 @@
         "capital": "",
         "population": "9961",
         "population_proper": "9961",
-        "covid_count": 11
+        "covid_count": 11,
+        "flu_count": 7
     },
     {
         "city": "Nairn",
@@ -6369,7 +6899,8 @@
         "capital": "",
         "population": "9960",
         "population_proper": "9960",
-        "covid_count": 8
+        "covid_count": 8,
+        "flu_count": 5
     },
     {
         "city": "Handsworth",
@@ -6381,7 +6912,8 @@
         "capital": "",
         "population": "9957",
         "population_proper": "9957",
-        "covid_count": 53
+        "covid_count": 53,
+        "flu_count": 36
     },
     {
         "city": "Liskeard",
@@ -6393,7 +6925,8 @@
         "capital": "",
         "population": "9912",
         "population_proper": "9912",
-        "covid_count": 8
+        "covid_count": 8,
+        "flu_count": 5
     },
     {
         "city": "Stocksbridge",
@@ -6405,7 +6938,8 @@
         "capital": "",
         "population": "9869",
         "population_proper": "9869",
-        "covid_count": 58
+        "covid_count": 58,
+        "flu_count": 39
     },
     {
         "city": "Kippax",
@@ -6417,7 +6951,8 @@
         "capital": "",
         "population": "9785",
         "population_proper": "9785",
-        "covid_count": 128
+        "covid_count": 128,
+        "flu_count": 88
     },
     {
         "city": "Tottington",
@@ -6429,7 +6964,8 @@
         "capital": "",
         "population": "9783",
         "population_proper": "9783",
-        "covid_count": 40
+        "covid_count": 40,
+        "flu_count": 27
     },
     {
         "city": "Whitchurch",
@@ -6441,7 +6977,8 @@
         "capital": "",
         "population": "9781",
         "population_proper": "9781",
-        "covid_count": 24
+        "covid_count": 24,
+        "flu_count": 16
     },
     {
         "city": "Helston",
@@ -6453,7 +6990,8 @@
         "capital": "",
         "population": "9780",
         "population_proper": "9780",
-        "covid_count": 7
+        "covid_count": 7,
+        "flu_count": 4
     },
     {
         "city": "Raynes Park",
@@ -6465,7 +7003,8 @@
         "capital": "",
         "population": "9738",
         "population_proper": "9738",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Lambeth",
@@ -6477,7 +7016,8 @@
         "capital": "",
         "population": "9675",
         "population_proper": "9675",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 8
     },
     {
         "city": "Killamarsh",
@@ -6489,7 +7029,8 @@
         "capital": "",
         "population": "9445",
         "population_proper": "9445",
-        "covid_count": 50
+        "covid_count": 50,
+        "flu_count": 34
     },
     {
         "city": "Thames Ditton",
@@ -6501,7 +7042,8 @@
         "capital": "",
         "population": "9400",
         "population_proper": "9400",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Horsell",
@@ -6513,7 +7055,8 @@
         "capital": "",
         "population": "9384",
         "population_proper": "9384",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Broadwater",
@@ -6525,7 +7068,8 @@
         "capital": "",
         "population": "9373",
         "population_proper": "9373",
-        "covid_count": 10
+        "covid_count": 10,
+        "flu_count": 7
     },
     {
         "city": "Wilnecote",
@@ -6537,7 +7081,8 @@
         "capital": "",
         "population": "9358",
         "population_proper": "9358",
-        "covid_count": 23
+        "covid_count": 23,
+        "flu_count": 16
     },
     {
         "city": "Tilehurst",
@@ -6549,7 +7094,8 @@
         "capital": "",
         "population": "9185",
         "population_proper": "9185",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "Aberbargoed",
@@ -6561,7 +7107,8 @@
         "capital": "",
         "population": "9184",
         "population_proper": "9184",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Littleport",
@@ -6573,7 +7120,8 @@
         "capital": "",
         "population": "9168",
         "population_proper": "9168",
-        "covid_count": 19
+        "covid_count": 19,
+        "flu_count": 13
     },
     {
         "city": "Dunbar",
@@ -6585,7 +7133,8 @@
         "capital": "",
         "population": "9030",
         "population_proper": "9030",
-        "covid_count": 14
+        "covid_count": 14,
+        "flu_count": 10
     },
     {
         "city": "Barwell",
@@ -6597,7 +7146,8 @@
         "capital": "",
         "population": "9022",
         "population_proper": "9022",
-        "covid_count": 23
+        "covid_count": 23,
+        "flu_count": 16
     },
     {
         "city": "Cupar",
@@ -6609,7 +7159,8 @@
         "capital": "",
         "population": "9020",
         "population_proper": "9020",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Broughton Astley",
@@ -6621,7 +7172,8 @@
         "capital": "",
         "population": "8940",
         "population_proper": "8940",
-        "covid_count": 23
+        "covid_count": 23,
+        "flu_count": 15
     },
     {
         "city": "Partick",
@@ -6633,7 +7185,8 @@
         "capital": "",
         "population": "8884",
         "population_proper": "8884",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Ifield",
@@ -6645,7 +7198,8 @@
         "capital": "",
         "population": "8882",
         "population_proper": "8882",
-        "covid_count": 11
+        "covid_count": 11,
+        "flu_count": 7
     },
     {
         "city": "Cowley",
@@ -6657,7 +7211,8 @@
         "capital": "",
         "population": "8776",
         "population_proper": "8776",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "Clayton le Moors",
@@ -6669,7 +7224,8 @@
         "capital": "",
         "population": "8522",
         "population_proper": "8522",
-        "covid_count": 41
+        "covid_count": 41,
+        "flu_count": 28
     },
     {
         "city": "Cam",
@@ -6681,7 +7237,8 @@
         "capital": "",
         "population": "8520",
         "population_proper": "8520",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "Blackwood",
@@ -6693,7 +7250,8 @@
         "capital": "",
         "population": "8496",
         "population_proper": "8496",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Great Billing",
@@ -6705,7 +7263,8 @@
         "capital": "",
         "population": "8457",
         "population_proper": "8457",
-        "covid_count": 19
+        "covid_count": 19,
+        "flu_count": 13
     },
     {
         "city": "Seaton",
@@ -6717,7 +7276,8 @@
         "capital": "",
         "population": "8413",
         "population_proper": "8413",
-        "covid_count": 9
+        "covid_count": 9,
+        "flu_count": 6
     },
     {
         "city": "Birtley",
@@ -6729,7 +7289,8 @@
         "capital": "",
         "population": "8367",
         "population_proper": "8367",
-        "covid_count": 33
+        "covid_count": 33,
+        "flu_count": 23
     },
     {
         "city": "Glascote",
@@ -6741,7 +7302,8 @@
         "capital": "",
         "population": "8344",
         "population_proper": "8344",
-        "covid_count": 23
+        "covid_count": 23,
+        "flu_count": 16
     },
     {
         "city": "Mountsorrel",
@@ -6753,7 +7315,8 @@
         "capital": "",
         "population": "8223",
         "population_proper": "8223",
-        "covid_count": 26
+        "covid_count": 26,
+        "flu_count": 18
     },
     {
         "city": "Brierfield",
@@ -6765,7 +7328,8 @@
         "capital": "",
         "population": "8193",
         "population_proper": "8193",
-        "covid_count": 47
+        "covid_count": 47,
+        "flu_count": 32
     },
     {
         "city": "Heybridge",
@@ -6777,7 +7341,8 @@
         "capital": "",
         "population": "8175",
         "population_proper": "8175",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "New Bilton",
@@ -6789,7 +7354,8 @@
         "capital": "",
         "population": "8166",
         "population_proper": "8166",
-        "covid_count": 20
+        "covid_count": 20,
+        "flu_count": 14
     },
     {
         "city": "Exhall",
@@ -6801,7 +7367,8 @@
         "capital": "",
         "population": "8006",
         "population_proper": "8006",
-        "covid_count": 21
+        "covid_count": 21,
+        "flu_count": 15
     },
     {
         "city": "Newbold",
@@ -6813,7 +7380,8 @@
         "capital": "",
         "population": "7962",
         "population_proper": "7962",
-        "covid_count": 44
+        "covid_count": 44,
+        "flu_count": 30
     },
     {
         "city": "Cross Gates",
@@ -6825,7 +7393,8 @@
         "capital": "",
         "population": "7770",
         "population_proper": "7770",
-        "covid_count": 123
+        "covid_count": 123,
+        "flu_count": 85
     },
     {
         "city": "Stony Stratford",
@@ -6837,7 +7406,8 @@
         "capital": "",
         "population": "7736",
         "population_proper": "7736",
-        "covid_count": 17
+        "covid_count": 17,
+        "flu_count": 11
     },
     {
         "city": "Rothwell",
@@ -6849,7 +7419,8 @@
         "capital": "",
         "population": "7694",
         "population_proper": "7694",
-        "covid_count": 21
+        "covid_count": 21,
+        "flu_count": 14
     },
     {
         "city": "Rh\u00c3\u00b4s-on-Sea",
@@ -6861,7 +7432,8 @@
         "capital": "",
         "population": "7593",
         "population_proper": "7593",
-        "covid_count": 19
+        "covid_count": 19,
+        "flu_count": 13
     },
     {
         "city": "Stonehouse",
@@ -6873,7 +7445,8 @@
         "capital": "",
         "population": "7591",
         "population_proper": "7591",
-        "covid_count": 14
+        "covid_count": 14,
+        "flu_count": 9
     },
     {
         "city": "Sundon",
@@ -6885,7 +7458,8 @@
         "capital": "",
         "population": "7585",
         "population_proper": "7585",
-        "covid_count": 15
+        "covid_count": 15,
+        "flu_count": 10
     },
     {
         "city": "Codsall",
@@ -6897,7 +7471,8 @@
         "capital": "",
         "population": "7582",
         "population_proper": "7582",
-        "covid_count": 22
+        "covid_count": 22,
+        "flu_count": 15
     },
     {
         "city": "Attleborough",
@@ -6909,7 +7484,8 @@
         "capital": "",
         "population": "7564",
         "population_proper": "7564",
-        "covid_count": 22
+        "covid_count": 22,
+        "flu_count": 15
     },
     {
         "city": "Hucknall under Huthwaite",
@@ -6921,7 +7497,8 @@
         "capital": "",
         "population": "7500",
         "population_proper": "7500",
-        "covid_count": 39
+        "covid_count": 39,
+        "flu_count": 26
     },
     {
         "city": "Pyle",
@@ -6933,7 +7510,8 @@
         "capital": "",
         "population": "7405",
         "population_proper": "7405",
-        "covid_count": 11
+        "covid_count": 11,
+        "flu_count": 7
     },
     {
         "city": "Harefield",
@@ -6945,7 +7523,8 @@
         "capital": "",
         "population": "7399",
         "population_proper": "7399",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "Wickersley",
@@ -6957,7 +7536,8 @@
         "capital": "",
         "population": "7392",
         "population_proper": "7392",
-        "covid_count": 59
+        "covid_count": 59,
+        "flu_count": 41
     },
     {
         "city": "Greenhill",
@@ -6969,7 +7549,8 @@
         "capital": "",
         "population": "7339",
         "population_proper": "7339",
-        "covid_count": 11
+        "covid_count": 11,
+        "flu_count": 7
     },
     {
         "city": "Roby",
@@ -6981,7 +7562,8 @@
         "capital": "",
         "population": "7254",
         "population_proper": "7254",
-        "covid_count": 27
+        "covid_count": 27,
+        "flu_count": 19
     },
     {
         "city": "Lee-on-the-Solent",
@@ -6993,7 +7575,8 @@
         "capital": "",
         "population": "7224",
         "population_proper": "7224",
-        "covid_count": 10
+        "covid_count": 10,
+        "flu_count": 7
     },
     {
         "city": "Kirkham",
@@ -7005,7 +7588,8 @@
         "capital": "",
         "population": "7194",
         "population_proper": "7194",
-        "covid_count": 30
+        "covid_count": 30,
+        "flu_count": 21
     },
     {
         "city": "Frampton Cotterell",
@@ -7017,7 +7601,8 @@
         "capital": "",
         "population": "7162",
         "population_proper": "7162",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Faringdon",
@@ -7029,7 +7614,8 @@
         "capital": "",
         "population": "7121",
         "population_proper": "7121",
-        "covid_count": 14
+        "covid_count": 14,
+        "flu_count": 9
     },
     {
         "city": "Allington",
@@ -7041,7 +7627,8 @@
         "capital": "",
         "population": "7100",
         "population_proper": "7100",
-        "covid_count": 11
+        "covid_count": 11,
+        "flu_count": 7
     },
     {
         "city": "Saint Peters",
@@ -7053,7 +7640,8 @@
         "capital": "",
         "population": "7042",
         "population_proper": "7042",
-        "covid_count": 11
+        "covid_count": 11,
+        "flu_count": 7
     },
     {
         "city": "Shifnal",
@@ -7065,7 +7653,8 @@
         "capital": "",
         "population": "7009",
         "population_proper": "7009",
-        "covid_count": 21
+        "covid_count": 21,
+        "flu_count": 15
     },
     {
         "city": "Crewkerne",
@@ -7077,7 +7666,8 @@
         "capital": "",
         "population": "7000",
         "population_proper": "7000",
-        "covid_count": 10
+        "covid_count": 10,
+        "flu_count": 6
     },
     {
         "city": "Westgate on Sea",
@@ -7089,7 +7679,8 @@
         "capital": "",
         "population": "6996",
         "population_proper": "6996",
-        "covid_count": 11
+        "covid_count": 11,
+        "flu_count": 7
     },
     {
         "city": "Warrenpoint",
@@ -7101,7 +7692,8 @@
         "capital": "",
         "population": "6981",
         "population_proper": "6981",
-        "covid_count": 10
+        "covid_count": 10,
+        "flu_count": 7
     },
     {
         "city": "Dowlais",
@@ -7113,7 +7705,8 @@
         "capital": "",
         "population": "6926",
         "population_proper": "6926",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Duntocher",
@@ -7125,7 +7718,8 @@
         "capital": "",
         "population": "6880",
         "population_proper": "6880",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Thornhill",
@@ -7137,7 +7731,8 @@
         "capital": "",
         "population": "6875",
         "population_proper": "6875",
-        "covid_count": 76
+        "covid_count": 76,
+        "flu_count": 52
     },
     {
         "city": "Gedling",
@@ -7149,7 +7744,8 @@
         "capital": "",
         "population": "6817",
         "population_proper": "6817",
-        "covid_count": 33
+        "covid_count": 33,
+        "flu_count": 23
     },
     {
         "city": "Bolton upon Dearne",
@@ -7161,7 +7757,8 @@
         "capital": "",
         "population": "6744",
         "population_proper": "6744",
-        "covid_count": 71
+        "covid_count": 71,
+        "flu_count": 49
     },
     {
         "city": "Godmanchester",
@@ -7173,7 +7770,8 @@
         "capital": "",
         "population": "6711",
         "population_proper": "6711",
-        "covid_count": 19
+        "covid_count": 19,
+        "flu_count": 13
     },
     {
         "city": "Aintree",
@@ -7185,7 +7783,8 @@
         "capital": "",
         "population": "6689",
         "population_proper": "6689",
-        "covid_count": 27
+        "covid_count": 27,
+        "flu_count": 18
     },
     {
         "city": "Pakefield",
@@ -7197,7 +7796,8 @@
         "capital": "",
         "population": "6563",
         "population_proper": "6563",
-        "covid_count": 14
+        "covid_count": 14,
+        "flu_count": 10
     },
     {
         "city": "Whetstone",
@@ -7209,7 +7809,8 @@
         "capital": "",
         "population": "6556",
         "population_proper": "6556",
-        "covid_count": 23
+        "covid_count": 23,
+        "flu_count": 16
     },
     {
         "city": "Cove",
@@ -7221,7 +7822,8 @@
         "capital": "",
         "population": "6548",
         "population_proper": "6548",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Bilton",
@@ -7233,7 +7835,8 @@
         "capital": "",
         "population": "6544",
         "population_proper": "6544",
-        "covid_count": 20
+        "covid_count": 20,
+        "flu_count": 14
     },
     {
         "city": "Bothwell",
@@ -7245,7 +7848,8 @@
         "capital": "",
         "population": "6380",
         "population_proper": "6380",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 8
     },
     {
         "city": "Uddingston",
@@ -7257,7 +7861,8 @@
         "capital": "",
         "population": "6370",
         "population_proper": "6370",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 8
     },
     {
         "city": "Long Ditton",
@@ -7269,7 +7874,8 @@
         "capital": "",
         "population": "6343",
         "population_proper": "6343",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Alcester",
@@ -7281,7 +7887,8 @@
         "capital": "",
         "population": "6273",
         "population_proper": "6273",
-        "covid_count": 18
+        "covid_count": 18,
+        "flu_count": 12
     },
     {
         "city": "Handforth",
@@ -7293,7 +7900,8 @@
         "capital": "",
         "population": "6266",
         "population_proper": "6266",
-        "covid_count": 36
+        "covid_count": 36,
+        "flu_count": 24
     },
     {
         "city": "Shephall",
@@ -7305,7 +7913,8 @@
         "capital": "",
         "population": "6210",
         "population_proper": "6210",
-        "covid_count": 15
+        "covid_count": 15,
+        "flu_count": 10
     },
     {
         "city": "Dyce",
@@ -7317,7 +7926,8 @@
         "capital": "",
         "population": "6190",
         "population_proper": "6190",
-        "covid_count": 10
+        "covid_count": 10,
+        "flu_count": 6
     },
     {
         "city": "Hollington",
@@ -7329,7 +7939,8 @@
         "capital": "",
         "population": "6099",
         "population_proper": "6099",
-        "covid_count": 10
+        "covid_count": 10,
+        "flu_count": 6
     },
     {
         "city": "Llantwit Fardre",
@@ -7341,7 +7952,8 @@
         "capital": "",
         "population": "6099",
         "population_proper": "6099",
-        "covid_count": 11
+        "covid_count": 11,
+        "flu_count": 8
     },
     {
         "city": "Long Ashton",
@@ -7353,7 +7965,8 @@
         "capital": "",
         "population": "6044",
         "population_proper": "6044",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Highbridge",
@@ -7365,7 +7978,8 @@
         "capital": "",
         "population": "5986",
         "population_proper": "5986",
-        "covid_count": 11
+        "covid_count": 11,
+        "flu_count": 7
     },
     {
         "city": "Withernsea",
@@ -7377,7 +7991,8 @@
         "capital": "",
         "population": "5980",
         "population_proper": "5980",
-        "covid_count": 47
+        "covid_count": 47,
+        "flu_count": 32
     },
     {
         "city": "Porth",
@@ -7389,7 +8004,8 @@
         "capital": "",
         "population": "5970",
         "population_proper": "5970",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Great Burstead",
@@ -7401,7 +8017,8 @@
         "capital": "",
         "population": "5968",
         "population_proper": "5968",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 8
     },
     {
         "city": "Saltburn-by-the-Sea",
@@ -7413,7 +8030,8 @@
         "capital": "",
         "population": "5958",
         "population_proper": "5958",
-        "covid_count": 52
+        "covid_count": 52,
+        "flu_count": 36
     },
     {
         "city": "Honley",
@@ -7425,7 +8043,8 @@
         "capital": "",
         "population": "5897",
         "population_proper": "5897",
-        "covid_count": 59
+        "covid_count": 59,
+        "flu_count": 41
     },
     {
         "city": "Govan",
@@ -7437,7 +8056,8 @@
         "capital": "",
         "population": "5860",
         "population_proper": "5860",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Cheddar",
@@ -7449,7 +8069,8 @@
         "capital": "",
         "population": "5755",
         "population_proper": "5755",
-        "covid_count": 11
+        "covid_count": 11,
+        "flu_count": 7
     },
     {
         "city": "Broughton",
@@ -7461,7 +8082,8 @@
         "capital": "",
         "population": "5726",
         "population_proper": "5726",
-        "covid_count": 65
+        "covid_count": 65,
+        "flu_count": 44
     },
     {
         "city": "Littlemore",
@@ -7473,7 +8095,8 @@
         "capital": "",
         "population": "5646",
         "population_proper": "5646",
-        "covid_count": 14
+        "covid_count": 14,
+        "flu_count": 10
     },
     {
         "city": "Kirk Ella",
@@ -7485,7 +8108,8 @@
         "capital": "",
         "population": "5638",
         "population_proper": "5638",
-        "covid_count": 78
+        "covid_count": 78,
+        "flu_count": 53
     },
     {
         "city": "Wadsley",
@@ -7497,7 +8121,8 @@
         "capital": "",
         "population": "5631",
         "population_proper": "5631",
-        "covid_count": 54
+        "covid_count": 54,
+        "flu_count": 37
     },
     {
         "city": "Leavesden Green",
@@ -7509,7 +8134,8 @@
         "capital": "",
         "population": "5612",
         "population_proper": "5612",
-        "covid_count": 14
+        "covid_count": 14,
+        "flu_count": 9
     },
     {
         "city": "Lexden",
@@ -7521,7 +8147,8 @@
         "capital": "",
         "population": "5549",
         "population_proper": "5549",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "Utley",
@@ -7533,7 +8160,8 @@
         "capital": "",
         "population": "5500",
         "population_proper": "5500",
-        "covid_count": 66
+        "covid_count": 66,
+        "flu_count": 45
     },
     {
         "city": "Bridge of Allan",
@@ -7545,7 +8173,8 @@
         "capital": "",
         "population": "5380",
         "population_proper": "5380",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Bishopton",
@@ -7557,7 +8186,8 @@
         "capital": "",
         "population": "5330",
         "population_proper": "5330",
-        "covid_count": 11
+        "covid_count": 11,
+        "flu_count": 8
     },
     {
         "city": "Paulton",
@@ -7569,7 +8199,8 @@
         "capital": "",
         "population": "5303",
         "population_proper": "5303",
-        "covid_count": 11
+        "covid_count": 11,
+        "flu_count": 8
     },
     {
         "city": "Wincanton",
@@ -7581,7 +8212,8 @@
         "capital": "",
         "population": "5272",
         "population_proper": "5272",
-        "covid_count": 10
+        "covid_count": 10,
+        "flu_count": 7
     },
     {
         "city": "Church",
@@ -7593,7 +8225,8 @@
         "capital": "",
         "population": "5186",
         "population_proper": "5186",
-        "covid_count": 41
+        "covid_count": 41,
+        "flu_count": 28
     },
     {
         "city": "Great Meols",
@@ -7605,7 +8238,8 @@
         "capital": "",
         "population": "5110",
         "population_proper": "5110",
-        "covid_count": 24
+        "covid_count": 24,
+        "flu_count": 16
     },
     {
         "city": "Harleston",
@@ -7617,7 +8251,8 @@
         "capital": "",
         "population": "5067",
         "population_proper": "5067",
-        "covid_count": 15
+        "covid_count": 15,
+        "flu_count": 10
     },
     {
         "city": "Harlescott",
@@ -7629,7 +8264,8 @@
         "capital": "",
         "population": "5060",
         "population_proper": "5060",
-        "covid_count": 21
+        "covid_count": 21,
+        "flu_count": 14
     },
     {
         "city": "Ottery Saint Mary",
@@ -7641,7 +8277,8 @@
         "capital": "",
         "population": "4898",
         "population_proper": "4898",
-        "covid_count": 9
+        "covid_count": 9,
+        "flu_count": 6
     },
     {
         "city": "Loughor",
@@ -7653,7 +8290,8 @@
         "capital": "",
         "population": "4824",
         "population_proper": "4824",
-        "covid_count": 11
+        "covid_count": 11,
+        "flu_count": 7
     },
     {
         "city": "North Woolwich",
@@ -7665,7 +8303,8 @@
         "capital": "",
         "population": "4752",
         "population_proper": "4752",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Huntington",
@@ -7677,7 +8316,8 @@
         "capital": "",
         "population": "4715",
         "population_proper": "4715",
-        "covid_count": 24
+        "covid_count": 24,
+        "flu_count": 16
     },
     {
         "city": "Coedpoeth",
@@ -7689,7 +8329,8 @@
         "capital": "",
         "population": "4702",
         "population_proper": "4702",
-        "covid_count": 22
+        "covid_count": 22,
+        "flu_count": 15
     },
     {
         "city": "Somerton",
@@ -7701,7 +8342,8 @@
         "capital": "",
         "population": "4697",
         "population_proper": "4697",
-        "covid_count": 10
+        "covid_count": 10,
+        "flu_count": 7
     },
     {
         "city": "Eton",
@@ -7713,7 +8355,8 @@
         "capital": "",
         "population": "4692",
         "population_proper": "4692",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "Old Kilpatrick",
@@ -7725,7 +8368,8 @@
         "capital": "",
         "population": "4680",
         "population_proper": "4680",
-        "covid_count": 11
+        "covid_count": 11,
+        "flu_count": 8
     },
     {
         "city": "Kirby Muxloe",
@@ -7737,7 +8381,8 @@
         "capital": "",
         "population": "4667",
         "population_proper": "4667",
-        "covid_count": 24
+        "covid_count": 24,
+        "flu_count": 17
     },
     {
         "city": "Histon",
@@ -7749,7 +8394,8 @@
         "capital": "",
         "population": "4655",
         "population_proper": "4655",
-        "covid_count": 17
+        "covid_count": 17,
+        "flu_count": 12
     },
     {
         "city": "Tillicoultry",
@@ -7761,7 +8407,8 @@
         "capital": "",
         "population": "4650",
         "population_proper": "4650",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Nelson",
@@ -7773,7 +8420,8 @@
         "capital": "",
         "population": "4647",
         "population_proper": "4647",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Alva",
@@ -7785,7 +8433,8 @@
         "capital": "",
         "population": "4600",
         "population_proper": "4600",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Ingatestone",
@@ -7797,7 +8446,8 @@
         "capital": "",
         "population": "4504",
         "population_proper": "4504",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "Lees",
@@ -7809,7 +8459,8 @@
         "capital": "",
         "population": "4500",
         "population_proper": "4500",
-        "covid_count": 45
+        "covid_count": 45,
+        "flu_count": 31
     },
     {
         "city": "Kingsthorpe",
@@ -7821,7 +8472,8 @@
         "capital": "",
         "population": "4477",
         "population_proper": "4477",
-        "covid_count": 19
+        "covid_count": 19,
+        "flu_count": 13
     },
     {
         "city": "Cowpen",
@@ -7833,7 +8485,8 @@
         "capital": "",
         "population": "4466",
         "population_proper": "4466",
-        "covid_count": 27
+        "covid_count": 27,
+        "flu_count": 18
     },
     {
         "city": "Wilford",
@@ -7845,7 +8498,8 @@
         "capital": "",
         "population": "4428",
         "population_proper": "4428",
-        "covid_count": 31
+        "covid_count": 31,
+        "flu_count": 21
     },
     {
         "city": "Seaton Delaval",
@@ -7857,7 +8511,8 @@
         "capital": "",
         "population": "4371",
         "population_proper": "4371",
-        "covid_count": 28
+        "covid_count": 28,
+        "flu_count": 19
     },
     {
         "city": "Ferndale",
@@ -7869,7 +8524,8 @@
         "capital": "",
         "population": "4178",
         "population_proper": "4178",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Grenoside",
@@ -7881,7 +8537,8 @@
         "capital": "",
         "population": "4177",
         "population_proper": "4177",
-        "covid_count": 57
+        "covid_count": 57,
+        "flu_count": 39
     },
     {
         "city": "Beddau",
@@ -7893,7 +8550,8 @@
         "capital": "",
         "population": "4156",
         "population_proper": "4156",
-        "covid_count": 11
+        "covid_count": 11,
+        "flu_count": 8
     },
     {
         "city": "Banff",
@@ -7905,7 +8563,8 @@
         "capital": "",
         "population": "4100",
         "population_proper": "4100",
-        "covid_count": 8
+        "covid_count": 8,
+        "flu_count": 5
     },
     {
         "city": "Bare",
@@ -7917,7 +8576,8 @@
         "capital": "",
         "population": "4067",
         "population_proper": "4067",
-        "covid_count": 31
+        "covid_count": 31,
+        "flu_count": 21
     },
     {
         "city": "Chasetown",
@@ -7929,7 +8589,8 @@
         "capital": "",
         "population": "3885",
         "population_proper": "3885",
-        "covid_count": 23
+        "covid_count": 23,
+        "flu_count": 16
     },
     {
         "city": "Deanshanger",
@@ -7941,7 +8602,8 @@
         "capital": "",
         "population": "3817",
         "population_proper": "3817",
-        "covid_count": 17
+        "covid_count": 17,
+        "flu_count": 11
     },
     {
         "city": "Tayport",
@@ -7953,7 +8615,8 @@
         "capital": "",
         "population": "3810",
         "population_proper": "3810",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Anstruther",
@@ -7965,7 +8628,8 @@
         "capital": "",
         "population": "3810",
         "population_proper": "3810",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "Walton le Dale",
@@ -7977,7 +8641,8 @@
         "capital": "",
         "population": "3792",
         "population_proper": "3792",
-        "covid_count": 34
+        "covid_count": 34,
+        "flu_count": 23
     },
     {
         "city": "Watchet",
@@ -7989,7 +8654,8 @@
         "capital": "",
         "population": "3785",
         "population_proper": "3785",
-        "covid_count": 10
+        "covid_count": 10,
+        "flu_count": 7
     },
     {
         "city": "Highcliffe",
@@ -8001,7 +8667,8 @@
         "capital": "",
         "population": "3673",
         "population_proper": "3673",
-        "covid_count": 10
+        "covid_count": 10,
+        "flu_count": 6
     },
     {
         "city": "Kilburn",
@@ -8013,7 +8680,8 @@
         "capital": "",
         "population": "3618",
         "population_proper": "3618",
-        "covid_count": 33
+        "covid_count": 33,
+        "flu_count": 23
     },
     {
         "city": "Llanharan",
@@ -8025,7 +8693,8 @@
         "capital": "",
         "population": "3465",
         "population_proper": "3465",
-        "covid_count": 11
+        "covid_count": 11,
+        "flu_count": 8
     },
     {
         "city": "Llanbadarn-fawr",
@@ -8037,7 +8706,8 @@
         "capital": "",
         "population": "3380",
         "population_proper": "3380",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "Menai Bridge",
@@ -8049,7 +8719,8 @@
         "capital": "",
         "population": "3376",
         "population_proper": "3376",
-        "covid_count": 16
+        "covid_count": 16,
+        "flu_count": 11
     },
     {
         "city": "Sherborne Saint John",
@@ -8061,7 +8732,8 @@
         "capital": "",
         "population": "3265",
         "population_proper": "3265",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Clackmannan",
@@ -8073,7 +8745,8 @@
         "capital": "",
         "population": "3240",
         "population_proper": "3240",
-        "covid_count": 12
+        "covid_count": 12,
+        "flu_count": 8
     },
     {
         "city": "Swalwell",
@@ -8085,7 +8758,8 @@
         "capital": "",
         "population": "3200",
         "population_proper": "3200",
-        "covid_count": 31
+        "covid_count": 31,
+        "flu_count": 21
     },
     {
         "city": "Stainton",
@@ -8097,7 +8771,8 @@
         "capital": "",
         "population": "2890",
         "population_proper": "2890",
-        "covid_count": 57
+        "covid_count": 57,
+        "flu_count": 39
     },
     {
         "city": "Harton",
@@ -8109,7 +8784,8 @@
         "capital": "",
         "population": "2878",
         "population_proper": "2878",
-        "covid_count": 34
+        "covid_count": 34,
+        "flu_count": 23
     },
     {
         "city": "Kinghorn",
@@ -8121,7 +8797,8 @@
         "capital": "",
         "population": "2840",
         "population_proper": "2840",
-        "covid_count": 13
+        "covid_count": 13,
+        "flu_count": 9
     },
     {
         "city": "Appledore",
@@ -8133,7 +8810,8 @@
         "capital": "",
         "population": "2814",
         "population_proper": "2814",
-        "covid_count": 9
+        "covid_count": 9,
+        "flu_count": 6
     },
     {
         "city": "New Earswick",
@@ -8145,7 +8823,8 @@
         "capital": "",
         "population": "2737",
         "population_proper": "2737",
-        "covid_count": 997
+        "covid_count": 997,
+        "flu_count": 679
     },
     {
         "city": "Bushbury",
@@ -8157,6 +8836,7 @@
         "capital": "",
         "population": "2600",
         "population_proper": "2600",
-        "covid_count": 22
+        "covid_count": 22,
+        "flu_count": 15
     }
 ]
