@@ -1303,4 +1303,126 @@
             "content": "In that time, we saw Nicola Sturgeon take centre stage again - and found out that she had described Boris Johnson as a \"clown\" \r\nThere were missing WhatsApps, deleted by many of the key players and a\u2026 [+176 chars]"
         }
     ]
+}{
+    "status": "ok",
+    "totalResults": 9,
+    "articles": [
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "https://www.facebook.com/bbcnews",
+            "title": "'Pirate of the seas' in big decline after bird flu",
+            "description": "Sea bird counts after avian flu show serious declines in three species, the charity RSPB says.",
+            "url": "https://www.bbc.co.uk/news/science-environment-68276680",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/5FF2/production/_132626542_skua.jpg",
+            "publishedAt": "2024-02-13T02:02:24Z",
+            "content": "A powerful bird known as the pirate of the seas has declined dramatically because of avian flu, the RSPB says.\r\nGreat Skuas soar around the UK's coasts stealing other birds' food but their numbers in\u2026 [+2498 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "https://www.facebook.com/bbcnews",
+            "title": "Flu cases hit new winter high in England",
+            "description": "The NHS warns it is still \"in the thick\" of a challenging winter, as flu cases surge.",
+            "url": "https://www.bbc.co.uk/news/health-68167022",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/F886/production/_132522636_gettyimages-1424587398.jpg",
+            "publishedAt": "2024-02-01T13:24:24Z",
+            "content": "The number of people in hospital with flu and norovirus has hit a new winter high in England. \r\nLatest NHS figures show 2,226 beds were taken up by flu patients each day last week, up 70% in a month.\u2026 [+4612 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "https://www.facebook.com/bbcnews",
+            "title": "Whooping cough cases in Wales show sharp increase",
+            "description": "Cases of whooping cough are rising rapidly in Wales for the first time in five years.",
+            "url": "https://www.bbc.co.uk/news/uk-wales-68067829",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/12A34/production/_132404367_whoopingcough3_gettyimages-160428861.png",
+            "publishedAt": "2024-01-23T17:15:34Z",
+            "content": "Whooping cough cases have risen rapidly in Wales in the first few weeks of 2024.\r\nThere have already been 135 notified cases so far in January, compared with about 200 in the whole of 2023.\r\nPublic H\u2026 [+4438 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "https://www.facebook.com/bbcnews",
+            "title": "Grandmother dies at home hours after calling 999",
+            "description": "The 67-year-old, who was struggling to breathe, was told to go to her GP or a walk-in centre.",
+            "url": "https://www.bbc.co.uk/news/uk-england-leicestershire-68310754",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/9886/production/_132664093_janetlyon2.jpg",
+            "publishedAt": "2024-02-17T07:27:50Z",
+            "content": "A 67-year-old woman died trying to get through to her GP surgery three hours after calling for an ambulance which was not sent. \r\nJanet Lyon, from Leicestershire, was struggling to breathe on 27 Dece\u2026 [+3426 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "https://www.facebook.com/bbcnews",
+            "title": "12-hour A&E waits in winter 'becoming normalised'",
+            "description": "Experts warn long waits becoming normalised as NHS winter waits show little sign of improvement.",
+            "url": "https://www.bbc.co.uk/news/health-68306477",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/136B6/production/_128624597_emerg-index-getty.jpg",
+            "publishedAt": "2024-02-15T12:10:24Z",
+            "content": "The number of patients waiting more than 12 hours for a bed on a ward after being seen in A&amp;E in England was 19 times higher this winter than it was before the pandemic, figures show.\r\nThere were\u2026 [+4556 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "https://www.facebook.com/bbcnews",
+            "title": "Mould and damp in home left young children in hospital",
+            "description": "Katrina Lapton said her granddaughters developed chest infections due to mould in their bedrooms.",
+            "url": "https://www.bbc.co.uk/news/uk-wales-68188114",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/0A90/production/_132540720_mouldbeforeitwasfixed.jpg",
+            "publishedAt": "2024-02-03T12:36:05Z",
+            "content": "Two young children were taken to hospital due to mould growing in their bedrooms, a grandmother has said.\r\nKatrina Lapton, 49, said her two granddaughters were treated for chest infections because of\u2026 [+4435 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "https://www.facebook.com/bbcnews",
+            "title": "Palestinians sheltering in Rafah fear Israeli offensive",
+            "description": "The UN warns an assault on the city where more than a million people are sheltering would be \"terrifying\".",
+            "url": "https://www.bbc.co.uk/news/world-middle-east-68276216",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/31DA/production/_132626721_c8c87b16988bef47c3d3863a5e8b41c4e3a369c40_0_6236_40661000x652.jpg",
+            "publishedAt": "2024-02-12T19:14:14Z",
+            "content": "A Palestinian doctor in Rafah has said people are terrified about the prospect of an Israeli ground offensive in Gaza's southern-most city, after a night of some of the worst air strikes he has exper\u2026 [+7465 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "https://www.facebook.com/bbcnews",
+            "title": "Heart transplant patient recognised in record books",
+            "description": "Bert Janssen, who got a donor heart in the 1980s, is the longest-surviving heart transplant patient.",
+            "url": "https://www.bbc.co.uk/news/uk-england-london-68230614",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/FCE2/production/_132583746_04f6c308eb731b30c4a997aabd06165bb7853df00_359_3500_19691000x563.jpg",
+            "publishedAt": "2024-02-08T06:15:28Z",
+            "content": "The longest-surviving heart transplant patient has been recognised by Guinness World Records.\r\nBert Janssen, 57, from the Netherlands, has survived almost 40 years with the donor heart he received at\u2026 [+2544 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "https://www.facebook.com/bbcnews",
+            "title": "The day I found out I had special 'neo' blood",
+            "description": "Some patients, especially newborns, need specially tested blood to ensure it does not cause harm.",
+            "url": "https://www.bbc.co.uk/news/health-68205015",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/7AF4/production/_132667413_0df72c9d-98a8-4c11-b00b-e65a3c1805c7.jpg",
+            "publishedAt": "2024-02-17T01:42:09Z",
+            "content": "I have always been proud of donating blood. I have a relatively rare blood type (B-) and recently found out my blood is even more precious to the NHS, because it can be given to newborn babies.\r\nAt m\u2026 [+4842 chars]"
+        }
+    ]
 }
