@@ -19,7 +19,7 @@ function Options() {
     };
     return (
         <div>
-            <div className="fixed top-24 right-0 mt-4 mr-4 w-1/5 h-screen bg-sky-950 text-center space-y-4 p-4 rounded-lg shadow-lg">
+            <div className="fixed right-0 mt-4 mr-4 w-1/5 h-screen bg-sky-950 text-center space-y-4 p-4 rounded-lg shadow-lg">
                 <div className="text-sky-100">Options</div>
                 <div
                     onClick={toggleDropdown}

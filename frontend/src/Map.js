@@ -5,6 +5,7 @@ import "mapbox-gl/dist/mapbox-gl.css";
 import { HexagonLayer } from "@deck.gl/aggregation-layers";
 import { AmbientLight, PointLight, LightingEffect } from "@deck.gl/core";
 import Options from "./Options";
+import Control from "./Control";
 
 const MAPBOX_ACCESS_TOKEN = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN;
 const MAP_STYLE =
@@ -14,12 +15,14 @@ const MicroscopeMap = () => {
     const [data, setData] = useState(null);
     const [tooltipInfo, setTooltipInfo] = useState(null);
     const [isLoading, setIsLoading] = useState(true);
+    const [height, setHeight] = useState(true);
+    const [color, setColor] = useState(true);
+    const [radius, setRadius] = useState(2500);
 
     useEffect(() => {
-        fetch("http://localhost:5000/getPop")
+        fetch("http://127.0.0.1:5000/getPop")
             .then((response) => response.json())
             .then((data) => {
-                setIsLoading(false);
                 const transformData = data.map((item) => {
                     return {
                         name: item.city,
@@ -28,10 +31,13 @@ const MicroscopeMap = () => {
                             parseFloat(item.lat),
                         ],
                         pop: item.population,
+                        count: item.covid_count,
                     };
                 });
                 setData(transformData);
-            });
+            })
+            .catch((error) => console.error("Error:", error))
+            .finally(() => setIsLoading(false));
     }, []);
 
     if (isLoading) {
@@ -114,6 +120,10 @@ const MicroscopeMap = () => {
             (acc, p) => acc + Number(p.source.pop),
             0
         );
+        const count = info.object.points.reduce(
+            (acc, p) => acc + Number(p.source.count),
+            0
+        );
 
         return (
             <div
@@ -123,6 +133,7 @@ const MicroscopeMap = () => {
             >
                 <div>City: {name}</div>
                 <div>Population: {pop}</div>
+                <div>Covid Count: {count}</div>
                 <div>Latitude: {info.object.position[1].toFixed(6)}</div>
                 <div>Longitude: {info.object.position[0].toFixed(6)}</div>
             </div>
@@ -141,20 +152,20 @@ const MicroscopeMap = () => {
                   elevationScale: data && data.length ? 500 : 0,
                   getElevationValue: (points) =>
                       points.reduce((total, point) => {
-                          const pop = Number(point.pop);
-                          const cap = Math.min(pop, 500000);
+                          const pop = Number(height ? point.pop : point.count);
+                          const cap = Math.min(pop, height ? 500000 : 100);
                           return Number.isFinite(cap) ? cap : 0;
                       }, 0),
                   getColorValue: (points) =>
                       points.reduce((total, point) => {
-                          const pop = Number(point.pop);
-                          const cappedPop = Math.min(pop, 500000);
-                          return total + cappedPop;
+                          const count = Number(color ? point.count : point.pop);
+                          const cap = Math.min(count, color ? 500000 : 100);
+                          return Number.isFinite(cap) ? cap : 0;
                       }, 0) / points.length,
                   extruded: true,
                   getPosition: (d) => d.COORDINATES,
                   pickable: true,
-                  radius: 1000,
+                  radius: radius,
                   upperPercentile: 100,
                   material,
                   transitions: {
@@ -164,8 +175,9 @@ const MicroscopeMap = () => {
           ];
 
     return (
-        <div className="relative h-screen">
+        <div className="absolute top-0 bottom-0 left-0 right-0">
             <DeckGL
+                key={`${height}-${color}-${radius}`}
                 onHover={(info) => setTooltipInfo(info)}
                 initialViewState={INITIAL_VIEW_STATE}
                 controller={true}
@@ -178,6 +190,11 @@ const MicroscopeMap = () => {
                 />
             </DeckGL>
             <Tooltip info={tooltipInfo} />
+            <Control
+                setHeight={setHeight}
+                setColor={setColor}
+                setRadius={setRadius}
+            />
             <div className=" absolute top-0 right-0">
                 <Options />
             </div>

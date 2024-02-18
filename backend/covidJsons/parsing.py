@@ -140,20 +140,29 @@ file_paths = [
     "yorkshireHumber.json"
 ]
 
+latitudes = [53.209, 52.003185, 51.4319, 54.9333, 53.6210466667, 51.451019, 50.7773866667, 52.4751, 53.9591]
+longitudes = [-0.440666667, 0.003212, -0.0936, -1.9467, -2.5945, -0.993490, -3.9995, -1.8298, -1.0792]
 
-for file_paths, region in zip(file_paths, region_counts.keys()):
-    with open(file_paths) as f:
+
+for file_path, region in zip(file_paths, region_counts.keys()):
+    with open(file_path) as f:
         data = json.load(f)
         for item in data:
             if item["year"] == 2024:
                 region_counts[region] += float(item["metric_value"])
 
-result = [{"region": region, "count": count} for region, count in region_counts.items()]
+result = []
+for region, count, lat, lon in zip(region_counts.keys(), region_counts.values(), latitudes, longitudes):
+    result.append({
+        "region": region,
+        "count": count,
+        "latitude": lat,
+        "longitude": lon
+    })
 
 json_output = json.dumps(result, indent=4)
 
-print(json_output)
-
+# Saving the JSON output to a file
 output_file_path = "output.json"
 with open(output_file_path, "w") as output_file:
     output_file.write(json_output)

@@ -1,0 +1,56 @@
+[
+    {
+        "region": "EastMidlands",
+        "count": 2880.0,
+        "latitude": 52.8833,
+        "longitude": -1.9741
+    },
+    {
+        "region": "EastofEngland",
+        "count": 2237.0,
+        "latitude": 52.2405,
+        "longitude": 0.9027
+    },
+    {
+        "region": "London",
+        "count": 5451.0,
+        "latitude": 51.5074,
+        "longitude": -0.1278
+    },
+    {
+        "region": "NorthEast",
+        "count": 1141.0,
+        "latitude": 54.9783,
+        "longitude": -1.6174
+    },
+    {
+        "region": "NorthWest",
+        "count": 3693.0,
+        "latitude": 53.4084,
+        "longitude": -2.9916
+    },
+    {
+        "region": "SouthEast",
+        "count": 6261.0,
+        "latitude": 51.5074,
+        "longitude": 0.1278
+    },
+    {
+        "region": "SouthWest",
+        "count": 1982.0,
+        "latitude": 51.4545,
+        "longitude": -2.5879
+    },
+    {
+        "region": "WestMidlands",
+        "count": 1516.0,
+        "latitude": 52.4862,
+        "longitude": -1.8904
+    },
+    {
+        "region": "YorkshireHumber",
+        "count": 2517.0,
+        "latitude": 53.9591,
+        "longitude": -1.0815
+    }
+]
