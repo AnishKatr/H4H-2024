@@ -20,7 +20,6 @@ const MicroscopeMap = () => {
         fetch("http://localhost:5000/getPop")
             .then((response) => response.json())
             .then((data) => {
-                setIsLoading(false);
                 const transformData = data.map((item) => {
                     return {
                         name: item.city,
@@ -29,10 +28,13 @@ const MicroscopeMap = () => {
                             parseFloat(item.lat),
                         ],
                         pop: item.population,
+                        count: item.covid_count,
                     };
                 });
                 setData(transformData);
-            });
+            })
+            .catch((error) => console.error("Error:", error))
+            .finally(() => setIsLoading(false));
     }, []);
 
     if (isLoading) {
@@ -148,9 +150,8 @@ const MicroscopeMap = () => {
                       }, 0),
                   getColorValue: (points) =>
                       points.reduce((total, point) => {
-                          const pop = Number(point.pop);
-                          const cappedPop = Math.min(pop, 500000);
-                          return total + cappedPop;
+                          const count = Number(point.count);
+                          return total + count;
                       }, 0) / points.length,
                   extruded: true,
                   getPosition: (d) => d.COORDINATES,
@@ -165,7 +166,7 @@ const MicroscopeMap = () => {
           ];
 
     return (
-        <div className="relative h-screen">
+        <div className="absolute top-0 bottom-0 left-0 right-0">
             <DeckGL
                 onHover={(info) => setTooltipInfo(info)}
                 initialViewState={INITIAL_VIEW_STATE}

@@ -8,7 +8,7 @@ function Banner() {
             <img
                 src={logo}
                 alt="logo"
-                className=" w-20 mr-3"
+                className=" w-20 mr-3 cursor-pointer"
                 onClick={() => navigate("/")}
             />
             <h1 className=" text-4xl font-bold">VirusVision</h1>

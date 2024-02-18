@@ -6,9 +6,16 @@ app = Flask(__name__)
 CORS(app)
 
 
-@app.route("/NorthEast")
-def NorthEast():
-    return {"NorthEast": "Hello from NorthEast!"}
+@app.route("/")
+def index():
+    return "Hello, World!"
+
+
+@app.route("/getCovid")
+def getFlu():
+    with open("./covidJsons/output.json") as f:
+        data = json.load(f)
+    return data
 
 
 @app.route("/getPop")
