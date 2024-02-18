@@ -154,3 +154,8 @@ json_output = json.dumps(result, indent=4)
 
 print(json_output)
 
+output_file_path = "output.json"
+with open(output_file_path, "w") as output_file:
+    output_file.write(json_output)
+
+print("JSON data has been saved to:", output_file_path)

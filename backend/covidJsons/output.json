@@ -1,0 +1,38 @@
+[
+    {
+        "region": "eastMidland",
+        "count": 3027.0
+    },
+    {
+        "region": "eastEngland",
+        "count": 3038.0
+    },
+    {
+        "region": "London",
+        "count": 4114.0
+    },
+    {
+        "region": "northEast",
+        "count": 1651.0
+    },
+    {
+        "region": "northWest",
+        "count": 4114.0
+    },
+    {
+        "region": "southEast",
+        "count": 4342.0
+    },
+    {
+        "region": "southWest",
+        "count": 3799.0
+    },
+    {
+        "region": "westMidlands",
+        "count": 3675.0
+    },
+    {
+        "region": "yorkshireHumber",
+        "count": 3675.0
+    }
+]
