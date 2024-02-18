@@ -27,14 +27,7 @@ const MicroscopeMap = () => {
     const searchParams = new URLSearchParams(location.search);
     const start = searchParams.get("start");
 
-    console.log(start);
-
-    let latitude, longitude;
-    if (start && !isNaN(start)) {
-        [latitude, longitude] = start.split(",");
-    } else {
-        [latitude, longitude] = [52.232395, 1.415727];
-    }
+    let [latitude, longitude] = start.split(",");
 
     const [viewState, setViewState] = useState({
         longitude: parseFloat(longitude),

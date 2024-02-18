@@ -56,7 +56,7 @@ function Splash() {
                 onChange={(e) => setSearch(e.target.value)}
             />
             {isOpen && (
-                <div className="p-5 mt-2 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
+                <div className="p-5 mt-2 w-1/2 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
                     {searchOptions.map((option, index) => (
                         <div
                             className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:rounded-md"
@@ -74,11 +74,15 @@ function Splash() {
             <div className="flex flex-row">
                 <button
                     className=" border-2 border-black p-2 m-2 rounded-lg bg-sky-500 hover:bg-sky-700 text-sky-100 font-bold py-2 px-4"
-                    onClick={() =>
+                    onClick={() => {
+                        if (searchCoords[0] === undefined || searchCoords[1] === undefined) {
+                            alert("Please select a location from the dropdown");
+                        } else {
                         navigate(
                             `/map?start=${searchCoords[0]},${searchCoords[1]}`
                         )
                     }
+                }}
                 >
                     Get Started
                 </button>
