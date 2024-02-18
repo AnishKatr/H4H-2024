@@ -17,8 +17,8 @@ function Options() {
     setPopup(!popup);
   }
   return (
-    <div className="">
-    <div className="flex flex-col px-8 bg-sky-950 float-right text-center w-3/12 space-y-4 ">
+
+    <div className="flex flex-col px-8 bg-sky-950 float-right text-center w-3/12 space-y-4 relative">
       <div className="text-sky-100">Options</div>
       <div
         onClick={toggleDropdown}
@@ -168,18 +168,83 @@ function Options() {
       <div className="bg-sky-700 text-sky-100 mb-4" onClick={()=> togglePopup()}>
         Symptoms
       </div>
-      
-    </div>
-    <div className="absolute inset-0">
-            {popup &&(
+      {popup &&(
+      <div className="absolute inset-x-0 -top-4 h-full bg-sky-400  overflow-auto">
+            
                 <div>
-                    Popup
+                    <div className="bg-sky-700 relative top-0">Symptoms</div>
+                    {selectedOption==='All Diseases'&&(
+                        <div>This is where disease information for identifying symptoms will be located. If you have any serious concerns please contact local emergency services</div>
+                    )}
+                    {selectedOption==='Covid-19'&&(
+                        <div className="text-xs text-left">
+                            
+                        <b>COVID-19 symptoms can include:</b><br/>
+                        - a high temperature or shivering (chills)<br/>
+                        – a high temperature means you feel hot to touch on your chest or back<br/>
+                        - a new, continuous cough – this means coughing a lot for more than an hour, or 3 or more coughing episodes in 24 hours<br/>
+                        - a loss or change to your sense of smell or taste<br/>
+                        - shortness of breath<br/>
+                        - feeling tired or exhausted<br/>
+                        - an aching body<br/>
+                        - a headache<br/>
+                        - a sore throat<br/>
+                        - a blocked or runny nose<br/>
+                        - loss of appetite<br/>
+                        - diarrhoea<br/>
+                        - feeling sick or being sick<br/>
+                        The symptoms are very similar to symptoms of other illnesses, such as colds and flu.<br/>
+                        Most people feel better within a few days or weeks of their first COVID-19 symptoms and make a full recovery within 12 weeks. For some people, it can be a more serious illness and their symptoms can last longer.<br/>
+                        <b>What to do if you have symptoms of COVID-19</b><br/>
+                            You may be able to look after yourself at home if you have COVID-19 or symptoms of COVID-19.<br/>
+                            Try to stay at home and avoid contact with other people if you or your child have symptoms and either: <br/>
+                                - have a high temperature<br/>
+                                - do not feel well enough to go to work, school, childcare, or do your normal activities<br/>
+                            You can go back to your normal activities when you feel better or do not have a high temperature.<br/>
+                            If your child has mild symptoms such as a runny nose, sore throat or mild cough, and they feel well enough, they can go to school or childcare.<br/>
+                            <div><a className="font-bold" href="https://www.nhs.uk/conditions/covid-19/covid-19-symptoms-and-what-to-do/">Learn More</a></div>
+                        </div>
+                    )}
+                    {selectedOption==='Influenza'&&(
+                        <div className="text-xs text-left">
+                            <div>Flu symptoms come on very quickly and can include:<br/>
+                            -a sudden high temperature<br/>
+                            -an aching body<br/>
+                            -feeling tired or exhausted<br/>
+                            -a dry cough<br/>
+                            -a sore throat<br/>
+                            -a headache<br/>
+                            -difficulty sleeping<br/>
+                            -loss of appetite<br/>
+                            -diarrhoea or tummy pain<br/>
+                            -feeling sick and being sick<br/>
+                            The symptoms are similar for children, but they can also get pain in their ear and appear less active.
+                            </div>
+                            <div>
+                            Flu is very infectious and easily spread to other people. You're more likely to give it to others in the first 5 days.<br/>
+                            
+                            Flu is spread by germs from coughs and sneezes, which can live on hands and surfaces for 24 hours.<br/>
+                            
+                            To reduce the risk of spreading flu:<br/>
+                            
+                            wash your hands often with warm water and soap<br/>
+                            cover your mouth and nose with a tissue when you cough or sneeze. If you do not have a tissue, cough or sneeze into the bend of your elbow, not into your hand<br/>
+                            bin used tissues as quickly as possible<br/>
+                            Try to stay at home and avoid contact with other people if you have a high temperature or you do not feel well enough to do your normal activities.
+                            </div>
+                            <div><a className="font-bold" href="https://www.nhs.uk/conditions/flu/">Learn More</a></div>
+                        </div>
+                    )}
+                    <div onClick={()=> togglePopup()} className="relative inset-x-0 bottom-0 bg-sky-700">Close Popup</div>
+                </div>
                 </div>
             )
 
             }
-      </div>
+      
     </div>
+    
+
   );
 }
 export default Options;
